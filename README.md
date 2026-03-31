@@ -190,8 +190,8 @@ The Assessment Report provides:
 
 Look for the following in your report:
 
-1. **PostgreSQL database found**
-   - Recommendation: Migrate to Azure Database for PostgreSQL Flexible Server
+1. **Oracle database found**
+   - Recommendation: Migrate from Oracle DB to PostgreSQL
    - Action: **Run Task** button available
 
     ![Assessment Report](doc-media/assessment-report.png)
