@@ -190,9 +190,8 @@ The Assessment Report provides:
 
 Look for the following in your report:
 
-1. **Database Migration (Oracle Database)**
-   - Detected: Oracle Database 21c
-   - Recommendation: Migrate to Azure Database for PostgreSQL Flexible Server
+1. **Oracle database found**
+   - Recommendation: Migrate from Oracle DB to PostgreSQL
    - Action: **Run Task** button available
 
     ![Assessment Report](doc-media/assessment-report.png)
