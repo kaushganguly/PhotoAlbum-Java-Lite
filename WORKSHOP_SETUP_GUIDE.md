@@ -154,7 +154,7 @@ This guide will help you download and install all the prerequisites needed for t
 ### Step 9: Install VS Code Extensions
 
 1. Navigate to `2-VSCode-Extensions/`
-2. Download all four `.vsix` files:
+2. Download all three `.vsix` files:
    - `GitHub.copilot-chat-x.x.x.vsix`
    - `vscjava.migrate-java-to-azure-x.x.x.vsix`
    - `ms-azuretools.vscode-bicep-x.x.x.vsix`
@@ -166,7 +166,7 @@ This guide will help you download and install all the prerequisites needed for t
    - Wait for installation to complete
 5. **Verify installation**:
    - Click the Extensions icon in VS Code sidebar
-   - You should see all four extensions installed
+   - You should see all three extensions installed
 
 **Alternative method** (PowerShell):
 ```powershell
@@ -247,7 +247,7 @@ Before the workshop starts, verify all installations:
 - [ ] `az account show` shows correct subscription (provided by organizers)
 - [ ] `az extension list` shows containerapp extension
 - [ ] `appcat version` shows AppCAT CLI version
-- [ ] VS Code has all 4 extensions installed
+- [ ] VS Code has all 3 extensions installed
 - [ ] PhotoAlbum-Java-Lite project is accessible
 - [ ] Maven can resolve dependencies (run `mvn dependency:resolve` in the project folder)
 
