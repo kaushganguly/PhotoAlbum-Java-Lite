@@ -170,7 +170,6 @@ This guide will help you download and install all the prerequisites needed for t
 
 **Alternative method** (PowerShell):
 ```powershell
-code --install-extension C:\path\to\GitHub.copilot-x.x.x.vsix
 code --install-extension C:\path\to\GitHub.copilot-chat-x.x.x.vsix
 code --install-extension C:\path\to\vscjava.migrate-java-to-azure-x.x.x.vsix
 code --install-extension C:\path\to\ms-azuretools.vscode-bicep-x.x.x.vsix
