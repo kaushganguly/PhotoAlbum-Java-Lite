@@ -1,0 +1,5572 @@
+[
+  {
+    "ghsa_id": "GHSA-j9f9-w8pj-32f8",
+    "cve_id": "CVE-2026-47890",
+    "severity": "critical",
+    "summary": "Spring Framework Server Sent Event stream corruption while rendering fragments",
+    "html_url": "https://github.com/advisories/GHSA-j9f9-w8pj-32f8",
+    "withdrawn_at": null,
+    "published_at": "2026-08-27T06:31:34Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.19",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.8",
+        "first_patched_version": "7.0.9",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.19",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.8",
+        "first_patched_version": "7.0.9",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-pc63-qcmh-9cmg",
+    "cve_id": "CVE-2026-47884",
+    "severity": "critical",
+    "summary": "Spring Framework Improper Path Limitation in XsltView",
+    "html_url": "https://github.com/advisories/GHSA-pc63-qcmh-9cmg",
+    "withdrawn_at": null,
+    "published_at": "2026-08-27T06:31:34Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.2.25.RELEASE",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 5.3.0, <= 5.3.49",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.0.30",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.28",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.19",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.8",
+        "first_patched_version": "7.0.9",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-9xv2-5v5q-p794",
+    "cve_id": "CVE-2026-65905",
+    "severity": "critical",
+    "summary": "Apache Tomcat's DIGEST authenticator has an Authentication Bypass by Capture-replay vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-9xv2-5v5q-p794",
+    "withdrawn_at": null,
+    "published_at": "2026-08-26T00:30:52Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 7.0.30, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 7.0.30, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 7.0.30, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-gcx9-497g-6cp6",
+    "cve_id": "CVE-2026-65182",
+    "severity": "critical",
+    "summary": "Apache Tomcat has an Improper Access Control, Incorrect Authorization vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-gcx9-497g-6cp6",
+    "withdrawn_at": null,
+    "published_at": "2026-08-26T00:30:52Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-h3x4-894j-xpx5",
+    "cve_id": "CVE-2026-68525",
+    "severity": "critical",
+    "summary": "Apache Tomcat's FORM authentication process has an Incorrect Authorization vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-h3x4-894j-xpx5",
+    "withdrawn_at": null,
+    "published_at": "2026-08-26T00:30:52Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.25",
+        "first_patched_version": "11.0.25",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.58",
+        "first_patched_version": "10.1.58",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.121",
+        "first_patched_version": "9.0.121",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.109",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-qv9r-c865-cp47",
+    "cve_id": "CVE-2026-49844",
+    "severity": "medium",
+    "summary": "Apache Log4j API: Improper encoding of non-finite floating-point values during MapMessage JSON serialization",
+    "html_url": "https://github.com/advisories/GHSA-qv9r-c865-cp47",
+    "withdrawn_at": null,
+    "published_at": "2026-07-11T00:31:48Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.logging.log4j:log4j-api"
+        },
+        "vulnerable_version_range": ">= 2.13.1, < 2.25.5",
+        "first_patched_version": "2.25.5",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.logging.log4j:log4j-api"
+        },
+        "vulnerable_version_range": ">= 2.26.0, < 2.26.1",
+        "first_patched_version": "2.26.1",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-7m2p-62gw-p8qq",
+    "cve_id": "CVE-2026-41854",
+    "severity": "medium",
+    "summary": "Spring Framework Server-Side Request Forgery via UriComponentsBuilder",
+    "html_url": "https://github.com/advisories/GHSA-7m2p-62gw-p8qq",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-web"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-web"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-9f52-rjqv-25qv",
+    "cve_id": "CVE-2026-41852",
+    "severity": "low",
+    "summary": "Spring Framework Arbitrary Method Invocation in SpEL Expressions",
+    "html_url": "https://github.com/advisories/GHSA-9f52-rjqv-25qv",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-cjpg-rgq5-fr37",
+    "cve_id": "CVE-2026-41853",
+    "severity": "medium",
+    "summary": "Spring Framework Multipart Request Smuggling in Spring MVC and WebFlux",
+    "html_url": "https://github.com/advisories/GHSA-cjpg-rgq5-fr37",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wxpp-56q6-5pcg",
+    "cve_id": "CVE-2026-41851",
+    "severity": "medium",
+    "summary": "Spring Framework Denial of Service via Unbounded Cache in SpEL",
+    "html_url": "https://github.com/advisories/GHSA-wxpp-56q6-5pcg",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-r5w3-xv2f-j59q",
+    "cve_id": "CVE-2026-41850",
+    "severity": "high",
+    "summary": "Spring Framework Algorithmic Denial of Service via SpEL Expressions",
+    "html_url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-expression"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-957g-f97v-vppc",
+    "cve_id": "CVE-2026-41846",
+    "severity": "medium",
+    "summary": "Spring Framework Cross-site Scripting via JSP Form Tags",
+    "html_url": "https://github.com/advisories/GHSA-957g-f97v-vppc",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-72pg-x5f8-j25j",
+    "cve_id": "CVE-2026-41843",
+    "severity": "medium",
+    "summary": "Spring Framework Path Traversal via Versioned Static Resources in Spring MVC and WebFlux",
+    "html_url": "https://github.com/advisories/GHSA-72pg-x5f8-j25j",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:57Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-h3qp-gqrc-q736",
+    "cve_id": "CVE-2026-41844",
+    "severity": "medium",
+    "summary": "Spring Framework Open Redirect in Spring MVC and WebFlux",
+    "html_url": "https://github.com/advisories/GHSA-h3qp-gqrc-q736",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:57Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-3chg-m5w7-qfv5",
+    "cve_id": "CVE-2026-41845",
+    "severity": "high",
+    "summary": "Spring Framework Cross-site Scripting via JavaScriptUtils",
+    "html_url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:57Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-mq64-j8f9-9gcj",
+    "cve_id": "CVE-2026-41841",
+    "severity": "medium",
+    "summary": "Spring Framework Information Disclosure via Static Resource Cache in Spring MVC and WebFlux",
+    "html_url": "https://github.com/advisories/GHSA-mq64-j8f9-9gcj",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:57Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-x23c-287f-qqv5",
+    "cve_id": "CVE-2026-41842",
+    "severity": "high",
+    "summary": "Spring Framework Denial of Service via Versioned Resources in Spring MVC and WebFlux",
+    "html_url": "https://github.com/advisories/GHSA-x23c-287f-qqv5",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:57Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-jhq6-gfmj-v8fx",
+    "cve_id": "CVE-2026-10532",
+    "severity": "low",
+    "summary": "Logback vulnerable to Object Injection through HardenedObjectInputStream modules",
+    "html_url": "https://github.com/advisories/GHSA-jhq6-gfmj-v8fx",
+    "withdrawn_at": null,
+    "published_at": "2026-06-01T15:30:40Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "ch.qos.logback:logback-core"
+        },
+        "vulnerable_version_range": "< 1.5.34",
+        "first_patched_version": "1.5.34",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-p47f-322f-whfh",
+    "cve_id": "CVE-2026-9828",
+    "severity": "low",
+    "summary": "QOS.CH Sarl logback logback-core has a deserialization of untrusted data vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-p47f-322f-whfh",
+    "withdrawn_at": null,
+    "published_at": "2026-05-28T15:39:50Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "ch.qos.logback:logback-core"
+        },
+        "vulnerable_version_range": "<= 1.5.32",
+        "first_patched_version": "1.5.33",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-gx5v-xp9w-j4cg",
+    "cve_id": "CVE-2026-41284",
+    "severity": "high",
+    "summary": "Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling",
+    "html_url": "https://github.com/advisories/GHSA-gx5v-xp9w-j4cg",
+    "withdrawn_at": null,
+    "published_at": "2026-05-12T18:30:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-h6fc-48rj-7qqh",
+    "cve_id": "CVE-2026-43512",
+    "severity": "critical",
+    "summary": "Apache Tomcat - Digest authenticator will authenticate any unknown user",
+    "html_url": "https://github.com/advisories/GHSA-h6fc-48rj-7qqh",
+    "withdrawn_at": null,
+    "published_at": "2026-05-12T18:30:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-5mp6-jrq3-r938",
+    "cve_id": "CVE-2026-43513",
+    "severity": "high",
+    "summary": "Apache Tomcat: LockOutRealm treats user names as case-sensitive",
+    "html_url": "https://github.com/advisories/GHSA-5mp6-jrq3-r938",
+    "withdrawn_at": null,
+    "published_at": "2026-05-12T18:30:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-5m62-pw8w-7w9f",
+    "cve_id": "CVE-2026-43515",
+    "severity": "critical",
+    "summary": "Apache Tomcat - Security constraints not correctly applied",
+    "html_url": "https://github.com/advisories/GHSA-5m62-pw8w-7w9f",
+    "withdrawn_at": null,
+    "published_at": "2026-05-12T18:30:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-9m89-8frq-c98c",
+    "cve_id": "CVE-2026-43514",
+    "severity": "low",
+    "summary": "Apache Tomcat - AJP secret compared in non-constant time",
+    "html_url": "https://github.com/advisories/GHSA-9m89-8frq-c98c",
+    "withdrawn_at": null,
+    "published_at": "2026-05-12T18:30:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-r29c-68gh-xp6x",
+    "cve_id": "CVE-2026-41293",
+    "severity": "critical",
+    "summary": "Apache Tomcat - HTTP/2 request headers not validated",
+    "html_url": "https://github.com/advisories/GHSA-r29c-68gh-xp6x",
+    "withdrawn_at": null,
+    "published_at": "2026-05-12T18:30:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, < 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.0, < 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 8.5.0, < 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-fv25-8xcx-gqjc",
+    "cve_id": "CVE-2026-42498",
+    "severity": "high",
+    "summary": "Apache Tomcat - WebSocket authentication header exposure",
+    "html_url": "https://github.com/advisories/GHSA-fv25-8xcx-gqjc",
+    "withdrawn_at": null,
+    "published_at": "2026-05-12T18:30:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": "< 9.0.118",
+        "first_patched_version": "9.0.118",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.55",
+        "first_patched_version": "10.1.55",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.22",
+        "first_patched_version": "11.0.22",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-c9ph-gxww-7744",
+    "cve_id": "CVE-2026-41901",
+    "severity": "critical",
+    "summary": "Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns",
+    "html_url": "https://github.com/advisories/GHSA-c9ph-gxww-7744",
+    "withdrawn_at": null,
+    "published_at": "2026-05-04T21:15:20Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf"
+        },
+        "vulnerable_version_range": "<= 3.1.4.RELEASE",
+        "first_patched_version": "3.1.5.RELEASE",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf-spring5"
+        },
+        "vulnerable_version_range": "<= 3.1.4.RELEASE",
+        "first_patched_version": "3.1.5.RELEASE",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf-spring6"
+        },
+        "vulnerable_version_range": "<= 3.1.4.RELEASE",
+        "first_patched_version": "3.1.5.RELEASE",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wg35-8jpf-2xv3",
+    "cve_id": "CVE-2026-22741",
+    "severity": "low",
+    "summary": "Spring MVC and WebFlux applications are vulnerable to cache poisoning when resolving static resources.",
+    "html_url": "https://github.com/advisories/GHSA-wg35-8jpf-2xv3",
+    "withdrawn_at": null,
+    "published_at": "2026-04-29T12:33:07Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.6",
+        "first_patched_version": "7.0.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.17",
+        "first_patched_version": "6.2.18",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.26",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": "<= 5.3.47",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.6",
+        "first_patched_version": "7.0.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.17",
+        "first_patched_version": "6.2.18",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.26",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.47",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-6p4f-wcwh-5vvm",
+    "cve_id": "CVE-2026-22745",
+    "severity": "medium",
+    "summary": "Spring MVC and WebFlux applications are vulnerable to Denial of Service attacks when resolving static resources",
+    "html_url": "https://github.com/advisories/GHSA-6p4f-wcwh-5vvm",
+    "withdrawn_at": null,
+    "published_at": "2026-04-29T12:33:07Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.6",
+        "first_patched_version": "7.0.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.17",
+        "first_patched_version": "6.2.18",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.26",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": "<= 5.3.47",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.6",
+        "first_patched_version": "7.0.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.17",
+        "first_patched_version": "6.2.18",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.26",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": "<= 5.3.47",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-xjw8-8c5c-9r79",
+    "cve_id": "CVE-2026-40478",
+    "severity": "critical",
+    "summary": "Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf",
+    "html_url": "https://github.com/advisories/GHSA-xjw8-8c5c-9r79",
+    "withdrawn_at": null,
+    "published_at": "2026-04-15T19:46:23Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf"
+        },
+        "vulnerable_version_range": "<= 3.1.3.RELEASE",
+        "first_patched_version": "3.1.4.RELEASE",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf-spring5"
+        },
+        "vulnerable_version_range": "<= 3.1.3.RELEASE",
+        "first_patched_version": "3.1.4.RELEASE",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf-spring6"
+        },
+        "vulnerable_version_range": "<= 3.1.3.RELEASE",
+        "first_patched_version": "3.1.4.RELEASE",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-r4v4-5mwr-2fwr",
+    "cve_id": "CVE-2026-40477",
+    "severity": "critical",
+    "summary": "Improper restriction of the scope of accessible objects in Thymeleaf expressions",
+    "html_url": "https://github.com/advisories/GHSA-r4v4-5mwr-2fwr",
+    "withdrawn_at": null,
+    "published_at": "2026-04-15T19:46:04Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf"
+        },
+        "vulnerable_version_range": "<= 3.1.3.RELEASE",
+        "first_patched_version": "3.1.4.RELEASE",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf-spring5"
+        },
+        "vulnerable_version_range": "<= 3.1.3.RELEASE",
+        "first_patched_version": "3.1.4.RELEASE",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.thymeleaf:thymeleaf-spring6"
+        },
+        "vulnerable_version_range": "<= 3.1.3.RELEASE",
+        "first_patched_version": "3.1.4.RELEASE",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-rv64-5gf8-9qq8",
+    "cve_id": "CVE-2026-34483",
+    "severity": "high",
+    "summary": "Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve",
+    "html_url": "https://github.com/advisories/GHSA-rv64-5gf8-9qq8",
+    "withdrawn_at": null,
+    "published_at": "2026-04-09T21:31:30Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.40, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.54",
+        "first_patched_version": "10.1.54",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.21",
+        "first_patched_version": "11.0.21",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.40, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.54",
+        "first_patched_version": "10.1.54",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.21",
+        "first_patched_version": "11.0.21",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.40, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.54",
+        "first_patched_version": "10.1.54",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.21",
+        "first_patched_version": "11.0.21",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-x4m4-345f-5h5g",
+    "cve_id": "CVE-2026-34487",
+    "severity": "high",
+    "summary": "Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File",
+    "html_url": "https://github.com/advisories/GHSA-x4m4-345f-5h5g",
+    "withdrawn_at": null,
+    "published_at": "2026-04-09T21:31:30Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.13, < 9.0.117",
+        "first_patched_version": "9.0.117",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.54",
+        "first_patched_version": "10.1.54",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.21",
+        "first_patched_version": "11.0.21",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-tribes"
+        },
+        "vulnerable_version_range": ">= 9.0.13, < 9.0.117",
+        "first_patched_version": "9.0.117",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-tribes"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.54",
+        "first_patched_version": "10.1.54",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-tribes"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.21",
+        "first_patched_version": "11.0.21",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.13, < 9.0.117",
+        "first_patched_version": "9.0.117",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.54",
+        "first_patched_version": "10.1.54",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.21",
+        "first_patched_version": "11.0.21",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-9m3c-qcxr-9x87",
+    "cve_id": "CVE-2026-25854",
+    "severity": "medium",
+    "summary": "Apache Tomcat has an Open Redirect vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-9m3c-qcxr-9x87",
+    "withdrawn_at": null,
+    "published_at": "2026-04-09T21:31:29Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.53",
+        "first_patched_version": "10.1.53",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.20",
+        "first_patched_version": "11.0.20",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.53",
+        "first_patched_version": "10.1.53",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.20",
+        "first_patched_version": "11.0.20",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.53",
+        "first_patched_version": "10.1.53",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.20",
+        "first_patched_version": "11.0.20",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.30, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.30, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.30, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-563x-q5rq-57qp",
+    "cve_id": "CVE-2026-24880",
+    "severity": "high",
+    "summary": "Apache Tomcat has an HTTP Request/Response Smuggling vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-563x-q5rq-57qp",
+    "withdrawn_at": null,
+    "published_at": "2026-04-09T21:31:29Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 7.0.0, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.52",
+        "first_patched_version": "10.1.52",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, <= 11.0.18",
+        "first_patched_version": "11.0.20",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 7.0.0, < 9.0.116",
+        "first_patched_version": "9.0.116",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.52",
+        "first_patched_version": "10.1.52",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, <= 11.0.18",
+        "first_patched_version": "11.0.20",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-6hcq-hmm3-jj3c",
+    "cve_id": "CVE-2026-22735",
+    "severity": "low",
+    "summary": "Spring MVC and WebFlux has Server Sent Event stream corruption",
+    "html_url": "https://github.com/advisories/GHSA-6hcq-hmm3-jj3c",
+    "withdrawn_at": null,
+    "published_at": "2026-03-20T00:31:28Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0-M1, < 7.0.6",
+        "first_patched_version": "7.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, < 6.2.17",
+        "first_patched_version": "6.2.17",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 5.3.0, <= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0-M1, < 7.0.6",
+        "first_patched_version": "7.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, < 6.2.17",
+        "first_patched_version": "6.2.17",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 5.3.0, <= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-4773-3jfm-qmx3",
+    "cve_id": "CVE-2026-22737",
+    "severity": "medium",
+    "summary": "Spring Framework Improper Path Limitation with Script View Templates",
+    "html_url": "https://github.com/advisories/GHSA-4773-3jfm-qmx3",
+    "withdrawn_at": null,
+    "published_at": "2026-03-20T00:31:28Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 7.0.0-M1, < 7.0.6",
+        "first_patched_version": "7.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, < 6.2.17",
+        "first_patched_version": "6.2.17",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 5.3.0, <= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 7.0.0-M1, < 7.0.6",
+        "first_patched_version": "7.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.2.0, < 6.2.17",
+        "first_patched_version": "6.2.17",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webflux"
+        },
+        "vulnerable_version_range": ">= 5.3.0, <= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-mgp5-rv84-w37q",
+    "cve_id": "CVE-2026-24734",
+    "severity": "high",
+    "summary": "Apache Tomcat has an Improper Input Validation vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-mgp5-rv84-w37q",
+    "withdrawn_at": null,
+    "published_at": "2026-02-17T21:31:13Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.18",
+        "first_patched_version": "11.0.18",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M7, < 10.1.52",
+        "first_patched_version": "10.1.52",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 9.0.83, < 9.0.115",
+        "first_patched_version": "9.0.115",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.18",
+        "first_patched_version": "11.0.18",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M7, < 10.1.52",
+        "first_patched_version": "10.1.52",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.83, < 9.0.115",
+        "first_patched_version": "9.0.115",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-fpj8-gq4v-p354",
+    "cve_id": "CVE-2025-66614",
+    "severity": "medium",
+    "summary": "Apache Tomcat - Client certificate verification bypass",
+    "html_url": "https://github.com/advisories/GHSA-fpj8-gq4v-p354",
+    "withdrawn_at": null,
+    "published_at": "2026-02-17T21:31:13Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.15",
+        "first_patched_version": "11.0.15",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.50",
+        "first_patched_version": "10.1.50",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.15",
+        "first_patched_version": "11.0.15",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.50",
+        "first_patched_version": "10.1.50",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.15",
+        "first_patched_version": "11.0.15",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.50",
+        "first_patched_version": "10.1.50",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.113",
+        "first_patched_version": "9.0.113",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.113",
+        "first_patched_version": "9.0.113",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M1, < 9.0.113",
+        "first_patched_version": "9.0.113",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-qqpg-mvqg-649v",
+    "cve_id": "CVE-2026-1225",
+    "severity": "low",
+    "summary": "Logback allows an attacker to instantiate classes already present on the class path",
+    "html_url": "https://github.com/advisories/GHSA-qqpg-mvqg-649v",
+    "withdrawn_at": null,
+    "published_at": "2026-01-22T12:31:22Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "ch.qos.logback:logback-core"
+        },
+        "vulnerable_version_range": "< 1.5.25",
+        "first_patched_version": "1.5.25",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-vfww-5hm6-hx2j",
+    "cve_id": "CVE-2025-55754",
+    "severity": "low",
+    "summary": "Apache Tomcat Vulnerable to Improper Neutralization of Escape, Meta, or Control Sequences",
+    "html_url": "https://github.com/advisories/GHSA-vfww-5hm6-hx2j",
+    "withdrawn_at": null,
+    "published_at": "2025-10-27T18:31:13Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.11",
+        "first_patched_version": "11.0.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.45",
+        "first_patched_version": "10.1.45",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.60, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.11",
+        "first_patched_version": "11.0.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.45",
+        "first_patched_version": "10.1.45",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.60, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.11",
+        "first_patched_version": "11.0.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.45",
+        "first_patched_version": "10.1.45",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.60, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.40, < 9.0.109",
+        "first_patched_version": "9.0.109",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.40, < 9.0.109",
+        "first_patched_version": "9.0.109",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.40, < 9.0.109",
+        "first_patched_version": "9.0.109",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-hgrr-935x-pq79",
+    "cve_id": "CVE-2025-61795",
+    "severity": "low",
+    "summary": "Apache Tomcat Vulnerable to Improper Resource Shutdown or Release",
+    "html_url": "https://github.com/advisories/GHSA-hgrr-935x-pq79",
+    "withdrawn_at": null,
+    "published_at": "2025-10-27T18:31:13Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.12",
+        "first_patched_version": "11.0.12",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.47",
+        "first_patched_version": "10.1.47",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.12",
+        "first_patched_version": "11.0.12",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.47",
+        "first_patched_version": "10.1.47",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.12",
+        "first_patched_version": "11.0.12",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.47",
+        "first_patched_version": "10.1.47",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.110",
+        "first_patched_version": "9.0.110",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.110",
+        "first_patched_version": "9.0.110",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.110",
+        "first_patched_version": "9.0.110",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wmwf-9ccg-fff5",
+    "cve_id": "CVE-2025-55752",
+    "severity": "high",
+    "summary": "Apache Tomcat Vulnerable to Relative Path Traversal",
+    "html_url": "https://github.com/advisories/GHSA-wmwf-9ccg-fff5",
+    "withdrawn_at": null,
+    "published_at": "2025-10-27T18:31:13Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.11",
+        "first_patched_version": "11.0.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.45",
+        "first_patched_version": "10.1.45",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.11",
+        "first_patched_version": "11.0.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.45",
+        "first_patched_version": "10.1.45",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.11",
+        "first_patched_version": "11.0.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.45",
+        "first_patched_version": "10.1.45",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M11, < 9.0.109",
+        "first_patched_version": "9.0.109",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M11, < 9.0.109",
+        "first_patched_version": "9.0.109",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0-M11, < 9.0.109",
+        "first_patched_version": "9.0.109",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 8.5.6, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.6, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.6, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-25qh-j22f-pwp8",
+    "cve_id": "CVE-2025-11226",
+    "severity": "medium",
+    "summary": "QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing",
+    "html_url": "https://github.com/advisories/GHSA-25qh-j22f-pwp8",
+    "withdrawn_at": null,
+    "published_at": "2025-10-01T09:30:24Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "ch.qos.logback:logback-core"
+        },
+        "vulnerable_version_range": ">= 1.4.0, < 1.5.19",
+        "first_patched_version": "1.5.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "ch.qos.logback:logback-core"
+        },
+        "vulnerable_version_range": "< 1.3.16",
+        "first_patched_version": "1.3.16",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-r936-gwx5-v52f",
+    "cve_id": "CVE-2025-41242",
+    "severity": "medium",
+    "summary": "Spring Framework MVC Applications Path Traversal Vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-r936-gwx5-v52f",
+    "withdrawn_at": null,
+    "published_at": "2025-08-18T09:31:44Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.2.0, < 6.2.10",
+        "first_patched_version": "6.2.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.0.29",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-webmvc"
+        },
+        "vulnerable_version_range": ">= 5.3.0, <= 5.3.43",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-gqp3-2cvr-x8m3",
+    "cve_id": "CVE-2025-48989",
+    "severity": "high",
+    "summary": "Apache Tomcat Improper Resource Shutdown or Release vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-gqp3-2cvr-x8m3",
+    "withdrawn_at": null,
+    "published_at": "2025-08-13T15:30:34Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.10",
+        "first_patched_version": "11.0.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.44",
+        "first_patched_version": "10.1.44",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.108",
+        "first_patched_version": "9.0.108",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.10",
+        "first_patched_version": "11.0.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.44",
+        "first_patched_version": "10.1.44",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.108",
+        "first_patched_version": "9.0.108",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-23hv-mwm6-g8jf",
+    "cve_id": "CVE-2025-55668",
+    "severity": "medium",
+    "summary": "Apache Tomcat Session Fixation vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-23hv-mwm6-g8jf",
+    "withdrawn_at": null,
+    "published_at": "2025-08-13T15:30:34Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.8",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.42",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.106",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.8",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.42",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.106",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-25xr-qj8w-c4vf",
+    "cve_id": "CVE-2025-53506",
+    "severity": "high",
+    "summary": "Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams",
+    "html_url": "https://github.com/advisories/GHSA-25xr-qj8w-c4vf",
+    "withdrawn_at": null,
+    "published_at": "2025-07-10T21:31:53Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.9",
+        "first_patched_version": "11.0.9",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.43",
+        "first_patched_version": "10.1.43",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.107",
+        "first_patched_version": "9.0.107",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-coyote"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.107",
+        "first_patched_version": "9.0.107",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.43",
+        "first_patched_version": "10.1.43",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.9",
+        "first_patched_version": "11.0.9",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wr62-c79q-cv37",
+    "cve_id": "CVE-2025-52520",
+    "severity": "high",
+    "summary": "Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits",
+    "html_url": "https://github.com/advisories/GHSA-wr62-c79q-cv37",
+    "withdrawn_at": null,
+    "published_at": "2025-07-10T21:31:52Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.9",
+        "first_patched_version": "11.0.9",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.43",
+        "first_patched_version": "10.1.43",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.107",
+        "first_patched_version": "9.0.107",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.9",
+        "first_patched_version": "11.0.9",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, < 10.1.43",
+        "first_patched_version": "10.1.43",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, < 9.0.107",
+        "first_patched_version": "9.0.107",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-42wg-hm62-jcwg",
+    "cve_id": "CVE-2025-49124",
+    "severity": "medium",
+    "summary": "Apache Tomcat installer for Windows has an untrusted search path vulnerability",
+    "html_url": "https://github.com/advisories/GHSA-42wg-hm62-jcwg",
+    "withdrawn_at": null,
+    "published_at": "2025-06-16T15:32:28Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.8",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0, < 10.1.42",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.23, < 9.0.106",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.8",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 10.1.0, < 10.1.42",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat"
+        },
+        "vulnerable_version_range": ">= 9.0.23, < 9.0.106",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, < 11.0.8",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0, < 10.1.42",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.23, < 9.0.106",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wc4r-xq3c-5cf3",
+    "cve_id": "CVE-2025-49125",
+    "severity": "medium",
+    "summary": "Apache Tomcat - Security constraint bypass for pre/post-resources",
+    "html_url": "https://github.com/advisories/GHSA-wc4r-xq3c-5cf3",
+    "withdrawn_at": null,
+    "published_at": "2025-06-16T15:32:28Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, <= 11.0.7",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, <= 10.1.41",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, <= 9.0.105",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, <= 11.0.7",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, <= 10.1.41",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, <= 9.0.105",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-h3gc-qfqq-6h8f",
+    "cve_id": "CVE-2025-48988",
+    "severity": "high",
+    "summary": "Apache Tomcat - DoS in multipart upload",
+    "html_url": "https://github.com/advisories/GHSA-h3gc-qfqq-6h8f",
+    "withdrawn_at": null,
+    "published_at": "2025-06-16T15:32:28Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, <= 11.0.7",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, <= 10.1.41",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, <= 9.0.105",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 11.0.0-M1, <= 11.0.7",
+        "first_patched_version": "11.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 10.1.0-M1, <= 10.1.41",
+        "first_patched_version": "10.1.42",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 9.0.0.M1, <= 9.0.105",
+        "first_patched_version": "9.0.106",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat:tomcat-catalina"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.apache.tomcat.embed:tomcat-embed-core"
+        },
+        "vulnerable_version_range": ">= 8.5.0, <= 8.5.100",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-6r3c-xf4w-jxjm",
+    "cve_id": "CVE-2025-41234",
+    "severity": "medium",
+    "summary": "Spring Framework vulnerable to a reflected file download (RFD)",
+    "html_url": "https://github.com/advisories/GHSA-6r3c-xf4w-jxjm",
+    "withdrawn_at": null,
+    "published_at": "2025-06-13T00:33:18Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-web"
+        },
+        "vulnerable_version_range": ">= 6.2.0, < 6.2.8",
+        "first_patched_version": "6.2.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-web"
+        },
+        "vulnerable_version_range": ">= 6.1.0, < 6.1.21",
+        "first_patched_version": "6.1.21",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-web"
+        },
+        "vulnerable_version_range": ">= 6.0.5, <= 6.0.23",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-88fw-v6x4-3f58",
+    "cve_id": "CVE-2026-41695",
+    "severity": "high",
+    "summary": "Spring Data: Unbounded property-path cache keyed by externally-supplied path string",
+    "html_url": "https://github.com/advisories/GHSA-88fw-v6x4-3f58",
+    "withdrawn_at": null,
+    "published_at": "2026-07-31T16:44:15Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 4.0.0, <= 4.0.5",
+        "first_patched_version": "4.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.5.0, <= 3.5.11",
+        "first_patched_version": "3.5.12",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.4.0, <= 3.4.13",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-5m4m-73w9-8433",
+    "cve_id": "CVE-2026-41721",
+    "severity": "medium",
+    "summary": "Spring Data Commons: Denial of Service via excessive memory allocation in projection binding",
+    "html_url": "https://github.com/advisories/GHSA-5m4m-73w9-8433",
+    "withdrawn_at": null,
+    "published_at": "2026-06-10T00:31:52Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 4.0.0, <= 4.0.5",
+        "first_patched_version": "4.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.5.0, <= 3.5.11",
+        "first_patched_version": "3.5.12",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.4.0, <= 3.4.14",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.3.16",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": "<= 2.7.19",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-5vpf-xvv7-c8vh",
+    "cve_id": "CVE-2026-41711",
+    "severity": "medium",
+    "summary": "Spring Data Commons: StackOverflowException when parsing Sort parameters (DoS)",
+    "html_url": "https://github.com/advisories/GHSA-5vpf-xvv7-c8vh",
+    "withdrawn_at": null,
+    "published_at": "2026-06-10T00:31:51Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 4.0.0, <= 4.0.5",
+        "first_patched_version": "4.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.5.0, <= 3.5.11",
+        "first_patched_version": "3.5.12",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.4.0, <= 3.4.14",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.3.16",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": "<= 2.7.19",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-9fw2-h3hf-293r",
+    "cve_id": "CVE-2026-41716",
+    "severity": "high",
+    "summary": "Spring Data Commons: Heap exhaustion from unbounded property-lookup cache retaining crafted string keys",
+    "html_url": "https://github.com/advisories/GHSA-9fw2-h3hf-293r",
+    "withdrawn_at": null,
+    "published_at": "2026-06-10T00:31:51Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 4.0.0, <= 4.0.5",
+        "first_patched_version": "4.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.5.0, <= 3.5.11",
+        "first_patched_version": "3.5.12",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.4.0, <= 3.4.14",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": ">= 3.3.0, <= 3.3.16",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.data:spring-data-commons"
+        },
+        "vulnerable_version_range": "<= 2.7.19",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-vxf7-qj7q-83fh",
+    "cve_id": "CVE-2026-22746",
+    "severity": "low",
+    "summary": "Spring Security Vulnerable to User Attribute Enumeration when Using DaoAuthenticationProvider",
+    "html_url": "https://github.com/advisories/GHSA-vxf7-qj7q-83fh",
+    "withdrawn_at": null,
+    "published_at": "2026-04-22T06:30:28Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 5.7.0, <= 5.7.22",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 5.8.0, <= 5.8.24",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 6.3.0, <= 6.3.15",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 6.4.0, <= 6.4.15",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 6.5.0, <= 6.5.9",
+        "first_patched_version": "6.5.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.4",
+        "first_patched_version": "7.0.5",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-x2wq-9x2f-fhj7",
+    "cve_id": "CVE-2026-22751",
+    "severity": "medium",
+    "summary": "Spring Security Core has a TOCTOU race condition when One-Time Token login with\u00a0JdbcOneTimeTokenService\u00a0is configured",
+    "html_url": "https://github.com/advisories/GHSA-x2wq-9x2f-fhj7",
+    "withdrawn_at": null,
+    "published_at": "2026-04-21T21:31:23Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 6.5.0, < 6.5.10",
+        "first_patched_version": "6.5.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 7.0.3, < 7.0.5",
+        "first_patched_version": "7.0.5",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 6.4.0, <= 6.4.13",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-8v5q-rhf3-jphm",
+    "cve_id": "CVE-2025-41248",
+    "severity": "high",
+    "summary": "Spring Security annotation detection mechanism has authorization bypass",
+    "html_url": "https://github.com/advisories/GHSA-8v5q-rhf3-jphm",
+    "withdrawn_at": null,
+    "published_at": "2025-09-16T15:32:34Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 6.4.0, < 6.4.10",
+        "first_patched_version": "6.4.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-core"
+        },
+        "vulnerable_version_range": ">= 6.5.0, < 6.5.4",
+        "first_patched_version": "6.5.4",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-7hhh-6rmp-j9qf",
+    "cve_id": "CVE-2026-89425",
+    "severity": "high",
+    "summary": "jackson-core: UTF8DataInputJsonParser._reportInvalidToken() missing maxErrorTokenLength limit -> unbounded StringBuilder growth (DoS)",
+    "html_url": "https://github.com/advisories/GHSA-7hhh-6rmp-j9qf",
+    "withdrawn_at": null,
+    "published_at": "2026-10-01T15:20:27Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.19.0, <= 2.21.6",
+        "first_patched_version": "2.21.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.22.0, <= 2.22.2",
+        "first_patched_version": "2.22.3",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.1.6",
+        "first_patched_version": "3.1.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 3.2.0, <= 3.2.2",
+        "first_patched_version": "3.2.3",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.8.0, <= 2.18.10",
+        "first_patched_version": "2.18.11",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-p6pp-m3f8-5c89",
+    "cve_id": "CVE-2026-89407",
+    "severity": "high",
+    "summary": " jackson-core: ReDoS: quadratic backtracking in NumberInput.PATTERN_FLOAT via looksLikeValidNumber()",
+    "html_url": "https://github.com/advisories/GHSA-p6pp-m3f8-5c89",
+    "withdrawn_at": null,
+    "published_at": "2026-10-01T15:19:21Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.17.0, <= 2.18.10",
+        "first_patched_version": "2.18.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.19.0, <= 2.21.6",
+        "first_patched_version": "2.21.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.22.0, <= 2.22.2",
+        "first_patched_version": "2.22.3",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.1.6",
+        "first_patched_version": "3.1.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 3.2.0, <= 3.2.1",
+        "first_patched_version": "3.2.2",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-cxp5-3px4-pw24",
+    "cve_id": "CVE-2026-91777",
+    "severity": "high",
+    "summary": "jackson-databind quadratic forward-reference completion ",
+    "html_url": "https://github.com/advisories/GHSA-cxp5-3px4-pw24",
+    "withdrawn_at": null,
+    "published_at": "2026-09-30T15:37:24Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, <= 2.21.6",
+        "first_patched_version": "2.21.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.1.6",
+        "first_patched_version": "3.1.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.2.0, <= 3.2.2",
+        "first_patched_version": "3.2.3",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.5.0, <= 2.18.10",
+        "first_patched_version": "2.18.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, <= 2.22.2",
+        "first_patched_version": "2.22.3",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wv8q-qhhj-9h54",
+    "cve_id": "CVE-2026-91776",
+    "severity": "high",
+    "summary": "jackson-databind retains every unknown raw type ID ",
+    "html_url": "https://github.com/advisories/GHSA-wv8q-qhhj-9h54",
+    "withdrawn_at": null,
+    "published_at": "2026-09-30T15:36:55Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.0.0, <= 2.18.10",
+        "first_patched_version": "2.18.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, <= 2.21.6",
+        "first_patched_version": "2.21.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, <= 2.22.2",
+        "first_patched_version": "2.22.3",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.1.6",
+        "first_patched_version": "3.1.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.2.0, <= 3.2.2",
+        "first_patched_version": "3.2.3",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-gx83-3vf8-gh7j",
+    "cve_id": "CVE-2026-83557",
+    "severity": "medium",
+    "summary": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
+    "html_url": "https://github.com/advisories/GHSA-gx83-3vf8-gh7j",
+    "withdrawn_at": null,
+    "published_at": "2026-09-28T20:44:25Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.6",
+        "first_patched_version": "3.1.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.2.0, < 3.2.2",
+        "first_patched_version": "3.2.2",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.11.0, < 2.18.10",
+        "first_patched_version": "2.18.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.6",
+        "first_patched_version": "2.21.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, < 2.22.2",
+        "first_patched_version": "2.22.2",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-q4xh-88c3-wmh7",
+    "cve_id": "CVE-2026-68497",
+    "severity": "high",
+    "summary": "jackson-databind: Duration XMLGregorianCalendar Unbounded Number Parse DoS",
+    "html_url": "https://github.com/advisories/GHSA-q4xh-88c3-wmh7",
+    "withdrawn_at": null,
+    "published_at": "2026-09-28T20:19:46Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.2.0, < 3.2.2",
+        "first_patched_version": "3.2.2",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.6",
+        "first_patched_version": "3.1.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.14.0, < 2.18.10",
+        "first_patched_version": "2.18.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.6",
+        "first_patched_version": "2.21.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, < 2.22.2",
+        "first_patched_version": "2.22.2",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wjgm-6hv5-3cvf",
+    "cve_id": "CVE-2026-19032",
+    "severity": "medium",
+    "summary": "jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution",
+    "html_url": "https://github.com/advisories/GHSA-wjgm-6hv5-3cvf",
+    "withdrawn_at": null,
+    "published_at": "2026-09-28T20:19:19Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.6",
+        "first_patched_version": "3.1.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.2.0, < 3.2.2",
+        "first_patched_version": "3.2.2",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.8.0, < 2.18.10",
+        "first_patched_version": "2.18.10",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.6",
+        "first_patched_version": "2.21.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, < 2.22.2",
+        "first_patched_version": "2.22.2",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-vvgp-rfg2-7rr6",
+    "cve_id": "CVE-2026-77310",
+    "severity": "medium",
+    "summary": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
+    "html_url": "https://github.com/advisories/GHSA-vvgp-rfg2-7rr6",
+    "withdrawn_at": null,
+    "published_at": "2026-09-28T20:17:41Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.0.0, < 2.18.9",
+        "first_patched_version": "2.18.9",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.5",
+        "first_patched_version": "2.21.5",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, < 2.22.1",
+        "first_patched_version": "2.22.1",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.5",
+        "first_patched_version": "3.1.5",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.2.0, < 3.2.1",
+        "first_patched_version": "3.2.1",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-5gvw-p9qm-jgwh",
+    "cve_id": "CVE-2026-59889",
+    "severity": "medium",
+    "summary": "jackson-databind: @JsonView bypassed for @JsonUnwrapped container properties on deserialization",
+    "html_url": "https://github.com/advisories/GHSA-5gvw-p9qm-jgwh",
+    "withdrawn_at": null,
+    "published_at": "2026-07-21T22:00:43Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.1.4",
+        "first_patched_version": "3.1.5",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, < 2.22.1",
+        "first_patched_version": "2.22.1",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.2.0, < 3.2.1",
+        "first_patched_version": "3.2.1",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.5",
+        "first_patched_version": "2.21.5",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.0.0-RC1, < 2.18.9",
+        "first_patched_version": "2.18.9",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-r7wm-3cxj-wff9",
+    "cve_id": "CVE-2026-68494",
+    "severity": "high",
+    "summary": "jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)",
+    "html_url": "https://github.com/advisories/GHSA-r7wm-3cxj-wff9",
+    "withdrawn_at": null,
+    "published_at": "2026-07-21T21:58:53Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": "< 2.18.8",
+        "first_patched_version": "2.18.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.4",
+        "first_patched_version": "2.21.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-3pjw-73gf-8qr5",
+    "cve_id": "CVE-2026-59888",
+    "severity": "medium",
+    "summary": "jackson-databind: @JsonIgnore on a Record property is bypassed with a PropertyNamingStrategy",
+    "html_url": "https://github.com/advisories/GHSA-3pjw-73gf-8qr5",
+    "withdrawn_at": null,
+    "published_at": "2026-07-21T19:33:06Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.15.0, < 2.18.8",
+        "first_patched_version": "2.18.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.4",
+        "first_patched_version": "2.21.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-5jmj-h7xm-6q6v",
+    "cve_id": "CVE-2026-54515",
+    "severity": "medium",
+    "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
+    "html_url": "https://github.com/advisories/GHSA-5jmj-h7xm-6q6v",
+    "withdrawn_at": null,
+    "published_at": "2026-06-23T21:23:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.1.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.1.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.8.0, < 2.18.9",
+        "first_patched_version": "2.18.9",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.5",
+        "first_patched_version": "2.21.5",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.22.0, < 2.22.1",
+        "first_patched_version": "2.22.1",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-hgj6-7826-r7m5",
+    "cve_id": "CVE-2026-54514",
+    "severity": "medium",
+    "summary": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
+    "html_url": "https://github.com/advisories/GHSA-hgj6-7826-r7m5",
+    "withdrawn_at": null,
+    "published_at": "2026-06-23T21:22:54Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.0.0, < 2.18.8",
+        "first_patched_version": "2.18.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.4",
+        "first_patched_version": "2.21.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.4",
+        "first_patched_version": "2.21.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-rmj7-2vxq-3g9f",
+    "cve_id": "CVE-2026-54513",
+    "severity": "high",
+    "summary": "jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)",
+    "html_url": "https://github.com/advisories/GHSA-rmj7-2vxq-3g9f",
+    "withdrawn_at": null,
+    "published_at": "2026-06-23T21:22:15Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.10.0, < 2.18.8",
+        "first_patched_version": "2.18.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.4",
+        "first_patched_version": "2.21.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.4",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-j3rv-43j4-c7qm",
+    "cve_id": "CVE-2026-54512",
+    "severity": "high",
+    "summary": "jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation",
+    "html_url": "https://github.com/advisories/GHSA-j3rv-43j4-c7qm",
+    "withdrawn_at": null,
+    "published_at": "2026-06-23T21:21:38Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.10.0, <= 2.18.7",
+        "first_patched_version": "2.18.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.1.3",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 2.19.0, <= 2.21.3",
+        "first_patched_version": "2.21.4",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-databind"
+        },
+        "vulnerable_version_range": ">= 3.0.0, <= 3.1.3",
+        "first_patched_version": "3.1.4",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-293q-567p-wmwq",
+    "cve_id": "CVE-2026-47838",
+    "severity": "medium",
+    "summary": "Spring Security Vulnerable to Unauthorized User Impersonation when Using X.509 Client Certificates",
+    "html_url": "https://github.com/advisories/GHSA-293q-567p-wmwq",
+    "withdrawn_at": null,
+    "published_at": "2026-06-10T00:31:53Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.5.0, <= 6.5.10",
+        "first_patched_version": "6.5.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.4.0, <= 6.4.13",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.3.10",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 5.8.0, <= 5.8.16",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": "<= 5.7.14",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-x2r2-rvhq-2mqv",
+    "cve_id": "CVE-2026-41706",
+    "severity": "medium",
+    "summary": "Spring Security: Open Redirect via Unvalidated Post-Login Redirect URL Stored in CookieRequestCache",
+    "html_url": "https://github.com/advisories/GHSA-x2r2-rvhq-2mqv",
+    "withdrawn_at": null,
+    "published_at": "2026-06-10T00:31:51Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.5",
+        "first_patched_version": "7.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.5.0, <= 6.5.10",
+        "first_patched_version": "6.5.11",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.3.0, <= 6.3.16",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 5.8.0, <= 5.8.25",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": "<= 5.7.23",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-mf92-479x-3373",
+    "cve_id": "CVE-2026-22732",
+    "severity": "critical",
+    "summary": "Spring Security HTTP Headers Are not Written Under Some Conditions",
+    "html_url": "https://github.com/advisories/GHSA-mf92-479x-3373",
+    "withdrawn_at": null,
+    "published_at": "2026-03-20T00:31:28Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": "<= 5.7.14",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 5.8.0, <= 5.8.16",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.3.10",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.4.0, <= 6.4.13",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 6.5.0, < 6.5.9",
+        "first_patched_version": "6.5.9",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.security:spring-security-web"
+        },
+        "vulnerable_version_range": ">= 7.0.0, < 7.0.4",
+        "first_patched_version": "7.0.4",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-72hv-8253-57qq",
+    "cve_id": "CVE-2026-18401",
+    "severity": "medium",
+    "summary": "jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition",
+    "html_url": "https://github.com/advisories/GHSA-72hv-8253-57qq",
+    "withdrawn_at": null,
+    "published_at": "2026-02-28T02:01:05Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "tools.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 3.0.0, < 3.1.0",
+        "first_patched_version": "3.1.0",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.19.0, < 2.21.1",
+        "first_patched_version": "2.21.1",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "com.fasterxml.jackson.core:jackson-core"
+        },
+        "vulnerable_version_range": ">= 2.15.0, <= 2.18.5",
+        "first_patched_version": "2.18.6",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-rqfh-9r24-8c9r",
+    "cve_id": "CVE-2026-24400",
+    "severity": "high",
+    "summary": "AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion",
+    "html_url": "https://github.com/advisories/GHSA-rqfh-9r24-8c9r",
+    "withdrawn_at": null,
+    "published_at": "2026-01-26T21:31:41Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.assertj:assertj-core"
+        },
+        "vulnerable_version_range": ">= 1.4.0, <= 3.27.6",
+        "first_patched_version": "3.27.7",
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-ggg2-9786-hwc8",
+    "cve_id": "CVE-2026-41001",
+    "severity": "medium",
+    "summary": "Spring Boot: Predictable Temp Directory in Artemis Auto-configuration",
+    "html_url": "https://github.com/advisories/GHSA-ggg2-9786-hwc8",
+    "withdrawn_at": null,
+    "published_at": "2026-06-11T09:31:56Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-autoconfigure"
+        },
+        "vulnerable_version_range": ">= 4.0.0, <= 4.0.6",
+        "first_patched_version": "4.0.7",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-autoconfigure"
+        },
+        "vulnerable_version_range": ">= 3.5.0, <= 3.5.14",
+        "first_patched_version": "3.5.15",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-autoconfigure"
+        },
+        "vulnerable_version_range": ">= 3.4.0, <= 3.4.16",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-autoconfigure"
+        },
+        "vulnerable_version_range": ">= 3.3.0, <= 3.3.19",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-autoconfigure"
+        },
+        "vulnerable_version_range": ">= 2.7.0, <= 2.7.33",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-659m-px2c-25wj",
+    "cve_id": "CVE-2026-41848",
+    "severity": "low",
+    "summary": "Spring Framework Denial of Service via AntPathMatcher",
+    "html_url": "https://github.com/advisories/GHSA-659m-px2c-25wj",
+    "withdrawn_at": null,
+    "published_at": "2026-06-09T06:31:58Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-core"
+        },
+        "vulnerable_version_range": ">= 7.0.0, <= 7.0.7",
+        "first_patched_version": "7.0.8",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-core"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.18",
+        "first_patched_version": "6.2.19",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-core"
+        },
+        "vulnerable_version_range": ">= 6.1.0, <= 6.1.21",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-core"
+        },
+        "vulnerable_version_range": "<= 5.3.39",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-wwpq-f5c3-7hvx",
+    "cve_id": "CVE-2026-40973",
+    "severity": "high",
+    "summary": "Spring Boot accepts predictable temp directory without ownership verification",
+    "html_url": "https://github.com/advisories/GHSA-wwpq-f5c3-7hvx",
+    "withdrawn_at": null,
+    "published_at": "2026-04-28T00:31:41Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot"
+        },
+        "vulnerable_version_range": ">= 4.0.0, < 4.0.6",
+        "first_patched_version": "4.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot"
+        },
+        "vulnerable_version_range": ">= 3.5.0, < 3.5.14",
+        "first_patched_version": "3.5.14",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot"
+        },
+        "vulnerable_version_range": ">= 3.4.0, <= 3.4.15",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot"
+        },
+        "vulnerable_version_range": ">= 3.3.0, <= 3.3.18",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot"
+        },
+        "vulnerable_version_range": "<= 2.7.32",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-56v8-86gj-66jp",
+    "cve_id": "CVE-2026-40972",
+    "severity": "high",
+    "summary": "Spring Boot DevTools remote secret comparison is vulnerable to timing attacks",
+    "html_url": "https://github.com/advisories/GHSA-56v8-86gj-66jp",
+    "withdrawn_at": null,
+    "published_at": "2026-04-28T00:31:40Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-devtools"
+        },
+        "vulnerable_version_range": ">= 4.0.0, < 4.0.6",
+        "first_patched_version": "4.0.6",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-devtools"
+        },
+        "vulnerable_version_range": ">= 3.5.0, < 3.5.14",
+        "first_patched_version": "3.5.14",
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-devtools"
+        },
+        "vulnerable_version_range": ">= 3.4.0, <= 3.4.15",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-devtools"
+        },
+        "vulnerable_version_range": ">= 3.3.0, <= 3.3.18",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework.boot:spring-boot-devtools"
+        },
+        "vulnerable_version_range": "<= 2.7.32",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      }
+    ]
+  },
+  {
+    "ghsa_id": "GHSA-jmp9-x22r-554x",
+    "cve_id": "CVE-2025-41249",
+    "severity": "high",
+    "summary": "Spring Framework annotation detection mechanism may result in improper authorization",
+    "html_url": "https://github.com/advisories/GHSA-jmp9-x22r-554x",
+    "withdrawn_at": null,
+    "published_at": "2025-09-16T15:32:34Z",
+    "vulnerabilities": [
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-core"
+        },
+        "vulnerable_version_range": ">= 5.3.0, <= 5.3.44",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-core"
+        },
+        "vulnerable_version_range": ">= 6.0.0, <= 6.1.22",
+        "first_patched_version": null,
+        "vulnerable_functions": []
+      },
+      {
+        "package": {
+          "ecosystem": "maven",
+          "name": "org.springframework:spring-core"
+        },
+        "vulnerable_version_range": ">= 6.2.0, <= 6.2.10",
+        "first_patched_version": "6.2.11",
+        "vulnerable_functions": []
+      }
+    ]
+  }
+]
