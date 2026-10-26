@@ -1,0 +1,94 @@
+{
+  "input_name": "CWE - Concurrency & Synchronization",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 6 CWE rules in Concurrency & Synchronization: 0 FOUND, 6 NOT_FOUND",
+    "confidence": "high",
+    "evidence": [
+      "Reviewed singleton controller/service/configuration fields, transaction boundaries, entity/request object ownership, image-reader lifetimes, database mutations and Oracle startup scripts. CWE-543/567: singleton services hold final dependencies/configuration; allowedMimeTypes is never mutated after constructor publication; mutable entities/results/readers are method/request-local, not shared static data. CWE-662/820: database writes use Spring transactions and repository operations; no confirmed cross-request shared-memory invariant or exclusive resource misuse. Concurrent delete outcomes alone do not demonstrate a security-impacting synchronization flaw. CWE-667/821: no application lock acquisition/release or custom synchronization protocol; no incorrect lock pairing found. Startup existence-check/create scripts are normally run sequentially by container startup; no demonstrated concurrent invocation is configured. Browser asynchronous uploads have no confirmed cross-thread security invariant violation. No concurrent runtime stress testing or database isolation verification; NOT_FOUND is bounded static review, not proof of race freedom."
+    ],
+    "values": [
+      {
+        "id": "CWE-543",
+        "name": "Use of Singleton Pattern Without Synchronization in a Multithreaded Context",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product uses the singleton pattern when creating a resource within a multithreaded environment."
+      },
+      {
+        "id": "CWE-567",
+        "name": "Unsynchronized Access to Shared Data in a Multithreaded Context",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product does not properly synchronize shared data, such as static variables across threads, which can lead to undefined behavior and unpredictable data changes."
+      },
+      {
+        "id": "CWE-662",
+        "name": "Improper Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes multiple threads or processes to allow temporary access to a shared resource that can only be exclusive to one process at a time, but it does not properly synchronize these actions, which might cause simultaneous accesses of this resource by multiple threads or processes."
+      },
+      {
+        "id": "CWE-667",
+        "name": "Improper Locking",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product does not properly acquire or release a lock on a resource, leading to unexpected resource state changes and behaviors."
+      },
+      {
+        "id": "CWE-820",
+        "name": "Missing Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes a shared resource in a concurrent manner but does not attempt to synchronize access to the resource."
+      },
+      {
+        "id": "CWE-821",
+        "name": "Incorrect Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes a shared resource in a concurrent manner, but it does not correctly synchronize access to the resource."
+      }
+    ]
+  },
+  "execution_time_seconds": 0,
+  "timestamp": "2026-10-26T18:12:05.459948+00:00"
+}

@@ -1,0 +1,232 @@
+{
+  "input_name": "CWE - Code Quality",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 16 CWE rules in Code Quality: 2 FOUND, 14 NOT_FOUND",
+    "confidence": "high",
+    "evidence": [
+      "Reviewed all production Java/JS and configuration: loop bounds, allocations, arithmetic, variable initialization, resource release, fixed/bound repository access, and lifecycle. CWE-130: multipart lengths delegated to framework; no custom formatted-length parser. CWE-456/457: no uninitialized local use; nullable dimensions intentionally optional. CWE-477: no confirmed obsolete API calls (dependency CVEs separate). CWE-570/571/783: reviewed branches/precedence, no confirmed constant or erroneous expression. CWE-665: application-specific objects initialized; ddl-auto=create deliberately recreates schema and is a deployment data-loss consideration, not labeled an inferred initialization vulnerability. CWE-681/682: width/height multiply promoted to long before multiplication; no security-critical narrowing. CWE-772/775: try-with-resources plus reader finally disposal. CWE-835: no unbounded nonterminating loop. CWE-1057: application persistence through PhotoRepository; DBA bootstrap scripts intentionally outside runtime data manager. Excluded tests/generated and .github/agents. Static assessment; no runtime heap stress performed."
+    ],
+    "values": [
+      {
+        "id": "CWE-130",
+        "name": "Improper Handling of Length Parameter Inconsistency",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product parses a formatted message or structure, but it does not handle or incorrectly handles a length field that is inconsistent with the actual length of the associated data."
+      },
+      {
+        "id": "CWE-456",
+        "name": "Missing Initialization of a Variable",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 2,
+        "description": "The product does not initialize critical variables, which causes the execution environment to use unexpected values."
+      },
+      {
+        "id": "CWE-457",
+        "name": "Use of Uninitialized Variable",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 2,
+        "description": "The code uses a variable that has not been initialized, leading to unpredictable or unintended results."
+      },
+      {
+        "id": "CWE-477",
+        "name": "Use of Obsolete Function",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The code uses deprecated or obsolete functions, which suggests that the code has not been actively reviewed or maintained."
+      },
+      {
+        "id": "CWE-570",
+        "name": "Expression is Always False",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product contains an expression that will always evaluate to false."
+      },
+      {
+        "id": "CWE-571",
+        "name": "Expression is Always True",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product contains an expression that will always evaluate to true."
+      },
+      {
+        "id": "CWE-606",
+        "name": "Unchecked Input for Loop Condition",
+        "status": "FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [
+            "src/main/java/com/photoalbum/controller/HomeController.java:58-70",
+            "src/main/resources/application.properties:30"
+          ],
+          "explanation": "HomeController.uploadPhotos iterates the request-controlled List<MultipartFile> at line 69 without checking its element count. Each iteration performs image-header processing and database operations through uploadPhoto (70) and a subsequent read (73). The configured max-files-per-upload at application.properties:30 is never consumed by production Java. The 50 MB multipart request cap bounds bytes, not the number of small parts and database operations; exploiting this route requires upload authentication. No infinite loop is claimed."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not properly check inputs that are used for loop conditions, potentially leading to a denial of service or other consequences because of excessive looping."
+      },
+      {
+        "id": "CWE-665",
+        "name": "Improper Initialization",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not initialize or incorrectly initializes a resource, which might leave the resource in an unexpected state when it is accessed or used."
+      },
+      {
+        "id": "CWE-681",
+        "name": "Incorrect Conversion between Numeric Types",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "When converting from one data type to another, such as long to integer, data can be omitted or translated in a way that produces unexpected values. If the resulting values are used in a sensitive context, then dangerous behaviors may occur."
+      },
+      {
+        "id": "CWE-682",
+        "name": "Incorrect Calculation",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product performs a calculation that generates incorrect or unintended results that are later used in security-critical decisions or resource management."
+      },
+      {
+        "id": "CWE-772",
+        "name": "Missing Release of Resource after Effective Lifetime",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed."
+      },
+      {
+        "id": "CWE-775",
+        "name": "Missing Release of File Descriptor or Handle after Effective Lifetime",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not release a file descriptor or handle after its effective lifetime has ended, i.e., after the file descriptor/handle is no longer needed."
+      },
+      {
+        "id": "CWE-783",
+        "name": "Operator Precedence Logic Error",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product uses an expression in which operator precedence causes incorrect logic to be used."
+      },
+      {
+        "id": "CWE-789",
+        "name": "Memory Allocation with Excessive Size Value",
+        "status": "FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [
+            "src/main/java/com/photoalbum/controller/HomeController.java:38-42",
+            "src/main/java/com/photoalbum/service/impl/PhotoServiceImpl.java:54-56",
+            "src/main/java/com/photoalbum/repository/PhotoRepository.java:23-29",
+            "src/main/java/com/photoalbum/model/Photo.java:39-41"
+          ],
+          "explanation": "The public gallery GET invokes getAllPhotos, which materializes an unbounded List<Photo> from a native SELECT including every photo_data BLOB (PhotoRepository:23-29); Photo.photoData is an eagerly loaded byte[] without lazy Basic loading. Aggregate allocation is proportional to all uploaded content, with no pagination or aggregate byte limit. Per-file upload limits do not bound the full dataset. Once authenticated uploads populate a sufficiently large gallery, an anonymous gallery request can cause heap exhaustion; repeated large-read requests increase pressure. This is database-driven aggregate allocation, not an unchecked new byte[requestSize] primitive."
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated."
+      },
+      {
+        "id": "CWE-835",
+        "name": "Loop with Unreachable Exit Condition ('Infinite Loop')",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
+      },
+      {
+        "id": "CWE-1057",
+        "name": "Data Access Operations Outside of Expected Data Manager Component",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product uses a dedicated, central data manager component as required by design, but it contains code that performs data-access operations that do not use this data manager."
+      }
+    ]
+  },
+  "execution_time_seconds": 0,
+  "timestamp": "2026-10-26T18:11:13.068865+00:00"
+}
