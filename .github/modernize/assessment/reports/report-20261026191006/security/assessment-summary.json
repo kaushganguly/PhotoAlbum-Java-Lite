@@ -1,0 +1,64 @@
+{
+  "assessmentScope": "Full repository production source/configuration, not changed files; application code unchanged",
+  "timestamp": "2026-10-26T19:17:26.219286+00:00",
+  "cweRulesAssessed": 59,
+  "cweFound": 5,
+  "cweNotFound": 54,
+  "cweFoundIds": [
+    "CWE-606",
+    "CWE-789",
+    "CWE-778",
+    "CWE-79",
+    "CWE-89"
+  ],
+  "cveFindings": 74,
+  "cveSeverities": {
+    "critical": 12,
+    "medium": 32,
+    "high": 30
+  },
+  "resolvedMavenDependencies": 104,
+  "minimumCveSeverity": "medium",
+  "advisoryQueryErrors": [],
+  "limitations": [
+    "Static source/configuration assessment, not a penetration test; no Oracle runtime, load, or concurrency stress testing. Browser MCP transport was unavailable for dynamic DOM confirmation.",
+    "CVE findings are exact resolved dependency/version advisory matches, not confirmation that all exploit prerequisites are enabled; test-only dependencies are explicitly labeled.",
+    "Maven dependency tree covers all scopes under the current/default profile, not build-tool/plugin or container OS/JDK/Oracle image advisories. Bootstrap CDN 5.3.0 was separately queried and had no reported advisories.",
+    "GitHub CLI had no authentication token; unauthenticated GitHub REST queries succeeded for all four batches with pagination, and no batch was silently treated as clean.",
+    "Deployment-supplied SQL injection requires control over startup environment values; DOM XSS requires selection/drop or upload of a specially named file. External ingress/audit controls are not represented in the repository.",
+    "NOT_FOUND means no confirmed matching source vulnerability under investigated conditions, not a guarantee of absence. Unknown-format uploads are accepted but no dangerous automatic handling or active-content response was demonstrated.",
+    ".github/agents was intentionally not accessed; no code was staged or committed."
+  ],
+  "outputs": [
+    ".github/modernize/assessment/engines/security/result-cwe-code-quality.json",
+    ".github/modernize/assessment/copilot/engines/security/cweChecklist/code-quality.json",
+    ".github/modernize/assessment/engines/security/result-cwe-concurrency-synchronization.json",
+    ".github/modernize/assessment/copilot/engines/security/cweChecklist/concurrency-synchronization.json",
+    ".github/modernize/assessment/engines/security/result-cwe-credentials-secrets.json",
+    ".github/modernize/assessment/copilot/engines/security/cweChecklist/credentials-secrets.json",
+    ".github/modernize/assessment/engines/security/result-cwe-file-path-security.json",
+    ".github/modernize/assessment/copilot/engines/security/cweChecklist/file-path-security.json",
+    ".github/modernize/assessment/engines/security/result-cwe-injection-attacks.json",
+    ".github/modernize/assessment/copilot/engines/security/cweChecklist/injection-attacks.json",
+    ".github/modernize/assessment/engines/security/result-cwe-memory-safety.json",
+    ".github/modernize/assessment/copilot/engines/security/cweChecklist/memory-safety.json",
+    ".github/modernize/assessment/engines/security/cve-assessment-result.json",
+    ".github/modernize/assessment/engines/security/maven-dependency-tree.txt",
+    ".github/modernize/assessment/engines/security/resolved-dependencies.json",
+    ".github/modernize/assessment/engines/security/github-advisories.json",
+    ".github/modernize/assessment/engines/security/cve-query-status.json",
+    ".github/modernize/assessment/engines/security/assessment-summary.json",
+    ".github/modernize/assessment/copilot/engines/security/cve_assessment_result.json"
+  ],
+  "validation": "All 59 unique CWE IDs present exactly once; metadata populated; checklist names/categories/status/evidence synchronized; flat CVE mirrors identical and IDs unique; all advisory severities medium or above.",
+  "metadataMismatches": [
+    {
+      "field": "cveScanScope",
+      "coreReportedValue": "direct",
+      "actualAssessmentValue": "all",
+      "actualScope": "All 104 Maven-resolved dependencies, direct and transitive, including test scope; Bootstrap CDN checked separately.",
+      "source": "Parent observation: core metadata cveScanScope currently direct; core assessment reported 74 CVEs.",
+      "requiredParentAction": "Correct scope metadata and final report to all. Preserve dependency/version-match versus confirmed-exploitability distinction and explicitly qualify test-only scope and server runtime prerequisites."
+    }
+  ]
+}
