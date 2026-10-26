@@ -1,0 +1,91 @@
+{
+  "scope": "Full repository assessment, not a diff review",
+  "completedSkillsInOrder": [
+    "cve-known-vulnerabilities",
+    "cwe-file-path-security",
+    "cwe-injection-attacks",
+    "cwe-memory-safety",
+    "cwe-code-quality",
+    "cwe-credentials-secrets",
+    "cwe-concurrency-synchronization",
+    "security-assessment-merge"
+  ],
+  "minimumCveSeverity": "medium",
+  "mavenResolution": {
+    "dependencyListExitCode": 0,
+    "dependencyTreeExitCode": 0,
+    "failure": null,
+    "timeoutSecondsPerCommand": 100,
+    "compilationPerformed": false,
+    "directDependencies": 11,
+    "totalResolvedCoordinates": 104,
+    "scopes": {
+      "compile": 65,
+      "runtime": 12,
+      "test": 27
+    }
+  },
+  "advisoryCoverage": {
+    "source": "GitHub REST global security advisories, ecosystem=maven, exact affects package@resolved-version filters",
+    "batches": 4,
+    "batchSizeMaximum": 30,
+    "pages": 4,
+    "failedBatches": 0,
+    "uniqueReturnedAdvisories": 85,
+    "reportedAtOrAboveThreshold": 74,
+    "excludedBelowThresholdOrWithdrawnOrNonMatching": 11,
+    "pagination": "Followed Link rel=next until absent",
+    "authentication": "Unauthenticated HTTPS REST requests using Python urllib; gh api was not used.",
+    "rangeAttribution": "Numeric dotted release comparison; milestone lower bounds compare by numeric release components; all resolved vulnerable-package versions are releases. Only matching package/range entries attributed.",
+    "provenanceFiles": [
+      "resolved-dependencies.json",
+      "advisory-query-coverage.json",
+      "github-advisories.json"
+    ],
+    "dependencyScope": "All 104 resolved Maven coordinates, including transitive and test-scoped dependencies; not direct-only.",
+    "excludedTransitiveVulnerabilities": "None excluded because of transitive status. Dependency implementation source was not audited; advisory matches are not an exploitability verdict."
+  },
+  "cweCoverage": {
+    "totalRules": 59,
+    "found": 2,
+    "notFound": 57,
+    "categories": {
+      "CWE - Code Quality": 16,
+      "CWE - Concurrency & Synchronization": 6,
+      "CWE - Credentials & Secrets": 5,
+      "CWE - File & Path Security": 5,
+      "CWE - Injection Attacks": 12,
+      "CWE - Memory Safety": 15
+    },
+    "language": "Java and browser JavaScript with deployment shell/SQL and configuration inspection",
+    "reviewedAreas": [
+      "All first-party src/main Java classes and interfaces",
+      "Browser upload.js and Thymeleaf templates",
+      "Application properties, Dockerfile, docker-compose.yml",
+      "Oracle initialization shell/SQL scripts",
+      "Build POM and first-party documentation/configuration for credential patterns"
+    ],
+    "exclusions": [
+      "Tests and generated files excluded from CWE conclusions",
+      "Git internals and .github/agents not accessed",
+      "Assessment skills and generated assessment artifacts are not application attack surfaces"
+    ]
+  },
+  "limitations": [
+    "No source edits, test execution, compilation, application startup, exploitation, runtime tracing, concurrency stress testing or git commits performed.",
+    "NOT_FOUND means no confirmed instance in reviewed first-party code; it is not a security certification. Native JVM/image-decoder internals and dependency implementation source were not audited.",
+    "CVE matching covers 104 resolved direct/transitive Maven coordinates including test dependencies, not build plugins, container OS/JRE/Oracle image vulnerabilities, or CDN Bootstrap resources.",
+    "Advisory findings reflect the live advisory database response; deployment feature prerequisites, optional dependency packaging and test-only applicability require follow-up before asserting exploitability.",
+    "Maven resolution succeeded for both commands; no build-resolution failure occurred. No dependency fallback was needed.",
+    "Public photo reads are intentional; authenticated mutations, parameter-bound JPA queries, upload byte/pixel limits and stream/reader disposal were taken into account.",
+    "Upload image MIME is client-declared; unrecognized image headers are not rejected, but dangerous execution/active-content delivery was not established, so CWE-434 is NOT_FOUND rather than speculative.",
+    "Oracle initialization interpolates deployment-controlled environment values into SQL; no lower-trust application request input reaches that administrative configuration in the examined repository, so SQL injection is not claimed.",
+    "Credential sample values and test-only values were excluded as deployed hard-coded credentials. Runtime admin/database secrets are required environment references; no credential values are reproduced.",
+    "Authentication audit completeness depends on framework/deployment logging, not verified; absence of custom logging alone is not reported as CWE-778.",
+    "Spring singleton beans have configuration/dependency fields, while request mutation state is local and persistence is transaction-managed. No confirmed concurrency invariant violation established.",
+    "DOM XSS is demonstrated by static source-to-sink tracing; no browser proof-of-concept run. Unbounded gallery BLOB allocation is a static resource-management finding; heap thresholds were not measured.",
+    "Parent coordinator owns report.json injection, report rendering and copying. This task writes standalone merged reports and unified-findings.json only."
+  ],
+  "generatedAt": "2026-10-26T20:50:14.863172+00:00",
+  "tooling": "Executed the seven requested security skills sequentially and security-assessment-merge. Named appmod-cve-assessment and cwe-rules-assessment were unavailable and were not run. Results were written with shell/Python because write_assessment_result was unavailable."
+}
