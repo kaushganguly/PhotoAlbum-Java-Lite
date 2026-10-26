@@ -711,7 +711,7 @@ Affected resolved dependencies:
 
 Presence/version match only: application reachability, deployment prerequisites, and exploitability have not been established. Test-scope coordinates do not imply production exposure.
 
-### CVE-2026-91776: jackson-databind retains every unknown raw type ID 
+### CVE-2026-91776: jackson-databind retains every unknown raw type ID
 - **Raw advisory severity:** high
 - **Assessment severity:** mandatory
 - **Story points:** 1
@@ -726,7 +726,7 @@ Affected resolved dependencies:
 
 Presence/version match only: application reachability, deployment prerequisites, and exploitability have not been established. Test-scope coordinates do not imply production exposure.
 
-### CVE-2026-91777: jackson-databind quadratic forward-reference completion 
+### CVE-2026-91777: jackson-databind quadratic forward-reference completion
 - **Raw advisory severity:** high
 - **Assessment severity:** mandatory
 - **Story points:** 1
@@ -740,7 +740,6 @@ Affected resolved dependencies:
 - com.fasterxml.jackson.core:jackson-databind:2.19.0 (transitive via org.springframework.boot:spring-boot-starter-json; Maven scope compile; declaration pom.xml:78); affected range >= 2.19.0, <= 2.21.6; recommended fix: upgrade to 2.21.7 or later on the applicable supported release line.
 
 Presence/version match only: application reachability, deployment prerequisites, and exploitability have not been established. Test-scope coordinates do not imply production exposure.
-
 ### CVE-2025-11226: QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing
 - **Raw advisory severity:** medium
 - **Assessment severity:** optional
@@ -1220,4 +1219,3 @@ Affected resolved dependencies:
 - com.fasterxml.jackson.core:jackson-databind:2.19.0 (transitive via org.springframework.boot:spring-boot-starter-json; Maven scope compile; declaration pom.xml:78); affected range >= 2.19.0, < 2.21.6; recommended fix: upgrade to 2.21.6 or later on the applicable supported release line.
 
 Presence/version match only: application reachability, deployment prerequisites, and exploitability have not been established. Test-scope coordinates do not imply production exposure.
-
