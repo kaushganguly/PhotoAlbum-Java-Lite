@@ -1,0 +1,94 @@
+{
+  "input_name": "CWE - Concurrency & Synchronization",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 6 CWE rules in Concurrency & Synchronization: 0 FOUND, 6 NOT_FOUND",
+    "confidence": "high",
+    "evidence": [
+      "Full baseline src/main inspection of Spring singleton controller/service fields, request-local upload collections, JPA operations, JavaScript async upload state and resource lifetimes. PhotoServiceImpl:27-46 holds final repository/configuration fields; allowedMimeTypes is never mutated after construction; upload working state is method-local. Persistence is transaction-managed (PhotoServiceImpl:28) and no manual locks, shared mutable counters/caches, custom threads, asynchronous Java services or unsynchronized singleton mutation were identified. Concurrent delete read-then-delete is not by itself evidence of an exploitable state/authorization invariant violation. No application lock acquire/release errors found. Static review only; framework/database internals, live deployment concurrency and stress/race behavior were not tested; no builds/tests."
+    ],
+    "values": [
+      {
+        "id": "CWE-543",
+        "name": "Use of Singleton Pattern Without Synchronization in a Multithreaded Context",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product uses the singleton pattern when creating a resource within a multithreaded environment.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-567",
+        "name": "Unsynchronized Access to Shared Data in a Multithreaded Context",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product does not properly synchronize shared data, such as static variables across threads, which can lead to undefined behavior and unpredictable data changes.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-662",
+        "name": "Improper Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes multiple threads or processes to allow temporary access to a shared resource that can only be exclusive to one process at a time, but it does not properly synchronize these actions, which might cause simultaneous accesses of this resource by multiple threads or processes.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-667",
+        "name": "Improper Locking",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product does not properly acquire or release a lock on a resource, leading to unexpected resource state changes and behaviors.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-820",
+        "name": "Missing Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes a shared resource in a concurrent manner but does not attempt to synchronize access to the resource.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-821",
+        "name": "Incorrect Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes a shared resource in a concurrent manner, but it does not correctly synchronize access to the resource.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      }
+    ]
+  },
+  "execution_time_seconds": 45,
+  "timestamp": "2026-10-26T05:08:56.851453+00:00"
+}
