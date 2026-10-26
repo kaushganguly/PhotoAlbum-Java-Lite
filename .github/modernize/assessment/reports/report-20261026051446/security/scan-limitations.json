@@ -1,0 +1,49 @@
+{
+  "dependenciesCollected": 104,
+  "failedBatches": [],
+  "limits": [
+    "Static source review and live dependency advisory lookup only. No tests, builds (other than Maven dependency resolution), application execution, load tests or exploitation.",
+    "No container OS/image, JDK/JVM/native library, browser internals or Oracle server vulnerability scan; container image tags are not immutable inventories.",
+    "No secrets were copied into results; production runtime secrets, secret rotation, git history and deployed file/network permissions were not inspected.",
+    "The six requested skill schemas cover exactly 59 CWE rules, not every CWE. NOT_FOUND means no verified matching pattern in the reviewed scope, not proof of absence."
+  ],
+  "advisorySource": "Unauthenticated GitHub REST advisories API via curl (gh had no authentication)",
+  "assessmentScope": "Full current repository application source/configuration, not a diff review. .github setup/generated artifacts, target, git history and binary image contents excluded.",
+  "additionalDependenciesChecked": [
+    {
+      "name": "bootstrap",
+      "ecosystem": "npm",
+      "version": "5.3.0",
+      "files": [
+        "src/main/resources/templates/layout.html:7",
+        "src/main/resources/templates/layout.html:42",
+        "src/main/resources/templates/index.html:7",
+        "src/main/resources/templates/index.html:124",
+        "src/main/resources/templates/detail.html:7",
+        "src/main/resources/templates/detail.html:147"
+      ],
+      "advisoryCount": 0
+    }
+  ],
+  "dependencyScanCoverage": "104 resolved direct/transitive Maven coordinates including compile, runtime, optional development and test scopes; four GitHub REST batches of at most 30 with pagination. Also checked CDN Bootstrap 5.3.0. No failed REST batches.",
+  "cveInterpretation": "85 distinct non-withdrawn advisories match installed package versions. Dependency presence is verified; feature prerequisites, exploitability and deployment exposure are not established. Test/development dependencies are not equivalent to production attack surface.",
+  "nonChecklistObservations": [
+    {
+      "topic": "CSRF and Basic authentication configuration (outside requested 59-rule set)",
+      "files": [
+        "src/main/java/com/photoalbum/config/SecurityConfig.java:48-58",
+        "src/main/resources/templates/detail.html:50-59"
+      ],
+      "observation": "CSRF is explicitly disabled while browser-capable HTTP Basic authentication is enabled for state-changing POST routes; statelessness alone does not establish browser CSRF safety. This configuration warrants a separate CWE-352 review; no cross-origin runtime exploit was performed."
+    },
+    {
+      "topic": "Transport security configuration (outside requested 59-rule set)",
+      "files": [
+        "docker-compose.yml:39-40",
+        "src/main/resources/application.properties:2",
+        "src/main/java/com/photoalbum/config/SecurityConfig.java:58"
+      ],
+      "observation": "Provided compose publishes application HTTP port 8080, uses Basic authentication, and declares no TLS terminator or HTTPS requirement. External TLS termination/deployed network exposure were not verified."
+    }
+  ]
+}

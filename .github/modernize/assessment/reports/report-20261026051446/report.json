@@ -1,0 +1,2303 @@
+{
+  "version": "1.0.0",
+  "producer": "Java AppCAT CLI",
+  "metadata": {
+    "analysisStartTime": "2026-10-26T05:14:46.639Z",
+    "analysisEndTime": "2026-10-26T05:23:45.079Z",
+    "privacyMode": "Protected",
+    "privacyModeHelpUrl": "https://aka.ms/appmod-privacy-mode",
+    "targetIds": [
+      "azure-appservice",
+      "azure-aks",
+      "azure-container-apps"
+    ],
+    "targetDisplayNames": [
+      "Azure App Service",
+      "Azure Kubernetes Service",
+      "Azure Container Apps"
+    ],
+    "capabilities": [
+      "openjdk25"
+    ],
+    "os": [
+      "windows",
+      "linux"
+    ],
+    "id": "20261026051446",
+    "name": "Report_20261026051446",
+    "status": "completed",
+    "domains": [
+      "java-upgrade",
+      "cloud-readiness",
+      "security"
+    ],
+    "mode": "full",
+    "minimumCveSeverity": "medium",
+    "cveScanScope": "all"
+  },
+  "summary": {
+    "totalProjects": 1,
+    "totalIssues": 10,
+    "totalIncidents": 33,
+    "totalEffort": 202,
+    "charts": {
+      "severity": {
+        "mandatory": 0,
+        "optional": 17,
+        "potential": 16,
+        "information": 0
+      },
+      "category": {
+        "auth-migration": 1,
+        "database-migration": 6,
+        "framework-upgrade": 12,
+        "jakarta-migration": 1,
+        "java-version-upgrade": 3,
+        "local-credential": 4,
+        "local-resource-access": 2,
+        "spring-migration": 4
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": ".",
+      "issues": 10,
+      "storyPoints": 202,
+      "properties": {
+        "appName": "photo-album",
+        "jdkVersion": "21",
+        "frameworks": [
+          "Spring Boot",
+          "Spring"
+        ],
+        "languages": [
+          "Java",
+          "Python"
+        ],
+        "tools": [
+          "Maven"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "c169a692-a251-4f69-9ea9-8ec26beb9870",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 46,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "643ac67f-d557-4541-b16b-241a36c62bb9",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 34,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "2a1b9da9-5f05-48c2-8f99-90f2ade48cb2",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 78,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "5ec70a57-c93b-4ad8-8561-7e410ceb2f88",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 59,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "7e60cd07-d960-4ab1-871e-9cc8e81202f3",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 84,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "b7eb8a1f-2024-4a14-ab4d-70bda498573d",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 65,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "0200ba19-af81-4a5b-a854-cc36f8b1480c",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 40,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-spring-boot-version-02000",
+          "incidentId": "e9dd4436-24bd-4cc1-9ab9-fb3eb77678d4",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 98,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-database-microsoft-oracle-07000",
+          "incidentId": "05b1e049-f106-4226-91c7-cea0392c2154",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 52,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-database-microsoft-oracle-07000",
+          "incidentId": "d652d965-b5b1-4c8e-9a90-e59832ef183c",
+          "location": "docker-compose.yml",
+          "locationKind": "File",
+          "line": 34,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-database-microsoft-oracle-07000",
+          "incidentId": "8266d6a4-dd34-4946-9898-29467b1625e1",
+          "location": "src/main/resources/application-docker.properties",
+          "locationKind": "File",
+          "line": 3,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-database-microsoft-oracle-07000",
+          "incidentId": "f6c800a6-5567-4082-8965-cf2607f4ebb3",
+          "location": "src/main/resources/application.properties",
+          "locationKind": "File",
+          "line": 12,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-database-microsoft-oracle-07000",
+          "incidentId": "825988d6-518a-4e49-b245-6e0816a49d8f",
+          "location": "src/main/resources/application-docker.properties",
+          "locationKind": "File",
+          "line": 6,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-database-microsoft-oracle-07000",
+          "incidentId": "7f5ca109-e5a2-4ba4-b0c0-45d9f3f97dd3",
+          "location": "src/main/resources/application.properties",
+          "locationKind": "File",
+          "line": 15,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "auth-02000",
+          "incidentId": "169f1484-4ce2-4cda-a4e2-a193eedf3d39",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 65,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 5,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 5,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 5,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-framework-version-02000",
+          "incidentId": "cbf55b72-4958-4606-a104-e522711e3413",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 84,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-framework-version-02000",
+          "incidentId": "ccc24558-1a78-47dd-8c23-43c9e19e957f",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 65,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-framework-version-02000",
+          "incidentId": "0be1440c-4f0e-4ef3-afab-799799e792dd",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 46,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-framework-version-02000",
+          "incidentId": "87d56b52-11b4-4813-bae0-9161c4afa398",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 34,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-password-01000",
+          "incidentId": "e2e40d72-de6d-41e7-94e6-84f3f9ba91f8",
+          "location": "src/test/resources/application-test.properties",
+          "locationKind": "File",
+          "line": 5,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 3,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-password-01000",
+          "incidentId": "bc330a68-0a91-4703-ab44-551719006d08",
+          "location": "src/test/resources/application-test.properties",
+          "locationKind": "File",
+          "line": 23,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 3,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-password-01000",
+          "incidentId": "3c6c509a-38cc-4e52-ae7f-986ec24e3d40",
+          "location": "src/main/resources/application-docker.properties",
+          "locationKind": "File",
+          "line": 5,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 3,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-password-01000",
+          "incidentId": "861ec708-a517-4c50-8fc8-ff872db86f77",
+          "location": "src/main/resources/application.properties",
+          "locationKind": "File",
+          "line": 14,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 3,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 3,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-java-version-02000",
+          "incidentId": "83a3cc00-5683-466c-8f37-fb064e545a62",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 24,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-java-version-02000",
+          "incidentId": "ef03403f-8ad6-4be3-8f5b-20d18d703731",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 25,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "azure-java-version-02000",
+          "incidentId": "9d7687fa-622f-4ba6-aff5-28a55a26171c",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 26,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 8,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 8,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-port-01000",
+          "incidentId": "fc9bdb8e-1717-4955-94a8-38d69542e17c",
+          "location": "src/main/resources/application-docker.properties",
+          "locationKind": "File",
+          "line": 25,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 1,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 1,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 1,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-port-01000",
+          "incidentId": "3f361565-edf0-4be5-87a7-c2d0b9028d4b",
+          "location": "src/main/resources/application.properties",
+          "locationKind": "File",
+          "line": 2,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 1,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 1,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 1,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-restricted-config-01000",
+          "incidentId": "af37f43e-c3dd-4586-bd0e-7b7f8640f9ba",
+          "location": "src/main/resources/application-docker.properties",
+          "locationKind": "File",
+          "line": 25,
+          "column": 0,
+          "targets": {
+            "azure-container-apps": {
+              "effort": 2,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "spring-boot-to-azure-restricted-config-01000",
+          "incidentId": "7ac9f849-7b24-46a2-b833-a11fd102705e",
+          "location": "src/main/resources/application.properties",
+          "locationKind": "File",
+          "line": 2,
+          "column": 0,
+          "targets": {
+            "azure-container-apps": {
+              "effort": 2,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=azure/springboot"
+          ]
+        },
+        {
+          "ruleId": "localhost-00004",
+          "incidentId": "a5471d2b-ba92-47a6-9879-a572ba443273",
+          "location": "docker-compose.yml",
+          "locationKind": "File",
+          "line": 20,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 3,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 3,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 3,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=cloud-readiness"
+          ]
+        },
+        {
+          "ruleId": "localhost-00004",
+          "incidentId": "de339566-f29c-497b-9341-c28794be3fff",
+          "location": "src/main/resources/application.properties",
+          "locationKind": "File",
+          "line": 12,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 3,
+              "severity": "optional"
+            },
+            "azure-appservice": {
+              "effort": 3,
+              "severity": "optional"
+            },
+            "azure-container-apps": {
+              "effort": 3,
+              "severity": "optional"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=cloud-readiness"
+          ]
+        },
+        {
+          "ruleId": "jakarta-database-00002",
+          "incidentId": "1d95b059-6e8f-4db0-a239-c50eb3d02336",
+          "location": "pom.xml",
+          "locationKind": "File",
+          "line": 46,
+          "column": 0,
+          "targets": {
+            "azure-aks": {
+              "effort": 5,
+              "severity": "potential"
+            },
+            "azure-appservice": {
+              "effort": 5,
+              "severity": "potential"
+            },
+            "azure-container-apps": {
+              "effort": 5,
+              "severity": "potential"
+            }
+          },
+          "labels": [
+            "type=violation",
+            "ruleset=cloud-readiness"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "auth-02000": {
+      "id": "auth-02000",
+      "description": "The application embeds a Spring Security library. Ensure that the application is configured to access the identity provider.\n\nConsider using Microsoft Entra ID as an identity provider.",
+      "title": "Embedded framework - Spring Security",
+      "severity": "potential",
+      "effort": 5,
+      "links": [
+        {
+          "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-app-service#identity-providers",
+          "title": "Spring Security-related dependencies found in the project"
+        },
+        {
+          "url": "https://docs.microsoft.com/azure/active-directory/external-identities/azure-ad-account",
+          "title": "Azure Active Directory (Azure AD) identity provider for External Identities"
+        },
+        {
+          "url": "https://docs.spring.io/spring-security/reference/index.html",
+          "title": "Spring Security"
+        },
+        {
+          "url": "https://auth0.com/docs/quickstart/backend/java-spring-security5/01-authorization",
+          "title": "Spring Boot API: Authorization"
+        }
+      ],
+      "labels": [
+        "target=azure-appservice",
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "source",
+        "domain=cloud-readiness",
+        "category=auth-migration",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "azure-database-microsoft-oracle-07000": {
+      "id": "azure-database-microsoft-oracle-07000",
+      "description": "Oracle database found. To migrate a Java application that uses an Oracle database to Azure, you can follow these recommendations:\n\n * **Migrate to Azure Database for PostgreSQL**: Azure recommends migrating Oracle databases to Azure Database for PostgreSQL Flexible Server as it provides better cost-effectiveness and performance. Create a managed PostgreSQL Flexible Server database in Azure and choose the appropriate pricing tier based on your application's requirements.\n\n * **Use migration tools**: Utilize the Azure Database Migration Service (DMS) or third-party tools to migrate your Oracle database schema and data to PostgreSQL. Consider using ora2pg or similar tools to convert Oracle-specific SQL to PostgreSQL-compatible SQL.\n\n * **Update database drivers and connection strings**: Replace Oracle JDBC drivers with PostgreSQL drivers in your Java application. Update connection strings from Oracle format (jdbc:oracle:thin:) to PostgreSQL format (jdbc:postgresql:).\n\n * **Review and convert Oracle-specific code**: Identify and convert Oracle-specific SQL functions, stored procedures, and PL/SQL code to PostgreSQL equivalents. Pay attention to data types, syntax differences, and built-in functions.\n\n * Enable **monitoring and diagnostics**: Utilize Azure Monitor to gain insights into the performance and health of your Java application and the underlying PostgreSQL database. Set up metrics, alerts, and log analytics to proactively identify and resolve issues.\n\n * Implement **security** measures: Apply security best practices to protect your Java application and the PostgreSQL database. This includes implementing authentication and authorization mechanisms with passwordless connections and leveraging Microsoft Defender for Cloud for threat detection and vulnerability assessments.\n\n * **Backup** your data: Azure Database for PostgreSQL provides automated backups by default. You can configure the retention period for backups based on your requirements. You can also enable geo-redundant backups, if needed, to enhance data durability and availability.",
+      "title": "Oracle database found",
+      "severity": "potential",
+      "effort": 8,
+      "links": [
+        {
+          "url": "https://learn.microsoft.com/azure/postgresql",
+          "title": "Azure Database for PostgreSQL documentation"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/postgresql/migrate/how-to-migrate-oracle-ora2pg",
+          "title": "Oracle to PostgreSQL migration guide"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/dms",
+          "title": "Azure Database Migration Service documentation"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/azure-monitor",
+          "title": "Azure Monitor documentation"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/defender-for-cloud",
+          "title": "Microsoft Defender for Cloud"
+        }
+      ],
+      "labels": [
+        "target=azure-appservice",
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "source",
+        "domain=cloud-readiness",
+        "category=database-migration",
+        "database",
+        "oracle",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "azure-java-version-02000": {
+      "id": "azure-java-version-02000",
+      "description": "The application is not using the latest LTS Java version. It is recommended to consider upgrading to the latest LTS version to take advantage of the newest language features, performance improvements, and extended support timelines.\nUpgrading to the latest LTS version ensures your application benefits from the most recent security enhancements and a longer support lifecycle.",
+      "title": "Java Version is not the latest LTS",
+      "severity": "optional",
+      "effort": 8,
+      "labels": [
+        "target=azure-appservice",
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "source",
+        "domain=java-upgrade",
+        "category=java-version-upgrade",
+        "version",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "azure-password-01000": {
+      "id": "azure-password-01000",
+      "description": "Using clear passwords in property files is a security risk, as they can be easily compromised if the files are accessed by unauthorized individuals. To enhance the security of your application, it is recommended to employ secure credential management practices.\n\n * **Azure Key Vault**: Utilize Azure Key Vault to securely store and manage your application's passwords and other sensitive credentials. Azure Key Vault provides a centralized and highly secure location for storing secrets, keys, and certificates.\n\n * **Passwordless connections**: You can provide an additional layer of security and convenience for accessing resources in Azure by eliminating the need for passwords. This way you can reduce the risk of password-related vulnerabilities, such as weak passwords or password theft.",
+      "title": "Password found in configuration file",
+      "severity": "potential",
+      "effort": 3,
+      "links": [
+        {
+          "url": "https://learn.microsoft.com/azure/key-vault",
+          "title": "Azure Key Vault documentation"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/developer/intro/passwordless-overview",
+          "title": "Passwordless connections for Azure services"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#inventory-configuration-sources-and-secrets",
+          "title": "Password found in configuration file"
+        },
+        {
+          "url": "https://docs.microsoft.com/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-key-vault",
+          "title": "Read a secret from Azure Key Vault in a Spring Boot application"
+        },
+        {
+          "url": "https://search.maven.org/artifact/com.azure.spring/azure-spring-boot-starter-keyvault-secrets",
+          "title": "Azure Spring Boot Starter for Azure Key Vault Secrets"
+        }
+      ],
+      "labels": [
+        "source",
+        "target=azure-appservice",
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "domain=cloud-readiness",
+        "category=local-credential",
+        "password",
+        "security",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "jakarta-database-00002": {
+      "id": "jakarta-database-00002",
+      "description": "The application depends on **Jakarta Persistence (JPA)** APIs (`jakarta.persistence.*` or legacy `javax.persistence.*`), which are used for object-relational mapping (ORM) and database interaction in Jakarta EE or Java EE applications.\n\nWhen migrating to Azure:\n- Ensure that the database connection, JPA provider (e.g., Hibernate, EclipseLink), and dialect are compatible with your target Azure database service.\n- Recommended database services include **Azure Database for PostgreSQL**, **Azure Database for MySQL**, or **Azure SQL Database**.\n- For containerized deployments, these JPA-based applications can run on **Azure Kubernetes Service (AKS)** or **Azure App Service for Linux/Windows**.\n- If using **Spring Data JPA**, verify that connection pool settings and environment variables are properly configured for the cloud environment.\n- Consider leveraging **Azure Key Vault** for secure storage of database credentials and connection strings.",
+      "title": "Detects usage of Jakarta Persistence (JPA) APIs",
+      "severity": "potential",
+      "effort": 5,
+      "links": [
+        {
+          "url": "https://jakarta.ee/specifications/persistence/",
+          "title": "Jakarta Persistence Specification"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-stores-getting-started#common-database-scenarios",
+          "title": "Prepare to choose a data store in Azure"
+        }
+      ],
+      "labels": [
+        "source=java",
+        "source=java-ee",
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "target=azure-appservice",
+        "domain=cloud-readiness",
+        "category=jakarta-migration",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "localhost-00004": {
+      "id": "localhost-00004",
+      "description": "The app is trying to use localhost, please try to migrate the resource to cloud",
+      "title": "Localhost Usage",
+      "severity": "optional",
+      "effort": 3,
+      "labels": [
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "target=azure-appservice",
+        "capability=containerization",
+        "source",
+        "domain=cloud-readiness",
+        "category=local-resource-access",
+        "localhost",
+        "containerization",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "spring-boot-to-azure-port-01000": {
+      "id": "spring-boot-to-azure-port-01000",
+      "description": "The application is setting the server port. To migrate a Java application that sets the server port to Azure Container Apps:\n\n * **Azure Container Apps allows you to expose port according to your Azure Container Apps resource configuration. For instance, a Spring Boot application listens to port of 8080 by default, but it can be set with server.port or environment variable SERVER_PORT as you need.",
+      "title": "Server port configuration found",
+      "severity": "potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps#identify-any-clients-relying-on-a-non-standard-port",
+          "title": "Identify any clients relying on a non-standard port"
+        }
+      ],
+      "labels": [
+        "source=springboot",
+        "target=azure-aks",
+        "target=azure-appservice",
+        "target=azure-container-apps",
+        "domain=cloud-readiness",
+        "category=spring-migration",
+        "port",
+        "server port",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "spring-boot-to-azure-restricted-config-01000": {
+      "id": "spring-boot-to-azure-restricted-config-01000",
+      "description": "The application uses restricted configurations for Azure Container Apps.\n These properties can be automatically injected into your application environment by Azure Container Apps to access managed Config Server and managed Eureka Server.\n Please remove them from your application, including configuration files, config server files, command line parameters, Java system attributes, and environment variables.\n\n If configured in **configuration files**: they will be ignored and overrided by Azure Container Apps.\n \n If configured in **Config Server files**, **command line parameters**, **Java system attribute**, **environment variable**: they need to be removed or you might experience conflicts and unexpected behavior.",
+      "title": "Restricted configurations found",
+      "severity": "potential",
+      "effort": 2,
+      "links": [
+        {
+          "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-cloud-to-azure-container-apps#remove-restricted-configurations",
+          "title": "Migrate Spring Boot applications to Azure Container Apps - Remove restricted configurations"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/container-apps/java-config-server?tabs=azure-cli",
+          "title": "Connect to a managed Config Server for Spring in Azure Container Apps"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/container-apps/java-eureka-server?tabs=azure-cli",
+          "title": "Connect to a managed Eureka Server for Spring in Azure Container Apps"
+        }
+      ],
+      "labels": [
+        "target=azure-container-apps",
+        "source=springboot",
+        "domain=cloud-readiness",
+        "category=spring-migration",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "spring-boot-to-azure-spring-boot-version-02000": {
+      "id": "spring-boot-to-azure-spring-boot-version-02000",
+      "description": "The application is using a Spring Boot version that is not the latest stable release.\nUpgrading to the latest stable version ensures you benefit from the newest features, performance improvements, bug fixes, and security patches. Here are some steps you can take to update your application to the latest stable version of Spring Boot:\n\n* Choose the **latest stable Spring Boot version**: Check out Spring Boot Support Versions and identify the latest stable release.\n\n* **Update Spring Boot version**: Update the Spring Boot version of your application. There are automated tools like Rewrite to help you with the migration.\n\n* **Address code compatibility**: Review your application's codebase for any potential compatibility issues with the target Spring Boot version. Update deprecated APIs or features, address any language or library changes, and ensure that your code follows best practices and standards.\n\n* **Test thoroughly**: Execute a comprehensive testing process to verify the compatibility and functionality of your application with the new Spring Boot version. Perform unit tests, integration tests, and system tests to validate that all components and dependencies work as expected.",
+      "title": "Spring Boot Version is not the latest stable",
+      "severity": "optional",
+      "effort": 8,
+      "links": [
+        {
+          "url": "https://learn.microsoft.com/azure/developer/java/migration/migrate-spring-boot-to-azure-container-apps",
+          "title": "Migrate Spring Boot applications to Azure Container Apps"
+        },
+        {
+          "url": "https://learn.microsoft.com/azure/container-apps/java-microservice-get-started?tabs=azure-cli",
+          "title": "Launch your first Java microservice application with managed Java components in Azure Container Apps"
+        },
+        {
+          "url": "https://spring.io/projects/spring-boot/#support",
+          "title": "Spring Boot Supported Versions"
+        },
+        {
+          "url": "https://github.com/spring-projects/spring-boot/wiki/Supported-Versions",
+          "title": "Spring Boot Support Policy"
+        }
+      ],
+      "labels": [
+        "source=springboot",
+        "target=azure-appservice",
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "domain=java-upgrade",
+        "category=framework-upgrade",
+        "version",
+        "os=windows",
+        "os=linux"
+      ]
+    },
+    "spring-framework-version-02000": {
+      "id": "spring-framework-version-02000",
+      "description": "Your application is using a Spring Framework version that is not the latest stable release.\nUpgrading to the latest stable version ensures better performance, security, and compatibility with modern tools.\n  1. Pick the Latest Stable Version: Review the Spring Framework support policy and choose the latest stable version.\n  2. Update Your Project: Change the Spring Framework version in your pom.xml or build.gradle.\n  3. Fix Compatibility Issues: Update deprecated code, replace removed features, and ensure dependencies are compatible with the new Spring Framework version.\n  4. Thoroughly Test: Run unit, integration, and end-to-end tests to make sure everything still works after the upgrade.",
+      "title": "Spring Framework Version is not the latest stable",
+      "severity": "optional",
+      "effort": 8,
+      "links": [
+        {
+          "url": "https://spring.io/projects/spring-framework#support",
+          "title": "Spring Framework Supported Versions"
+        },
+        {
+          "url": "https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions",
+          "title": "Spring Framework Support Policy"
+        }
+      ],
+      "labels": [
+        "source=spring",
+        "target=azure-appservice",
+        "target=azure-aks",
+        "target=azure-container-apps",
+        "domain=java-upgrade",
+        "category=framework-upgrade",
+        "version",
+        "os=windows",
+        "os=linux"
+      ]
+    }
+  },
+  "security": [
+    {
+      "id": "CVE-2025-11226",
+      "title": "QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2025-11226](https://github.com/advisories/GHSA-25qh-j22f-pwp8): QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - ch.qos.logback:logback-core:1.5.18 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 1.4.0, < 1.5.19\n\nRecommended fix:\n  - ch.qos.logback:logback-core: upgrade to 1.5.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-10-01T09:30:24Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-11226](https://github.com/advisories/GHSA-25qh-j22f-pwp8): QOS.CH logback-core is vulnerable to Arbitrary Code Execution through file processing\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - ch.qos.logback:logback-core:1.5.18 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 1.4.0, < 1.5.19\n\nRecommended fix:\n  - ch.qos.logback:logback-core: upgrade to 1.5.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-10-01T09:30:24Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-41234",
+      "title": "Spring Framework vulnerable to a reflected file download (RFD)",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2025-41234](https://github.com/advisories/GHSA-6r3c-xf4w-jxjm): Spring Framework vulnerable to a reflected file download (RFD)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-web:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, < 6.2.8\n\nRecommended fix:\n  - org.springframework:spring-web: upgrade to 6.2.8 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-13T00:33:18Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-41234](https://github.com/advisories/GHSA-6r3c-xf4w-jxjm): Spring Framework vulnerable to a reflected file download (RFD)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-web:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, < 6.2.8\n\nRecommended fix:\n  - org.springframework:spring-web: upgrade to 6.2.8 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-13T00:33:18Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-41242",
+      "title": "Spring Framework MVC Applications Path Traversal Vulnerability",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2025-41242](https://github.com/advisories/GHSA-r936-gwx5-v52f): Spring Framework MVC Applications Path Traversal Vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, < 6.2.10\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.10 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-08-18T09:31:44Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-41242](https://github.com/advisories/GHSA-r936-gwx5-v52f): Spring Framework MVC Applications Path Traversal Vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, < 6.2.10\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.10 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-08-18T09:31:44Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-41248",
+      "title": "Spring Security annotation detection mechanism has authorization bypass",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-41248](https://github.com/advisories/GHSA-8v5q-rhf3-jphm): Spring Security annotation detection mechanism has authorization bypass\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.security:spring-security-core:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, < 6.5.4\n\nRecommended fix:\n  - org.springframework.security:spring-security-core: upgrade to 6.5.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-09-16T15:32:34Z",
+      "evidence": {
+        "files": [
+          "pom.xml:65"
+        ],
+        "explanation": "[CVE-2025-41248](https://github.com/advisories/GHSA-8v5q-rhf3-jphm): Spring Security annotation detection mechanism has authorization bypass\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.security:spring-security-core:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, < 6.5.4\n\nRecommended fix:\n  - org.springframework.security:spring-security-core: upgrade to 6.5.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-09-16T15:32:34Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-41249",
+      "title": "Spring Framework annotation detection mechanism may result in improper authorization",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:6.2.7 (compile scope; transitive via spring-boot-starter-test; pom.xml:84); affected range >= 6.2.0, <= 6.2.10\n\nRecommended fix:\n  - org.springframework:spring-core: upgrade to 6.2.11 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-09-16T15:32:34Z",
+      "evidence": {
+        "files": [
+          "pom.xml:84"
+        ],
+        "explanation": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:6.2.7 (compile scope; transitive via spring-boot-starter-test; pom.xml:84); affected range >= 6.2.0, <= 6.2.10\n\nRecommended fix:\n  - org.springframework:spring-core: upgrade to 6.2.11 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-09-16T15:32:34Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-48988",
+      "title": "Apache Tomcat - DoS in multipart upload",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, <= 10.1.41\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-16T15:32:28Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, <= 10.1.41\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-16T15:32:28Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-48989",
+      "title": "Apache Tomcat Improper Resource Shutdown or Release vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.44\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.44 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-08-13T15:30:34Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.44\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.44 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-08-13T15:30:34Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-49124",
+      "title": "Apache Tomcat installer for Windows has an untrusted search path vulnerability",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2025-49124](https://github.com/advisories/GHSA-42wg-hm62-jcwg): Apache Tomcat installer for Windows has an untrusted search path vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0, < 10.1.42\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-16T15:32:28Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-49124](https://github.com/advisories/GHSA-42wg-hm62-jcwg): Apache Tomcat installer for Windows has an untrusted search path vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0, < 10.1.42\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-16T15:32:28Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-49125",
+      "title": "Apache Tomcat - Security constraint bypass for pre/post-resources",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2025-49125](https://github.com/advisories/GHSA-wc4r-xq3c-5cf3): Apache Tomcat - Security constraint bypass for pre/post-resources\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, <= 10.1.41\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-16T15:32:28Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-49125](https://github.com/advisories/GHSA-wc4r-xq3c-5cf3): Apache Tomcat - Security constraint bypass for pre/post-resources\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, <= 10.1.41\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-06-16T15:32:28Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-52520",
+      "title": "Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.43\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.43 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-07-10T21:31:52Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.43\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.43 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-07-10T21:31:52Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-53506",
+      "title": "Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.43\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.43 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-07-10T21:31:53Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.43\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.43 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-07-10T21:31:53Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-55668",
+      "title": "Apache Tomcat Session Fixation vulnerability",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2025-55668](https://github.com/advisories/GHSA-23hv-mwm6-g8jf): Apache Tomcat Session Fixation vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.42\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-08-13T15:30:34Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-55668](https://github.com/advisories/GHSA-23hv-mwm6-g8jf): Apache Tomcat Session Fixation vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.42\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.42 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-08-13T15:30:34Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-55752",
+      "title": "Apache Tomcat Vulnerable to Relative Path Traversal",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.45\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.45 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-10-27T18:31:13Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.45\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.45 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2025-10-27T18:31:13Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-66614",
+      "title": "Apache Tomcat - Client certificate verification bypass",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2025-66614](https://github.com/advisories/GHSA-fpj8-gq4v-p354): Apache Tomcat - Client certificate verification bypass\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.50\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.50 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-02-17T21:31:13Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2025-66614](https://github.com/advisories/GHSA-fpj8-gq4v-p354): Apache Tomcat - Client certificate verification bypass\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.50\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.50 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-02-17T21:31:13Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-18401",
+      "title": "jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-18401](https://github.com/advisories/GHSA-72hv-8253-57qq): jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.1\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.1 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-02-28T02:01:05Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-18401](https://github.com/advisories/GHSA-72hv-8253-57qq): jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.1\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.1 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-02-28T02:01:05Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-19032",
+      "title": "jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-19032](https://github.com/advisories/GHSA-wjgm-6hv5-3cvf): jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.6 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:19:19Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-19032](https://github.com/advisories/GHSA-wjgm-6hv5-3cvf): jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.6 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:19:19Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-22732",
+      "title": "Spring Security HTTP Headers Are not Written Under Some Conditions",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-22732](https://github.com/advisories/GHSA-mf92-479x-3373): Spring Security HTTP Headers Are not Written Under Some Conditions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework.security:spring-security-web:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, < 6.5.9\n\nRecommended fix:\n  - org.springframework.security:spring-security-web: upgrade to 6.5.9 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-03-20T00:31:28Z",
+      "evidence": {
+        "files": [
+          "pom.xml:65"
+        ],
+        "explanation": "[CVE-2026-22732](https://github.com/advisories/GHSA-mf92-479x-3373): Spring Security HTTP Headers Are not Written Under Some Conditions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework.security:spring-security-web:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, < 6.5.9\n\nRecommended fix:\n  - org.springframework.security:spring-security-web: upgrade to 6.5.9 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-03-20T00:31:28Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-22737",
+      "title": "Spring Framework Improper Path Limitation with Script View Templates",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-22737](https://github.com/advisories/GHSA-4773-3jfm-qmx3): Spring Framework Improper Path Limitation with Script View Templates\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, < 6.2.17\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.17 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-03-20T00:31:28Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-22737](https://github.com/advisories/GHSA-4773-3jfm-qmx3): Spring Framework Improper Path Limitation with Script View Templates\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, < 6.2.17\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.17 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-03-20T00:31:28Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-22745",
+      "title": "Spring MVC and WebFlux applications are vulnerable to Denial of Service attacks when resolving static resources",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-22745](https://github.com/advisories/GHSA-6p4f-wcwh-5vvm): Spring MVC and WebFlux applications are vulnerable to Denial of Service attacks when resolving static resources\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.17\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.18 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-29T12:33:07Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-22745](https://github.com/advisories/GHSA-6p4f-wcwh-5vvm): Spring MVC and WebFlux applications are vulnerable to Denial of Service attacks when resolving static resources\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.17\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.18 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-29T12:33:07Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-22751",
+      "title": "Spring Security Core has a TOCTOU race condition when One-Time Token login with JdbcOneTimeTokenService is configured",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-22751](https://github.com/advisories/GHSA-x2wq-9x2f-fhj7): Spring Security Core has a TOCTOU race condition when One-Time Token login with JdbcOneTimeTokenService is configured\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.security:spring-security-core:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, < 6.5.10\n\nRecommended fix:\n  - org.springframework.security:spring-security-core: upgrade to 6.5.10 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-21T21:31:23Z",
+      "evidence": {
+        "files": [
+          "pom.xml:65"
+        ],
+        "explanation": "[CVE-2026-22751](https://github.com/advisories/GHSA-x2wq-9x2f-fhj7): Spring Security Core has a TOCTOU race condition when One-Time Token login with JdbcOneTimeTokenService is configured\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.security:spring-security-core:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, < 6.5.10\n\nRecommended fix:\n  - org.springframework.security:spring-security-core: upgrade to 6.5.10 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-21T21:31:23Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24400",
+      "title": "AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core:3.27.3 (test scope; transitive via spring-boot-starter-test; pom.xml:84); affected range >= 1.4.0, <= 3.27.6\n\nRecommended fix:\n  - org.assertj:assertj-core: upgrade to 3.27.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-01-26T21:31:41Z",
+      "evidence": {
+        "files": [
+          "pom.xml:84"
+        ],
+        "explanation": "[CVE-2026-24400](https://github.com/advisories/GHSA-rqfh-9r24-8c9r): AssertJ has XML External Entity (XXE) vulnerability when parsing untrusted XML via isXmlEqualTo assertion\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.assertj:assertj-core:3.27.3 (test scope; transitive via spring-boot-starter-test; pom.xml:84); affected range >= 1.4.0, <= 3.27.6\n\nRecommended fix:\n  - org.assertj:assertj-core: upgrade to 3.27.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-01-26T21:31:41Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24734",
+      "title": "Apache Tomcat has an Improper Input Validation vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M7, < 10.1.52\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.52 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-02-17T21:31:13Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M7, < 10.1.52\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.52 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-02-17T21:31:13Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24880",
+      "title": "Apache Tomcat has an HTTP Request/Response Smuggling vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24880](https://github.com/advisories/GHSA-563x-q5rq-57qp): Apache Tomcat has an HTTP Request/Response Smuggling vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.52\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.52 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:29Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-24880](https://github.com/advisories/GHSA-563x-q5rq-57qp): Apache Tomcat has an HTTP Request/Response Smuggling vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.52\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.52 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:29Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-25854",
+      "title": "Apache Tomcat has an Open Redirect vulnerability",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-25854](https://github.com/advisories/GHSA-9m3c-qcxr-9x87): Apache Tomcat has an Open Redirect vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.53\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.53 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:29Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-25854](https://github.com/advisories/GHSA-9m3c-qcxr-9x87): Apache Tomcat has an Open Redirect vulnerability\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.53\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.53 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:29Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-34483",
+      "title": "Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.54\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.54 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:30Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.54\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.54 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:30Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-34487",
+      "title": "Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-34487](https://github.com/advisories/GHSA-x4m4-345f-5h5g): Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.54\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.54 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:30Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-34487](https://github.com/advisories/GHSA-x4m4-345f-5h5g): Apache Tomcat vulnerable to Insertion of Sensitive Information into Log File\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.54\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.54 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-09T21:31:30Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40477",
+      "title": "Improper restriction of the scope of accessible objects in Thymeleaf expressions",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40477](https://github.com/advisories/GHSA-r4v4-5mwr-2fwr): Improper restriction of the scope of accessible objects in Thymeleaf expressions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n  - org.thymeleaf:thymeleaf:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n\nRecommended fix:\n  - org.thymeleaf:thymeleaf-spring6: upgrade to 3.1.4.RELEASE or a later supported patched version\n  - org.thymeleaf:thymeleaf: upgrade to 3.1.4.RELEASE or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-15T19:46:04Z",
+      "evidence": {
+        "files": [
+          "pom.xml:40"
+        ],
+        "explanation": "[CVE-2026-40477](https://github.com/advisories/GHSA-r4v4-5mwr-2fwr): Improper restriction of the scope of accessible objects in Thymeleaf expressions\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n  - org.thymeleaf:thymeleaf:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n\nRecommended fix:\n  - org.thymeleaf:thymeleaf-spring6: upgrade to 3.1.4.RELEASE or a later supported patched version\n  - org.thymeleaf:thymeleaf: upgrade to 3.1.4.RELEASE or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-15T19:46:04Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40478",
+      "title": "Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40478](https://github.com/advisories/GHSA-xjw8-8c5c-9r79): Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n  - org.thymeleaf:thymeleaf:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n\nRecommended fix:\n  - org.thymeleaf:thymeleaf-spring6: upgrade to 3.1.4.RELEASE or a later supported patched version\n  - org.thymeleaf:thymeleaf: upgrade to 3.1.4.RELEASE or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-15T19:46:23Z",
+      "evidence": {
+        "files": [
+          "pom.xml:40"
+        ],
+        "explanation": "[CVE-2026-40478](https://github.com/advisories/GHSA-xjw8-8c5c-9r79): Improper neutralization of specific syntax patterns for unauthorized expressions in Thymeleaf\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n  - org.thymeleaf:thymeleaf:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.3.RELEASE\n\nRecommended fix:\n  - org.thymeleaf:thymeleaf-spring6: upgrade to 3.1.4.RELEASE or a later supported patched version\n  - org.thymeleaf:thymeleaf: upgrade to 3.1.4.RELEASE or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-15T19:46:23Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40972",
+      "title": "Spring Boot DevTools remote secret comparison is vulnerable to timing attacks",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40972](https://github.com/advisories/GHSA-56v8-86gj-66jp): Spring Boot DevTools remote secret comparison is vulnerable to timing attacks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-devtools:3.5.0 (compile scope; direct; pom.xml:98); affected range >= 3.5.0, < 3.5.14\n\nRecommended fix:\n  - org.springframework.boot:spring-boot-devtools: upgrade to 3.5.14 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-28T00:31:40Z",
+      "evidence": {
+        "files": [
+          "pom.xml:98"
+        ],
+        "explanation": "[CVE-2026-40972](https://github.com/advisories/GHSA-56v8-86gj-66jp): Spring Boot DevTools remote secret comparison is vulnerable to timing attacks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-devtools:3.5.0 (compile scope; direct; pom.xml:98); affected range >= 3.5.0, < 3.5.14\n\nRecommended fix:\n  - org.springframework.boot:spring-boot-devtools: upgrade to 3.5.14 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-28T00:31:40Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-40973",
+      "title": "Spring Boot accepts predictable temp directory without ownership verification",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.5.0 (compile scope; transitive via spring-boot-devtools; pom.xml:98); affected range >= 3.5.0, < 3.5.14\n\nRecommended fix:\n  - org.springframework.boot:spring-boot: upgrade to 3.5.14 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-28T00:31:41Z",
+      "evidence": {
+        "files": [
+          "pom.xml:98"
+        ],
+        "explanation": "[CVE-2026-40973](https://github.com/advisories/GHSA-wwpq-f5c3-7hvx): Spring Boot accepts predictable temp directory without ownership verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.5.0 (compile scope; transitive via spring-boot-devtools; pom.xml:98); affected range >= 3.5.0, < 3.5.14\n\nRecommended fix:\n  - org.springframework.boot:spring-boot: upgrade to 3.5.14 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-04-28T00:31:41Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41001",
+      "title": "Spring Boot: Predictable Temp Directory in Artemis Auto-configuration",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41001](https://github.com/advisories/GHSA-ggg2-9786-hwc8): Spring Boot: Predictable Temp Directory in Artemis Auto-configuration\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-autoconfigure:3.5.0 (compile scope; transitive via spring-boot-devtools; pom.xml:98); affected range >= 3.5.0, <= 3.5.14\n\nRecommended fix:\n  - org.springframework.boot:spring-boot-autoconfigure: upgrade to 3.5.15 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-11T09:31:56Z",
+      "evidence": {
+        "files": [
+          "pom.xml:98"
+        ],
+        "explanation": "[CVE-2026-41001](https://github.com/advisories/GHSA-ggg2-9786-hwc8): Spring Boot: Predictable Temp Directory in Artemis Auto-configuration\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-autoconfigure:3.5.0 (compile scope; transitive via spring-boot-devtools; pom.xml:98); affected range >= 3.5.0, <= 3.5.14\n\nRecommended fix:\n  - org.springframework.boot:spring-boot-autoconfigure: upgrade to 3.5.15 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-11T09:31:56Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41284",
+      "title": "Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41284](https://github.com/advisories/GHSA-gx5v-xp9w-j4cg): Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41284](https://github.com/advisories/GHSA-gx5v-xp9w-j4cg): Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41293",
+      "title": "Apache Tomcat - HTTP/2 request headers not validated",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41293](https://github.com/advisories/GHSA-r29c-68gh-xp6x): Apache Tomcat - HTTP/2 request headers not validated\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41293](https://github.com/advisories/GHSA-r29c-68gh-xp6x): Apache Tomcat - HTTP/2 request headers not validated\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41695",
+      "title": "Spring Data: Unbounded property-path cache keyed by externally-supplied path string",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41695](https://github.com/advisories/GHSA-88fw-v6x4-3f58): Spring Data: Unbounded property-path cache keyed by externally-supplied path string\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-31T16:44:15Z",
+      "evidence": {
+        "files": [
+          "pom.xml:46"
+        ],
+        "explanation": "[CVE-2026-41695](https://github.com/advisories/GHSA-88fw-v6x4-3f58): Spring Data: Unbounded property-path cache keyed by externally-supplied path string\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-31T16:44:15Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41706",
+      "title": "Spring Security: Open Redirect via Unvalidated Post-Login Redirect URL Stored in CookieRequestCache",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41706](https://github.com/advisories/GHSA-x2r2-rvhq-2mqv): Spring Security: Open Redirect via Unvalidated Post-Login Redirect URL Stored in CookieRequestCache\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.security:spring-security-web:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, <= 6.5.10\n\nRecommended fix:\n  - org.springframework.security:spring-security-web: upgrade to 6.5.11 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:51Z",
+      "evidence": {
+        "files": [
+          "pom.xml:65"
+        ],
+        "explanation": "[CVE-2026-41706](https://github.com/advisories/GHSA-x2r2-rvhq-2mqv): Spring Security: Open Redirect via Unvalidated Post-Login Redirect URL Stored in CookieRequestCache\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.security:spring-security-web:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, <= 6.5.10\n\nRecommended fix:\n  - org.springframework.security:spring-security-web: upgrade to 6.5.11 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:51Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41711",
+      "title": "Spring Data Commons: StackOverflowException when parsing Sort parameters (DoS)",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41711](https://github.com/advisories/GHSA-5vpf-xvv7-c8vh): Spring Data Commons: StackOverflowException when parsing Sort parameters (DoS)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:51Z",
+      "evidence": {
+        "files": [
+          "pom.xml:46"
+        ],
+        "explanation": "[CVE-2026-41711](https://github.com/advisories/GHSA-5vpf-xvv7-c8vh): Spring Data Commons: StackOverflowException when parsing Sort parameters (DoS)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:51Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41716",
+      "title": "Spring Data Commons: Heap exhaustion from unbounded property-lookup cache retaining crafted string keys",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41716](https://github.com/advisories/GHSA-9fw2-h3hf-293r): Spring Data Commons: Heap exhaustion from unbounded property-lookup cache retaining crafted string keys\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:51Z",
+      "evidence": {
+        "files": [
+          "pom.xml:46"
+        ],
+        "explanation": "[CVE-2026-41716](https://github.com/advisories/GHSA-9fw2-h3hf-293r): Spring Data Commons: Heap exhaustion from unbounded property-lookup cache retaining crafted string keys\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:51Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41721",
+      "title": "Spring Data Commons: Denial of Service via excessive memory allocation in projection binding",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41721](https://github.com/advisories/GHSA-5m4m-73w9-8433): Spring Data Commons: Denial of Service via excessive memory allocation in projection binding\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:52Z",
+      "evidence": {
+        "files": [
+          "pom.xml:46"
+        ],
+        "explanation": "[CVE-2026-41721](https://github.com/advisories/GHSA-5m4m-73w9-8433): Spring Data Commons: Denial of Service via excessive memory allocation in projection binding\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.data:spring-data-commons:3.5.0 (compile scope; transitive via spring-boot-starter-data-jpa; pom.xml:46); affected range >= 3.5.0, <= 3.5.11\n\nRecommended fix:\n  - org.springframework.data:spring-data-commons: upgrade to 3.5.12 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:52Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41841",
+      "title": "Spring Framework Information Disclosure via Static Resource Cache in Spring MVC and WebFlux",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41841](https://github.com/advisories/GHSA-mq64-j8f9-9gcj): Spring Framework Information Disclosure via Static Resource Cache in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41841](https://github.com/advisories/GHSA-mq64-j8f9-9gcj): Spring Framework Information Disclosure via Static Resource Cache in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41842",
+      "title": "Spring Framework Denial of Service via Versioned Resources in Spring MVC and WebFlux",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41842](https://github.com/advisories/GHSA-x23c-287f-qqv5): Spring Framework Denial of Service via Versioned Resources in Spring MVC and WebFlux\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41842](https://github.com/advisories/GHSA-x23c-287f-qqv5): Spring Framework Denial of Service via Versioned Resources in Spring MVC and WebFlux\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41843",
+      "title": "Spring Framework Path Traversal via Versioned Static Resources in Spring MVC and WebFlux",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41843](https://github.com/advisories/GHSA-72pg-x5f8-j25j): Spring Framework Path Traversal via Versioned Static Resources in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41843](https://github.com/advisories/GHSA-72pg-x5f8-j25j): Spring Framework Path Traversal via Versioned Static Resources in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41844",
+      "title": "Spring Framework Open Redirect in Spring MVC and WebFlux",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41844](https://github.com/advisories/GHSA-h3qp-gqrc-q736): Spring Framework Open Redirect in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41844](https://github.com/advisories/GHSA-h3qp-gqrc-q736): Spring Framework Open Redirect in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41845",
+      "title": "Spring Framework Cross-site Scripting via JavaScriptUtils",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41845](https://github.com/advisories/GHSA-3chg-m5w7-qfv5): Spring Framework Cross-site Scripting via JavaScriptUtils\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41845](https://github.com/advisories/GHSA-3chg-m5w7-qfv5): Spring Framework Cross-site Scripting via JavaScriptUtils\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:57Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41846",
+      "title": "Spring Framework Cross-site Scripting via JSP Form Tags",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41846](https://github.com/advisories/GHSA-957g-f97v-vppc): Spring Framework Cross-site Scripting via JSP Form Tags\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41846](https://github.com/advisories/GHSA-957g-f97v-vppc): Spring Framework Cross-site Scripting via JSP Form Tags\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41850",
+      "title": "Spring Framework Algorithmic Denial of Service via SpEL Expressions",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41850](https://github.com/advisories/GHSA-r5w3-xv2f-j59q): Spring Framework Algorithmic Denial of Service via SpEL Expressions\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-expression:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-expression: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41850](https://github.com/advisories/GHSA-r5w3-xv2f-j59q): Spring Framework Algorithmic Denial of Service via SpEL Expressions\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-expression:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-expression: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41851",
+      "title": "Spring Framework Denial of Service via Unbounded Cache in SpEL",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41851](https://github.com/advisories/GHSA-wxpp-56q6-5pcg): Spring Framework Denial of Service via Unbounded Cache in SpEL\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-expression:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-expression: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41851](https://github.com/advisories/GHSA-wxpp-56q6-5pcg): Spring Framework Denial of Service via Unbounded Cache in SpEL\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-expression:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-expression: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41853",
+      "title": "Spring Framework Multipart Request Smuggling in Spring MVC and WebFlux",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41853](https://github.com/advisories/GHSA-cjpg-rgq5-fr37): Spring Framework Multipart Request Smuggling in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41853](https://github.com/advisories/GHSA-cjpg-rgq5-fr37): Spring Framework Multipart Request Smuggling in Spring MVC and WebFlux\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-webmvc: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41854",
+      "title": "Spring Framework Server-Side Request Forgery via UriComponentsBuilder",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-41854](https://github.com/advisories/GHSA-7m2p-62gw-p8qq): Spring Framework Server-Side Request Forgery via UriComponentsBuilder\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-web:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-web: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-41854](https://github.com/advisories/GHSA-7m2p-62gw-p8qq): Spring Framework Server-Side Request Forgery via UriComponentsBuilder\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework:spring-web:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.18\n\nRecommended fix:\n  - org.springframework:spring-web: upgrade to 6.2.19 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-09T06:31:58Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41901",
+      "title": "Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41901](https://github.com/advisories/GHSA-c9ph-gxww-7744): Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.4.RELEASE\n\nRecommended fix:\n  - org.thymeleaf:thymeleaf-spring6: upgrade to 3.1.5.RELEASE or a later supported patched version\n  - org.thymeleaf:thymeleaf: upgrade to 3.1.5.RELEASE or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-04T21:15:20Z",
+      "evidence": {
+        "files": [
+          "pom.xml:40"
+        ],
+        "explanation": "[CVE-2026-41901](https://github.com/advisories/GHSA-c9ph-gxww-7744): Sandboxed Thymeleaf expressions vulnerable to improper recognition of unauthorized syntax patterns\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.4.RELEASE\n  - org.thymeleaf:thymeleaf:3.1.3.RELEASE (compile scope; transitive via spring-boot-starter-thymeleaf; pom.xml:40); affected range <= 3.1.4.RELEASE\n\nRecommended fix:\n  - org.thymeleaf:thymeleaf-spring6: upgrade to 3.1.5.RELEASE or a later supported patched version\n  - org.thymeleaf:thymeleaf: upgrade to 3.1.5.RELEASE or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-04T21:15:20Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42498",
+      "title": "Apache Tomcat - WebSocket authentication header exposure",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42498](https://github.com/advisories/GHSA-fv25-8xcx-gqjc): Apache Tomcat - WebSocket authentication header exposure\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-42498](https://github.com/advisories/GHSA-fv25-8xcx-gqjc): Apache Tomcat - WebSocket authentication header exposure\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-43512",
+      "title": "Apache Tomcat - Digest authenticator will authenticate any unknown user",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-43512](https://github.com/advisories/GHSA-h6fc-48rj-7qqh): Apache Tomcat - Digest authenticator will authenticate any unknown user\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-43512](https://github.com/advisories/GHSA-h6fc-48rj-7qqh): Apache Tomcat - Digest authenticator will authenticate any unknown user\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-43513",
+      "title": "Apache Tomcat: LockOutRealm treats user names as case-sensitive",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-43513](https://github.com/advisories/GHSA-5mp6-jrq3-r938): Apache Tomcat: LockOutRealm treats user names as case-sensitive\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-43513](https://github.com/advisories/GHSA-5mp6-jrq3-r938): Apache Tomcat: LockOutRealm treats user names as case-sensitive\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-43515",
+      "title": "Apache Tomcat - Security constraints not correctly applied",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-43515](https://github.com/advisories/GHSA-5m62-pw8w-7w9f): Apache Tomcat - Security constraints not correctly applied\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-43515](https://github.com/advisories/GHSA-5m62-pw8w-7w9f): Apache Tomcat - Security constraints not correctly applied\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.55\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.55 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-05-12T18:30:38Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-47838",
+      "title": "Spring Security Vulnerable to Unauthorized User Impersonation when Using X.509 Client Certificates",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-47838](https://github.com/advisories/GHSA-293q-567p-wmwq): Spring Security Vulnerable to Unauthorized User Impersonation when Using X.509 Client Certificates\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.security:spring-security-web:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, <= 6.5.10\n\nRecommended fix:\n  - org.springframework.security:spring-security-web: upgrade to 6.5.11 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:53Z",
+      "evidence": {
+        "files": [
+          "pom.xml:65"
+        ],
+        "explanation": "[CVE-2026-47838](https://github.com/advisories/GHSA-293q-567p-wmwq): Spring Security Vulnerable to Unauthorized User Impersonation when Using X.509 Client Certificates\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.springframework.security:spring-security-web:6.5.0 (compile scope; transitive via spring-boot-starter-security; pom.xml:65); affected range >= 6.5.0, <= 6.5.10\n\nRecommended fix:\n  - org.springframework.security:spring-security-web: upgrade to 6.5.11 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-10T00:31:53Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-47884",
+      "title": "Spring Framework Improper Path Limitation in XsltView",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-47884](https://github.com/advisories/GHSA-pc63-qcmh-9cmg): Spring Framework Improper Path Limitation in XsltView\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.19\n\nRecommended fix:\n  - org.springframework:spring-webmvc: no patched version listed for this affected branch; consult advisory\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-27T06:31:34Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-47884](https://github.com/advisories/GHSA-pc63-qcmh-9cmg): Spring Framework Improper Path Limitation in XsltView\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.19\n\nRecommended fix:\n  - org.springframework:spring-webmvc: no patched version listed for this affected branch; consult advisory\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-27T06:31:34Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-47890",
+      "title": "Spring Framework Server Sent Event stream corruption while rendering fragments",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-47890](https://github.com/advisories/GHSA-j9f9-w8pj-32f8): Spring Framework Server Sent Event stream corruption while rendering fragments\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.19\n\nRecommended fix:\n  - org.springframework:spring-webmvc: no patched version listed for this affected branch; consult advisory\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-27T06:31:34Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-47890](https://github.com/advisories/GHSA-j9f9-w8pj-32f8): Spring Framework Server Sent Event stream corruption while rendering fragments\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.2.7 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 6.2.0, <= 6.2.19\n\nRecommended fix:\n  - org.springframework:spring-webmvc: no patched version listed for this affected branch; consult advisory\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-27T06:31:34Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-49844",
+      "title": "Apache Log4j API: Improper encoding of non-finite floating-point values during MapMessage JSON serialization",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-49844](https://github.com/advisories/GHSA-qv9r-c865-cp47): Apache Log4j API: Improper encoding of non-finite floating-point values during MapMessage JSON serialization\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.logging.log4j:log4j-api:2.24.3 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 2.13.1, < 2.25.5\n\nRecommended fix:\n  - org.apache.logging.log4j:log4j-api: upgrade to 2.25.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-11T00:31:48Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-49844](https://github.com/advisories/GHSA-qv9r-c865-cp47): Apache Log4j API: Improper encoding of non-finite floating-point values during MapMessage JSON serialization\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - org.apache.logging.log4j:log4j-api:2.24.3 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 2.13.1, < 2.25.5\n\nRecommended fix:\n  - org.apache.logging.log4j:log4j-api: upgrade to 2.25.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-11T00:31:48Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-54512",
+      "title": "jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-54512](https://github.com/advisories/GHSA-j3rv-43j4-c7qm): jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.3\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:21:38Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-54512](https://github.com/advisories/GHSA-j3rv-43j4-c7qm): jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.3\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:21:38Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-54513",
+      "title": "jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-54513](https://github.com/advisories/GHSA-rmj7-2vxq-3g9f): jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:22:15Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-54513](https://github.com/advisories/GHSA-rmj7-2vxq-3g9f): jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:22:15Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-54514",
+      "title": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-54514](https://github.com/advisories/GHSA-hgj6-7826-r7m5): jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:22:54Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-54514](https://github.com/advisories/GHSA-hgj6-7826-r7m5): jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:22:54Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-54515",
+      "title": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-54515](https://github.com/advisories/GHSA-5jmj-h7xm-6q6v): jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.5\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:23:58Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-54515](https://github.com/advisories/GHSA-5jmj-h7xm-6q6v): jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.5\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-06-23T21:23:58Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-59888",
+      "title": "jackson-databind: @JsonIgnore on a Record property is bypassed with a PropertyNamingStrategy",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-59888](https://github.com/advisories/GHSA-3pjw-73gf-8qr5): jackson-databind: @JsonIgnore on a Record property is bypassed with a PropertyNamingStrategy\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-21T19:33:06Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-59888](https://github.com/advisories/GHSA-3pjw-73gf-8qr5): jackson-databind: @JsonIgnore on a Record property is bypassed with a PropertyNamingStrategy\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-21T19:33:06Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-59889",
+      "title": "jackson-databind: @JsonView bypassed for @JsonUnwrapped container properties on deserialization",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-59889](https://github.com/advisories/GHSA-5gvw-p9qm-jgwh): jackson-databind: @JsonView bypassed for @JsonUnwrapped container properties on deserialization\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.5\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-21T22:00:43Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-59889](https://github.com/advisories/GHSA-5gvw-p9qm-jgwh): jackson-databind: @JsonView bypassed for @JsonUnwrapped container properties on deserialization\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.5\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-21T22:00:43Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-65182",
+      "title": "Apache Tomcat has an Improper Access Control, Incorrect Authorization vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-65182](https://github.com/advisories/GHSA-gcx9-497g-6cp6): Apache Tomcat has an Improper Access Control, Incorrect Authorization vulnerability\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.58\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.58 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-26T00:30:52Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-65182](https://github.com/advisories/GHSA-gcx9-497g-6cp6): Apache Tomcat has an Improper Access Control, Incorrect Authorization vulnerability\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.58\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.58 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-26T00:30:52Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-65905",
+      "title": "Apache Tomcat's DIGEST authenticator has an Authentication Bypass by Capture-replay vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-65905](https://github.com/advisories/GHSA-9xv2-5v5q-p794): Apache Tomcat's DIGEST authenticator has an Authentication Bypass by Capture-replay vulnerability\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.58\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.58 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-26T00:30:52Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-65905](https://github.com/advisories/GHSA-9xv2-5v5q-p794): Apache Tomcat's DIGEST authenticator has an Authentication Bypass by Capture-replay vulnerability\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.58\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.58 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-26T00:30:52Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-68494",
+      "title": "jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-68494](https://github.com/advisories/GHSA-r7wm-3cxj-wff9): jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-21T21:58:53Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-68494](https://github.com/advisories/GHSA-r7wm-3cxj-wff9): jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.4\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.4 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-07-21T21:58:53Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-68497",
+      "title": "jackson-databind: Duration XMLGregorianCalendar Unbounded Number Parse DoS",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-68497](https://github.com/advisories/GHSA-q4xh-88c3-wmh7): jackson-databind: Duration XMLGregorianCalendar Unbounded Number Parse DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.6 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:19:46Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-68497](https://github.com/advisories/GHSA-q4xh-88c3-wmh7): jackson-databind: Duration XMLGregorianCalendar Unbounded Number Parse DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.6 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:19:46Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-68525",
+      "title": "Apache Tomcat's FORM authentication process has an Incorrect Authorization vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-68525](https://github.com/advisories/GHSA-h3x4-894j-xpx5): Apache Tomcat's FORM authentication process has an Incorrect Authorization vulnerability\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.58\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.58 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-26T00:30:52Z",
+      "evidence": {
+        "files": [
+          "pom.xml:34"
+        ],
+        "explanation": "[CVE-2026-68525](https://github.com/advisories/GHSA-h3x4-894j-xpx5): Apache Tomcat's FORM authentication process has an Incorrect Authorization vulnerability\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.41 (compile scope; transitive via spring-boot-starter-web; pom.xml:34); affected range >= 10.1.0-M1, < 10.1.58\n\nRecommended fix:\n  - org.apache.tomcat.embed:tomcat-embed-core: upgrade to 10.1.58 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-08-26T00:30:52Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-77310",
+      "title": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-77310](https://github.com/advisories/GHSA-vvgp-rfg2-7rr6): jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.5\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:17:41Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-77310](https://github.com/advisories/GHSA-vvgp-rfg2-7rr6): jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.5\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.5 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:17:41Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-83557",
+      "title": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[CVE-2026-83557](https://github.com/advisories/GHSA-gx83-3vf8-gh7j): jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.6 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:44:25Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-83557](https://github.com/advisories/GHSA-gx83-3vf8-gh7j): jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, < 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.6 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-28T20:44:25Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-89407",
+      "title": " jackson-core: ReDoS: quadratic backtracking in NumberInput.PATTERN_FLOAT via looksLikeValidNumber()",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-89407](https://github.com/advisories/GHSA-p6pp-m3f8-5c89):  jackson-core: ReDoS: quadratic backtracking in NumberInput.PATTERN_FLOAT via looksLikeValidNumber()\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-10-01T15:19:21Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-89407](https://github.com/advisories/GHSA-p6pp-m3f8-5c89):  jackson-core: ReDoS: quadratic backtracking in NumberInput.PATTERN_FLOAT via looksLikeValidNumber()\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-10-01T15:19:21Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-89425",
+      "title": "jackson-core: UTF8DataInputJsonParser._reportInvalidToken() missing maxErrorTokenLength limit -> unbounded StringBuilder growth (DoS)",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-89425](https://github.com/advisories/GHSA-7hhh-6rmp-j9qf): jackson-core: UTF8DataInputJsonParser._reportInvalidToken() missing maxErrorTokenLength limit -> unbounded StringBuilder growth (DoS)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-10-01T15:20:27Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-89425](https://github.com/advisories/GHSA-7hhh-6rmp-j9qf): jackson-core: UTF8DataInputJsonParser._reportInvalidToken() missing maxErrorTokenLength limit -> unbounded StringBuilder growth (DoS)\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-core:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-core: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-10-01T15:20:27Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-91776",
+      "title": "jackson-databind retains every unknown raw type ID ",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-91776](https://github.com/advisories/GHSA-wv8q-qhhj-9h54): jackson-databind retains every unknown raw type ID \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-30T15:36:55Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-91776](https://github.com/advisories/GHSA-wv8q-qhhj-9h54): jackson-databind retains every unknown raw type ID \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-30T15:36:55Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-91777",
+      "title": "jackson-databind quadratic forward-reference completion ",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-91777](https://github.com/advisories/GHSA-cxp5-3px4-pw24): jackson-databind quadratic forward-reference completion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-30T15:37:24Z",
+      "evidence": {
+        "files": [
+          "pom.xml:78"
+        ],
+        "explanation": "[CVE-2026-91777](https://github.com/advisories/GHSA-cxp5-3px4-pw24): jackson-databind quadratic forward-reference completion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.fasterxml.jackson.core:jackson-databind:2.19.0 (compile scope; transitive via spring-boot-starter-json; pom.xml:78); affected range >= 2.19.0, <= 2.21.6\n\nRecommended fix:\n  - com.fasterxml.jackson.core:jackson-databind: upgrade to 2.21.7 or a later supported patched version\n\nVerified package/version match against GitHub advisory metadata; exploitability and optional feature prerequisites are not established by dependency presence. Test-scoped dependencies are identified above. Published: 2026-09-30T15:37:24Z"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CWE-789",
+      "title": "Memory Allocation with Excessive Size Value",
+      "category": "Code Quality",
+      "severity": "potential",
+      "description": "The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated.",
+      "evidence": {
+        "files": [
+          "src/main/java/com/photoalbum/controller/HomeController.java:38-42",
+          "src/main/java/com/photoalbum/service/impl/PhotoServiceImpl.java:53-56",
+          "src/main/java/com/photoalbum/repository/PhotoRepository.java:23-29",
+          "src/main/java/com/photoalbum/model/Photo.java:39-41",
+          "src/main/java/com/photoalbum/config/SecurityConfig.java:53-57",
+          "Dockerfile:28"
+        ],
+        "explanation": "Anonymous GET / invokes HomeController.index -> PhotoServiceImpl.getAllPhotos -> PhotoRepository.findAllOrderByUploadedAtDesc. Its unbounded SELECT includes photo_data for every row and materializes List<Photo> with byte[] BLOB data; Photo.photoData has no lazy-fetch configuration. Although individual authenticated uploads are limited to 10 MB, total persisted photo count and cumulative bytes have no application bound, and this public request loads the entire corpus rather than only thumbnail metadata. Repeated anonymous requests against a populated database can exhaust the configured 512 MB container heap. This is aggregate allocation exposure, not a demonstrated runtime OutOfMemoryError; it requires sufficient stored photos."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-79",
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+      "category": "Injection Attacks",
+      "severity": "optional",
+      "description": "The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.",
+      "evidence": {
+        "files": [
+          "src/main/resources/static/js/upload.js:60-82",
+          "src/main/resources/static/js/upload.js:215-218"
+        ],
+        "explanation": "Client-side handleFiles accepts attacker-influenced File.name from a selected/dropped file. For an unsupported type, upload.js:73 concatenates the filename into an error string, line 82 passes it to showErrors, and lines 216-218 interpolate it directly into innerHTML. A crafted filename containing an HTML element with an event handler is interpreted as markup in the application origin when a victim selects or drops the file. This path runs entirely in the browser before any authenticated upload, so authentication is not required. It requires victim interaction with an attacker-crafted local filename; remote delivery without that interaction was not established. Server-returned failed filenames (119-120) and successful originalFileName fields (185-189 -> insertAdjacentHTML at 157) reach the same class of unescaped HTML sinks, but execution in all viewers of the server-rendered gallery is not claimed."
+      },
+      "storyPoint": 8
+    }
+  ]
+}

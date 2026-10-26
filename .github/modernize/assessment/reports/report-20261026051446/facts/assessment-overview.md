@@ -10,3 +10,7 @@ Supplementary analysis for Photo Album. These documents describe the current app
 - [Business workflows](business-workflows.md) — User-facing workflows and their implementation sequences.
 
 See the [assessment report](../report.md) for migration and security findings.
+
+## Security assessment
+
+See the [security findings](../security/security-assessment.md) and [scan limitations](../security/scan-limitations.json). Dependency findings identify affected versions, not proven runtime exploitability; the merged report includes only medium-or-higher CVEs. Application vulnerabilities are documented, not remediated, by this assessment.
