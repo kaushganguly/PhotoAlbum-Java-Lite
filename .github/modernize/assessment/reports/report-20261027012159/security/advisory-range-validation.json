@@ -1,0 +1,2338 @@
+[
+  {
+    "ghsa": "GHSA-j9f9-w8pj-32f8",
+    "id": "CVE-2026-47890",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.19",
+    "affected": true,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-j9f9-w8pj-32f8",
+    "id": "CVE-2026-47890",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.8",
+    "affected": false,
+    "firstPatchedVersion": "7.0.9"
+  },
+  {
+    "ghsa": "GHSA-pc63-qcmh-9cmg",
+    "id": "CVE-2026-47884",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.2.25.RELEASE",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-pc63-qcmh-9cmg",
+    "id": "CVE-2026-47884",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 5.3.0, <= 5.3.49",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-pc63-qcmh-9cmg",
+    "id": "CVE-2026-47884",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.0.0, <= 6.0.30",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-pc63-qcmh-9cmg",
+    "id": "CVE-2026-47884",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.28",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-pc63-qcmh-9cmg",
+    "id": "CVE-2026-47884",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.19",
+    "affected": true,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-pc63-qcmh-9cmg",
+    "id": "CVE-2026-47884",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.8",
+    "affected": false,
+    "firstPatchedVersion": "7.0.9"
+  },
+  {
+    "ghsa": "GHSA-9xv2-5v5q-p794",
+    "id": "CVE-2026-65905",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.25",
+    "affected": false,
+    "firstPatchedVersion": "11.0.25"
+  },
+  {
+    "ghsa": "GHSA-9xv2-5v5q-p794",
+    "id": "CVE-2026-65905",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.58",
+    "affected": true,
+    "firstPatchedVersion": "10.1.58"
+  },
+  {
+    "ghsa": "GHSA-9xv2-5v5q-p794",
+    "id": "CVE-2026-65905",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, < 9.0.121",
+    "affected": false,
+    "firstPatchedVersion": "9.0.121"
+  },
+  {
+    "ghsa": "GHSA-9xv2-5v5q-p794",
+    "id": "CVE-2026-65905",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-9xv2-5v5q-p794",
+    "id": "CVE-2026-65905",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 7.0.30, <= 7.0.109",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-gcx9-497g-6cp6",
+    "id": "CVE-2026-65182",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.25",
+    "affected": false,
+    "firstPatchedVersion": "11.0.25"
+  },
+  {
+    "ghsa": "GHSA-gcx9-497g-6cp6",
+    "id": "CVE-2026-65182",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.58",
+    "affected": true,
+    "firstPatchedVersion": "10.1.58"
+  },
+  {
+    "ghsa": "GHSA-gcx9-497g-6cp6",
+    "id": "CVE-2026-65182",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0-M1, < 9.0.121",
+    "affected": false,
+    "firstPatchedVersion": "9.0.121"
+  },
+  {
+    "ghsa": "GHSA-gcx9-497g-6cp6",
+    "id": "CVE-2026-65182",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-gcx9-497g-6cp6",
+    "id": "CVE-2026-65182",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 7.0.0, <= 7.0.109",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-h3x4-894j-xpx5",
+    "id": "CVE-2026-68525",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.25",
+    "affected": false,
+    "firstPatchedVersion": "11.0.25"
+  },
+  {
+    "ghsa": "GHSA-h3x4-894j-xpx5",
+    "id": "CVE-2026-68525",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.58",
+    "affected": true,
+    "firstPatchedVersion": "10.1.58"
+  },
+  {
+    "ghsa": "GHSA-h3x4-894j-xpx5",
+    "id": "CVE-2026-68525",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0-M1, < 9.0.121",
+    "affected": false,
+    "firstPatchedVersion": "9.0.121"
+  },
+  {
+    "ghsa": "GHSA-h3x4-894j-xpx5",
+    "id": "CVE-2026-68525",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-h3x4-894j-xpx5",
+    "id": "CVE-2026-68525",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 7.0.0, <= 7.0.109",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-qv9r-c865-cp47",
+    "id": "CVE-2026-49844",
+    "coordinate": "org.apache.logging.log4j:log4j-api:2.24.3",
+    "range": ">= 2.13.1, < 2.25.5",
+    "affected": true,
+    "firstPatchedVersion": "2.25.5"
+  },
+  {
+    "ghsa": "GHSA-qv9r-c865-cp47",
+    "id": "CVE-2026-49844",
+    "coordinate": "org.apache.logging.log4j:log4j-api:2.24.3",
+    "range": ">= 2.26.0, < 2.26.1",
+    "affected": false,
+    "firstPatchedVersion": "2.26.1"
+  },
+  {
+    "ghsa": "GHSA-7m2p-62gw-p8qq",
+    "id": "CVE-2026-41854",
+    "coordinate": "org.springframework:spring-web:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-7m2p-62gw-p8qq",
+    "id": "CVE-2026-41854",
+    "coordinate": "org.springframework:spring-web:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-9f52-rjqv-25qv",
+    "id": "CVE-2026-41852",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-9f52-rjqv-25qv",
+    "id": "CVE-2026-41852",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-9f52-rjqv-25qv",
+    "id": "CVE-2026-41852",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-9f52-rjqv-25qv",
+    "id": "CVE-2026-41852",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-cjpg-rgq5-fr37",
+    "id": "CVE-2026-41853",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-cjpg-rgq5-fr37",
+    "id": "CVE-2026-41853",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-cjpg-rgq5-fr37",
+    "id": "CVE-2026-41853",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-cjpg-rgq5-fr37",
+    "id": "CVE-2026-41853",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-wxpp-56q6-5pcg",
+    "id": "CVE-2026-41851",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-wxpp-56q6-5pcg",
+    "id": "CVE-2026-41851",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-wxpp-56q6-5pcg",
+    "id": "CVE-2026-41851",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-wxpp-56q6-5pcg",
+    "id": "CVE-2026-41851",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-r5w3-xv2f-j59q",
+    "id": "CVE-2026-41850",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-r5w3-xv2f-j59q",
+    "id": "CVE-2026-41850",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-r5w3-xv2f-j59q",
+    "id": "CVE-2026-41850",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-r5w3-xv2f-j59q",
+    "id": "CVE-2026-41850",
+    "coordinate": "org.springframework:spring-expression:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-957g-f97v-vppc",
+    "id": "CVE-2026-41846",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-957g-f97v-vppc",
+    "id": "CVE-2026-41846",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-957g-f97v-vppc",
+    "id": "CVE-2026-41846",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-957g-f97v-vppc",
+    "id": "CVE-2026-41846",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-72pg-x5f8-j25j",
+    "id": "CVE-2026-41843",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-72pg-x5f8-j25j",
+    "id": "CVE-2026-41843",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-72pg-x5f8-j25j",
+    "id": "CVE-2026-41843",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-72pg-x5f8-j25j",
+    "id": "CVE-2026-41843",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-h3qp-gqrc-q736",
+    "id": "CVE-2026-41844",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-h3qp-gqrc-q736",
+    "id": "CVE-2026-41844",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-h3qp-gqrc-q736",
+    "id": "CVE-2026-41844",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-h3qp-gqrc-q736",
+    "id": "CVE-2026-41844",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-3chg-m5w7-qfv5",
+    "id": "CVE-2026-41845",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-3chg-m5w7-qfv5",
+    "id": "CVE-2026-41845",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-3chg-m5w7-qfv5",
+    "id": "CVE-2026-41845",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-3chg-m5w7-qfv5",
+    "id": "CVE-2026-41845",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mq64-j8f9-9gcj",
+    "id": "CVE-2026-41841",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-mq64-j8f9-9gcj",
+    "id": "CVE-2026-41841",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-mq64-j8f9-9gcj",
+    "id": "CVE-2026-41841",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mq64-j8f9-9gcj",
+    "id": "CVE-2026-41841",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-x23c-287f-qqv5",
+    "id": "CVE-2026-41842",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-x23c-287f-qqv5",
+    "id": "CVE-2026-41842",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-x23c-287f-qqv5",
+    "id": "CVE-2026-41842",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-x23c-287f-qqv5",
+    "id": "CVE-2026-41842",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-jhq6-gfmj-v8fx",
+    "id": "CVE-2026-10532",
+    "coordinate": "ch.qos.logback:logback-core:1.5.18",
+    "range": "< 1.5.34",
+    "affected": true,
+    "firstPatchedVersion": "1.5.34"
+  },
+  {
+    "ghsa": "GHSA-p47f-322f-whfh",
+    "id": "CVE-2026-9828",
+    "coordinate": "ch.qos.logback:logback-core:1.5.18",
+    "range": "<= 1.5.32",
+    "affected": true,
+    "firstPatchedVersion": "1.5.33"
+  },
+  {
+    "ghsa": "GHSA-gx5v-xp9w-j4cg",
+    "id": "CVE-2026-41284",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": "< 9.0.118",
+    "affected": false,
+    "firstPatchedVersion": "9.0.118"
+  },
+  {
+    "ghsa": "GHSA-gx5v-xp9w-j4cg",
+    "id": "CVE-2026-41284",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.55",
+    "affected": true,
+    "firstPatchedVersion": "10.1.55"
+  },
+  {
+    "ghsa": "GHSA-gx5v-xp9w-j4cg",
+    "id": "CVE-2026-41284",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.22",
+    "affected": false,
+    "firstPatchedVersion": "11.0.22"
+  },
+  {
+    "ghsa": "GHSA-h6fc-48rj-7qqh",
+    "id": "CVE-2026-43512",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": "< 9.0.118",
+    "affected": false,
+    "firstPatchedVersion": "9.0.118"
+  },
+  {
+    "ghsa": "GHSA-h6fc-48rj-7qqh",
+    "id": "CVE-2026-43512",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.55",
+    "affected": true,
+    "firstPatchedVersion": "10.1.55"
+  },
+  {
+    "ghsa": "GHSA-h6fc-48rj-7qqh",
+    "id": "CVE-2026-43512",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.22",
+    "affected": false,
+    "firstPatchedVersion": "11.0.22"
+  },
+  {
+    "ghsa": "GHSA-5mp6-jrq3-r938",
+    "id": "CVE-2026-43513",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": "< 9.0.118",
+    "affected": false,
+    "firstPatchedVersion": "9.0.118"
+  },
+  {
+    "ghsa": "GHSA-5mp6-jrq3-r938",
+    "id": "CVE-2026-43513",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.55",
+    "affected": true,
+    "firstPatchedVersion": "10.1.55"
+  },
+  {
+    "ghsa": "GHSA-5mp6-jrq3-r938",
+    "id": "CVE-2026-43513",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.22",
+    "affected": false,
+    "firstPatchedVersion": "11.0.22"
+  },
+  {
+    "ghsa": "GHSA-5m62-pw8w-7w9f",
+    "id": "CVE-2026-43515",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": "< 9.0.118",
+    "affected": false,
+    "firstPatchedVersion": "9.0.118"
+  },
+  {
+    "ghsa": "GHSA-5m62-pw8w-7w9f",
+    "id": "CVE-2026-43515",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.55",
+    "affected": true,
+    "firstPatchedVersion": "10.1.55"
+  },
+  {
+    "ghsa": "GHSA-5m62-pw8w-7w9f",
+    "id": "CVE-2026-43515",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.22",
+    "affected": false,
+    "firstPatchedVersion": "11.0.22"
+  },
+  {
+    "ghsa": "GHSA-9m89-8frq-c98c",
+    "id": "CVE-2026-43514",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": "< 9.0.118",
+    "affected": false,
+    "firstPatchedVersion": "9.0.118"
+  },
+  {
+    "ghsa": "GHSA-9m89-8frq-c98c",
+    "id": "CVE-2026-43514",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.55",
+    "affected": true,
+    "firstPatchedVersion": "10.1.55"
+  },
+  {
+    "ghsa": "GHSA-9m89-8frq-c98c",
+    "id": "CVE-2026-43514",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.22",
+    "affected": false,
+    "firstPatchedVersion": "11.0.22"
+  },
+  {
+    "ghsa": "GHSA-r29c-68gh-xp6x",
+    "id": "CVE-2026-41293",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.55",
+    "affected": true,
+    "firstPatchedVersion": "10.1.55"
+  },
+  {
+    "ghsa": "GHSA-r29c-68gh-xp6x",
+    "id": "CVE-2026-41293",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.22",
+    "affected": false,
+    "firstPatchedVersion": "11.0.22"
+  },
+  {
+    "ghsa": "GHSA-r29c-68gh-xp6x",
+    "id": "CVE-2026-41293",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, < 9.0.118",
+    "affected": false,
+    "firstPatchedVersion": "9.0.118"
+  },
+  {
+    "ghsa": "GHSA-fv25-8xcx-gqjc",
+    "id": "CVE-2026-42498",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": "< 9.0.118",
+    "affected": false,
+    "firstPatchedVersion": "9.0.118"
+  },
+  {
+    "ghsa": "GHSA-fv25-8xcx-gqjc",
+    "id": "CVE-2026-42498",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.55",
+    "affected": true,
+    "firstPatchedVersion": "10.1.55"
+  },
+  {
+    "ghsa": "GHSA-fv25-8xcx-gqjc",
+    "id": "CVE-2026-42498",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.22",
+    "affected": false,
+    "firstPatchedVersion": "11.0.22"
+  },
+  {
+    "ghsa": "GHSA-c9ph-gxww-7744",
+    "id": "CVE-2026-41901",
+    "coordinate": "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+    "range": "<= 3.1.4.RELEASE",
+    "affected": true,
+    "firstPatchedVersion": "3.1.5.RELEASE"
+  },
+  {
+    "ghsa": "GHSA-c9ph-gxww-7744",
+    "id": "CVE-2026-41901",
+    "coordinate": "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+    "range": "<= 3.1.4.RELEASE",
+    "affected": true,
+    "firstPatchedVersion": "3.1.5.RELEASE"
+  },
+  {
+    "ghsa": "GHSA-wg35-8jpf-2xv3",
+    "id": "CVE-2026-22741",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.6",
+    "affected": false,
+    "firstPatchedVersion": "7.0.7"
+  },
+  {
+    "ghsa": "GHSA-wg35-8jpf-2xv3",
+    "id": "CVE-2026-22741",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.17",
+    "affected": true,
+    "firstPatchedVersion": "6.2.18"
+  },
+  {
+    "ghsa": "GHSA-wg35-8jpf-2xv3",
+    "id": "CVE-2026-22741",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.26",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-wg35-8jpf-2xv3",
+    "id": "CVE-2026-22741",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.47",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-6p4f-wcwh-5vvm",
+    "id": "CVE-2026-22745",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.6",
+    "affected": false,
+    "firstPatchedVersion": "7.0.7"
+  },
+  {
+    "ghsa": "GHSA-6p4f-wcwh-5vvm",
+    "id": "CVE-2026-22745",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.17",
+    "affected": true,
+    "firstPatchedVersion": "6.2.18"
+  },
+  {
+    "ghsa": "GHSA-6p4f-wcwh-5vvm",
+    "id": "CVE-2026-22745",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.26",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-6p4f-wcwh-5vvm",
+    "id": "CVE-2026-22745",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": "<= 5.3.47",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-xjw8-8c5c-9r79",
+    "id": "CVE-2026-40478",
+    "coordinate": "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+    "range": "<= 3.1.3.RELEASE",
+    "affected": true,
+    "firstPatchedVersion": "3.1.4.RELEASE"
+  },
+  {
+    "ghsa": "GHSA-xjw8-8c5c-9r79",
+    "id": "CVE-2026-40478",
+    "coordinate": "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+    "range": "<= 3.1.3.RELEASE",
+    "affected": true,
+    "firstPatchedVersion": "3.1.4.RELEASE"
+  },
+  {
+    "ghsa": "GHSA-r4v4-5mwr-2fwr",
+    "id": "CVE-2026-40477",
+    "coordinate": "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+    "range": "<= 3.1.3.RELEASE",
+    "affected": true,
+    "firstPatchedVersion": "3.1.4.RELEASE"
+  },
+  {
+    "ghsa": "GHSA-r4v4-5mwr-2fwr",
+    "id": "CVE-2026-40477",
+    "coordinate": "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+    "range": "<= 3.1.3.RELEASE",
+    "affected": true,
+    "firstPatchedVersion": "3.1.4.RELEASE"
+  },
+  {
+    "ghsa": "GHSA-rv64-5gf8-9qq8",
+    "id": "CVE-2026-34483",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.40, < 9.0.116",
+    "affected": false,
+    "firstPatchedVersion": "9.0.116"
+  },
+  {
+    "ghsa": "GHSA-rv64-5gf8-9qq8",
+    "id": "CVE-2026-34483",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.54",
+    "affected": true,
+    "firstPatchedVersion": "10.1.54"
+  },
+  {
+    "ghsa": "GHSA-rv64-5gf8-9qq8",
+    "id": "CVE-2026-34483",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.21",
+    "affected": false,
+    "firstPatchedVersion": "11.0.21"
+  },
+  {
+    "ghsa": "GHSA-x4m4-345f-5h5g",
+    "id": "CVE-2026-34487",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.13, < 9.0.117",
+    "affected": false,
+    "firstPatchedVersion": "9.0.117"
+  },
+  {
+    "ghsa": "GHSA-x4m4-345f-5h5g",
+    "id": "CVE-2026-34487",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.54",
+    "affected": true,
+    "firstPatchedVersion": "10.1.54"
+  },
+  {
+    "ghsa": "GHSA-x4m4-345f-5h5g",
+    "id": "CVE-2026-34487",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.21",
+    "affected": false,
+    "firstPatchedVersion": "11.0.21"
+  },
+  {
+    "ghsa": "GHSA-9m3c-qcxr-9x87",
+    "id": "CVE-2026-25854",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.53",
+    "affected": true,
+    "firstPatchedVersion": "10.1.53"
+  },
+  {
+    "ghsa": "GHSA-9m3c-qcxr-9x87",
+    "id": "CVE-2026-25854",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.20",
+    "affected": false,
+    "firstPatchedVersion": "11.0.20"
+  },
+  {
+    "ghsa": "GHSA-9m3c-qcxr-9x87",
+    "id": "CVE-2026-25854",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.30, < 9.0.116",
+    "affected": false,
+    "firstPatchedVersion": "9.0.116"
+  },
+  {
+    "ghsa": "GHSA-563x-q5rq-57qp",
+    "id": "CVE-2026-24880",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 7.0.0, < 9.0.116",
+    "affected": false,
+    "firstPatchedVersion": "9.0.116"
+  },
+  {
+    "ghsa": "GHSA-563x-q5rq-57qp",
+    "id": "CVE-2026-24880",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.52",
+    "affected": true,
+    "firstPatchedVersion": "10.1.52"
+  },
+  {
+    "ghsa": "GHSA-563x-q5rq-57qp",
+    "id": "CVE-2026-24880",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, <= 11.0.18",
+    "affected": false,
+    "firstPatchedVersion": "11.0.20"
+  },
+  {
+    "ghsa": "GHSA-6hcq-hmm3-jj3c",
+    "id": "CVE-2026-22735",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0-M1, < 7.0.6",
+    "affected": false,
+    "firstPatchedVersion": "7.0.6"
+  },
+  {
+    "ghsa": "GHSA-6hcq-hmm3-jj3c",
+    "id": "CVE-2026-22735",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, < 6.2.17",
+    "affected": true,
+    "firstPatchedVersion": "6.2.17"
+  },
+  {
+    "ghsa": "GHSA-6hcq-hmm3-jj3c",
+    "id": "CVE-2026-22735",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.0.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-6hcq-hmm3-jj3c",
+    "id": "CVE-2026-22735",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 5.3.0, <= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-4773-3jfm-qmx3",
+    "id": "CVE-2026-22737",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 7.0.0-M1, < 7.0.6",
+    "affected": false,
+    "firstPatchedVersion": "7.0.6"
+  },
+  {
+    "ghsa": "GHSA-4773-3jfm-qmx3",
+    "id": "CVE-2026-22737",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, < 6.2.17",
+    "affected": true,
+    "firstPatchedVersion": "6.2.17"
+  },
+  {
+    "ghsa": "GHSA-4773-3jfm-qmx3",
+    "id": "CVE-2026-22737",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.0.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-4773-3jfm-qmx3",
+    "id": "CVE-2026-22737",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 5.3.0, <= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mgp5-rv84-w37q",
+    "id": "CVE-2026-24734",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.18",
+    "affected": false,
+    "firstPatchedVersion": "11.0.18"
+  },
+  {
+    "ghsa": "GHSA-mgp5-rv84-w37q",
+    "id": "CVE-2026-24734",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M7, < 10.1.52",
+    "affected": true,
+    "firstPatchedVersion": "10.1.52"
+  },
+  {
+    "ghsa": "GHSA-mgp5-rv84-w37q",
+    "id": "CVE-2026-24734",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.83, < 9.0.115",
+    "affected": false,
+    "firstPatchedVersion": "9.0.115"
+  },
+  {
+    "ghsa": "GHSA-fpj8-gq4v-p354",
+    "id": "CVE-2025-66614",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.15",
+    "affected": false,
+    "firstPatchedVersion": "11.0.15"
+  },
+  {
+    "ghsa": "GHSA-fpj8-gq4v-p354",
+    "id": "CVE-2025-66614",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.50",
+    "affected": true,
+    "firstPatchedVersion": "10.1.50"
+  },
+  {
+    "ghsa": "GHSA-fpj8-gq4v-p354",
+    "id": "CVE-2025-66614",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0-M1, < 9.0.113",
+    "affected": false,
+    "firstPatchedVersion": "9.0.113"
+  },
+  {
+    "ghsa": "GHSA-fpj8-gq4v-p354",
+    "id": "CVE-2025-66614",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-qqpg-mvqg-649v",
+    "id": "CVE-2026-1225",
+    "coordinate": "ch.qos.logback:logback-core:1.5.18",
+    "range": "< 1.5.25",
+    "affected": true,
+    "firstPatchedVersion": "1.5.25"
+  },
+  {
+    "ghsa": "GHSA-vfww-5hm6-hx2j",
+    "id": "CVE-2025-55754",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.11",
+    "affected": false,
+    "firstPatchedVersion": "11.0.11"
+  },
+  {
+    "ghsa": "GHSA-vfww-5hm6-hx2j",
+    "id": "CVE-2025-55754",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.45",
+    "affected": true,
+    "firstPatchedVersion": "10.1.45"
+  },
+  {
+    "ghsa": "GHSA-vfww-5hm6-hx2j",
+    "id": "CVE-2025-55754",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.60, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-vfww-5hm6-hx2j",
+    "id": "CVE-2025-55754",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.40, < 9.0.109",
+    "affected": false,
+    "firstPatchedVersion": "9.0.109"
+  },
+  {
+    "ghsa": "GHSA-hgrr-935x-pq79",
+    "id": "CVE-2025-61795",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.12",
+    "affected": false,
+    "firstPatchedVersion": "11.0.12"
+  },
+  {
+    "ghsa": "GHSA-hgrr-935x-pq79",
+    "id": "CVE-2025-61795",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.47",
+    "affected": true,
+    "firstPatchedVersion": "10.1.47"
+  },
+  {
+    "ghsa": "GHSA-hgrr-935x-pq79",
+    "id": "CVE-2025-61795",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, < 9.0.110",
+    "affected": false,
+    "firstPatchedVersion": "9.0.110"
+  },
+  {
+    "ghsa": "GHSA-hgrr-935x-pq79",
+    "id": "CVE-2025-61795",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-wmwf-9ccg-fff5",
+    "id": "CVE-2025-55752",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.11",
+    "affected": false,
+    "firstPatchedVersion": "11.0.11"
+  },
+  {
+    "ghsa": "GHSA-wmwf-9ccg-fff5",
+    "id": "CVE-2025-55752",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.45",
+    "affected": true,
+    "firstPatchedVersion": "10.1.45"
+  },
+  {
+    "ghsa": "GHSA-wmwf-9ccg-fff5",
+    "id": "CVE-2025-55752",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0-M11, < 9.0.109",
+    "affected": false,
+    "firstPatchedVersion": "9.0.109"
+  },
+  {
+    "ghsa": "GHSA-wmwf-9ccg-fff5",
+    "id": "CVE-2025-55752",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.6, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-25qh-j22f-pwp8",
+    "id": "CVE-2025-11226",
+    "coordinate": "ch.qos.logback:logback-core:1.5.18",
+    "range": ">= 1.4.0, < 1.5.19",
+    "affected": true,
+    "firstPatchedVersion": "1.5.19"
+  },
+  {
+    "ghsa": "GHSA-25qh-j22f-pwp8",
+    "id": "CVE-2025-11226",
+    "coordinate": "ch.qos.logback:logback-core:1.5.18",
+    "range": "< 1.3.16",
+    "affected": false,
+    "firstPatchedVersion": "1.3.16"
+  },
+  {
+    "ghsa": "GHSA-r936-gwx5-v52f",
+    "id": "CVE-2025-41242",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.2.0, < 6.2.10",
+    "affected": true,
+    "firstPatchedVersion": "6.2.10"
+  },
+  {
+    "ghsa": "GHSA-r936-gwx5-v52f",
+    "id": "CVE-2025-41242",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-r936-gwx5-v52f",
+    "id": "CVE-2025-41242",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 6.0.0, <= 6.0.29",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-r936-gwx5-v52f",
+    "id": "CVE-2025-41242",
+    "coordinate": "org.springframework:spring-webmvc:6.2.7",
+    "range": ">= 5.3.0, <= 5.3.43",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-gqp3-2cvr-x8m3",
+    "id": "CVE-2025-48989",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.10",
+    "affected": false,
+    "firstPatchedVersion": "11.0.10"
+  },
+  {
+    "ghsa": "GHSA-gqp3-2cvr-x8m3",
+    "id": "CVE-2025-48989",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.44",
+    "affected": true,
+    "firstPatchedVersion": "10.1.44"
+  },
+  {
+    "ghsa": "GHSA-gqp3-2cvr-x8m3",
+    "id": "CVE-2025-48989",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, < 9.0.108",
+    "affected": false,
+    "firstPatchedVersion": "9.0.108"
+  },
+  {
+    "ghsa": "GHSA-23hv-mwm6-g8jf",
+    "id": "CVE-2025-55668",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.8",
+    "affected": false,
+    "firstPatchedVersion": "11.0.8"
+  },
+  {
+    "ghsa": "GHSA-23hv-mwm6-g8jf",
+    "id": "CVE-2025-55668",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.42",
+    "affected": true,
+    "firstPatchedVersion": "10.1.42"
+  },
+  {
+    "ghsa": "GHSA-23hv-mwm6-g8jf",
+    "id": "CVE-2025-55668",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, < 9.0.106",
+    "affected": false,
+    "firstPatchedVersion": "9.0.106"
+  },
+  {
+    "ghsa": "GHSA-25xr-qj8w-c4vf",
+    "id": "CVE-2025-53506",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-25xr-qj8w-c4vf",
+    "id": "CVE-2025-53506",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, < 9.0.107",
+    "affected": false,
+    "firstPatchedVersion": "9.0.107"
+  },
+  {
+    "ghsa": "GHSA-25xr-qj8w-c4vf",
+    "id": "CVE-2025-53506",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.43",
+    "affected": true,
+    "firstPatchedVersion": "10.1.43"
+  },
+  {
+    "ghsa": "GHSA-25xr-qj8w-c4vf",
+    "id": "CVE-2025-53506",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.9",
+    "affected": false,
+    "firstPatchedVersion": "11.0.9"
+  },
+  {
+    "ghsa": "GHSA-wr62-c79q-cv37",
+    "id": "CVE-2025-52520",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.9",
+    "affected": false,
+    "firstPatchedVersion": "11.0.9"
+  },
+  {
+    "ghsa": "GHSA-wr62-c79q-cv37",
+    "id": "CVE-2025-52520",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, < 10.1.43",
+    "affected": true,
+    "firstPatchedVersion": "10.1.43"
+  },
+  {
+    "ghsa": "GHSA-wr62-c79q-cv37",
+    "id": "CVE-2025-52520",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, < 9.0.107",
+    "affected": false,
+    "firstPatchedVersion": "9.0.107"
+  },
+  {
+    "ghsa": "GHSA-wr62-c79q-cv37",
+    "id": "CVE-2025-52520",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-42wg-hm62-jcwg",
+    "id": "CVE-2025-49124",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, < 11.0.8",
+    "affected": false,
+    "firstPatchedVersion": "11.0.8"
+  },
+  {
+    "ghsa": "GHSA-42wg-hm62-jcwg",
+    "id": "CVE-2025-49124",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0, < 10.1.42",
+    "affected": true,
+    "firstPatchedVersion": "10.1.42"
+  },
+  {
+    "ghsa": "GHSA-42wg-hm62-jcwg",
+    "id": "CVE-2025-49124",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.23, < 9.0.106",
+    "affected": false,
+    "firstPatchedVersion": "9.0.106"
+  },
+  {
+    "ghsa": "GHSA-wc4r-xq3c-5cf3",
+    "id": "CVE-2025-49125",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, <= 11.0.7",
+    "affected": false,
+    "firstPatchedVersion": "11.0.8"
+  },
+  {
+    "ghsa": "GHSA-wc4r-xq3c-5cf3",
+    "id": "CVE-2025-49125",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, <= 10.1.41",
+    "affected": true,
+    "firstPatchedVersion": "10.1.42"
+  },
+  {
+    "ghsa": "GHSA-wc4r-xq3c-5cf3",
+    "id": "CVE-2025-49125",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, <= 9.0.105",
+    "affected": false,
+    "firstPatchedVersion": "9.0.106"
+  },
+  {
+    "ghsa": "GHSA-wc4r-xq3c-5cf3",
+    "id": "CVE-2025-49125",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-h3gc-qfqq-6h8f",
+    "id": "CVE-2025-48988",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 11.0.0-M1, <= 11.0.7",
+    "affected": false,
+    "firstPatchedVersion": "11.0.8"
+  },
+  {
+    "ghsa": "GHSA-h3gc-qfqq-6h8f",
+    "id": "CVE-2025-48988",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 10.1.0-M1, <= 10.1.41",
+    "affected": true,
+    "firstPatchedVersion": "10.1.42"
+  },
+  {
+    "ghsa": "GHSA-h3gc-qfqq-6h8f",
+    "id": "CVE-2025-48988",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 9.0.0.M1, <= 9.0.105",
+    "affected": false,
+    "firstPatchedVersion": "9.0.106"
+  },
+  {
+    "ghsa": "GHSA-h3gc-qfqq-6h8f",
+    "id": "CVE-2025-48988",
+    "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+    "range": ">= 8.5.0, <= 8.5.100",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-6r3c-xf4w-jxjm",
+    "id": "CVE-2025-41234",
+    "coordinate": "org.springframework:spring-web:6.2.7",
+    "range": ">= 6.2.0, < 6.2.8",
+    "affected": true,
+    "firstPatchedVersion": "6.2.8"
+  },
+  {
+    "ghsa": "GHSA-6r3c-xf4w-jxjm",
+    "id": "CVE-2025-41234",
+    "coordinate": "org.springframework:spring-web:6.2.7",
+    "range": ">= 6.1.0, < 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": "6.1.21"
+  },
+  {
+    "ghsa": "GHSA-6r3c-xf4w-jxjm",
+    "id": "CVE-2025-41234",
+    "coordinate": "org.springframework:spring-web:6.2.7",
+    "range": ">= 6.0.5, <= 6.0.23",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-88fw-v6x4-3f58",
+    "id": "CVE-2026-41695",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 4.0.0, <= 4.0.5",
+    "affected": false,
+    "firstPatchedVersion": "4.0.6"
+  },
+  {
+    "ghsa": "GHSA-88fw-v6x4-3f58",
+    "id": "CVE-2026-41695",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.5.0, <= 3.5.11",
+    "affected": true,
+    "firstPatchedVersion": "3.5.12"
+  },
+  {
+    "ghsa": "GHSA-88fw-v6x4-3f58",
+    "id": "CVE-2026-41695",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.4.0, <= 3.4.13",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-5m4m-73w9-8433",
+    "id": "CVE-2026-41721",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 4.0.0, <= 4.0.5",
+    "affected": false,
+    "firstPatchedVersion": "4.0.6"
+  },
+  {
+    "ghsa": "GHSA-5m4m-73w9-8433",
+    "id": "CVE-2026-41721",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.5.0, <= 3.5.11",
+    "affected": true,
+    "firstPatchedVersion": "3.5.12"
+  },
+  {
+    "ghsa": "GHSA-5m4m-73w9-8433",
+    "id": "CVE-2026-41721",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.4.0, <= 3.4.14",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-5m4m-73w9-8433",
+    "id": "CVE-2026-41721",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.0.0, <= 3.3.16",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-5m4m-73w9-8433",
+    "id": "CVE-2026-41721",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": "<= 2.7.19",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-5vpf-xvv7-c8vh",
+    "id": "CVE-2026-41711",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 4.0.0, <= 4.0.5",
+    "affected": false,
+    "firstPatchedVersion": "4.0.6"
+  },
+  {
+    "ghsa": "GHSA-5vpf-xvv7-c8vh",
+    "id": "CVE-2026-41711",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.5.0, <= 3.5.11",
+    "affected": true,
+    "firstPatchedVersion": "3.5.12"
+  },
+  {
+    "ghsa": "GHSA-5vpf-xvv7-c8vh",
+    "id": "CVE-2026-41711",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.4.0, <= 3.4.14",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-5vpf-xvv7-c8vh",
+    "id": "CVE-2026-41711",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.0.0, <= 3.3.16",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-5vpf-xvv7-c8vh",
+    "id": "CVE-2026-41711",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": "<= 2.7.19",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-9fw2-h3hf-293r",
+    "id": "CVE-2026-41716",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 4.0.0, <= 4.0.5",
+    "affected": false,
+    "firstPatchedVersion": "4.0.6"
+  },
+  {
+    "ghsa": "GHSA-9fw2-h3hf-293r",
+    "id": "CVE-2026-41716",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.5.0, <= 3.5.11",
+    "affected": true,
+    "firstPatchedVersion": "3.5.12"
+  },
+  {
+    "ghsa": "GHSA-9fw2-h3hf-293r",
+    "id": "CVE-2026-41716",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.4.0, <= 3.4.14",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-9fw2-h3hf-293r",
+    "id": "CVE-2026-41716",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": ">= 3.3.0, <= 3.3.16",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-9fw2-h3hf-293r",
+    "id": "CVE-2026-41716",
+    "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+    "range": "<= 2.7.19",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-vxf7-qj7q-83fh",
+    "id": "CVE-2026-22746",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 5.7.0, <= 5.7.22",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-vxf7-qj7q-83fh",
+    "id": "CVE-2026-22746",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 5.8.0, <= 5.8.24",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-vxf7-qj7q-83fh",
+    "id": "CVE-2026-22746",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 6.3.0, <= 6.3.15",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-vxf7-qj7q-83fh",
+    "id": "CVE-2026-22746",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 6.4.0, <= 6.4.15",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-vxf7-qj7q-83fh",
+    "id": "CVE-2026-22746",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 6.5.0, <= 6.5.9",
+    "affected": true,
+    "firstPatchedVersion": "6.5.10"
+  },
+  {
+    "ghsa": "GHSA-vxf7-qj7q-83fh",
+    "id": "CVE-2026-22746",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 7.0.0, <= 7.0.4",
+    "affected": false,
+    "firstPatchedVersion": "7.0.5"
+  },
+  {
+    "ghsa": "GHSA-x2wq-9x2f-fhj7",
+    "id": "CVE-2026-22751",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 6.5.0, < 6.5.10",
+    "affected": true,
+    "firstPatchedVersion": "6.5.10"
+  },
+  {
+    "ghsa": "GHSA-x2wq-9x2f-fhj7",
+    "id": "CVE-2026-22751",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 7.0.3, < 7.0.5",
+    "affected": false,
+    "firstPatchedVersion": "7.0.5"
+  },
+  {
+    "ghsa": "GHSA-x2wq-9x2f-fhj7",
+    "id": "CVE-2026-22751",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 6.4.0, <= 6.4.13",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-8v5q-rhf3-jphm",
+    "id": "CVE-2025-41248",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 6.4.0, < 6.4.10",
+    "affected": false,
+    "firstPatchedVersion": "6.4.10"
+  },
+  {
+    "ghsa": "GHSA-8v5q-rhf3-jphm",
+    "id": "CVE-2025-41248",
+    "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+    "range": ">= 6.5.0, < 6.5.4",
+    "affected": true,
+    "firstPatchedVersion": "6.5.4"
+  },
+  {
+    "ghsa": "GHSA-7hhh-6rmp-j9qf",
+    "id": "CVE-2026-89425",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.19.0, <= 2.21.6",
+    "affected": true,
+    "firstPatchedVersion": "2.21.7"
+  },
+  {
+    "ghsa": "GHSA-7hhh-6rmp-j9qf",
+    "id": "CVE-2026-89425",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.22.0, <= 2.22.2",
+    "affected": false,
+    "firstPatchedVersion": "2.22.3"
+  },
+  {
+    "ghsa": "GHSA-7hhh-6rmp-j9qf",
+    "id": "CVE-2026-89425",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.8.0, <= 2.18.10",
+    "affected": false,
+    "firstPatchedVersion": "2.18.11"
+  },
+  {
+    "ghsa": "GHSA-p6pp-m3f8-5c89",
+    "id": "CVE-2026-89407",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.17.0, <= 2.18.10",
+    "affected": false,
+    "firstPatchedVersion": "2.18.11"
+  },
+  {
+    "ghsa": "GHSA-p6pp-m3f8-5c89",
+    "id": "CVE-2026-89407",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.19.0, <= 2.21.6",
+    "affected": true,
+    "firstPatchedVersion": "2.21.7"
+  },
+  {
+    "ghsa": "GHSA-p6pp-m3f8-5c89",
+    "id": "CVE-2026-89407",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.22.0, <= 2.22.2",
+    "affected": false,
+    "firstPatchedVersion": "2.22.3"
+  },
+  {
+    "ghsa": "GHSA-cxp5-3px4-pw24",
+    "id": "CVE-2026-91777",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, <= 2.21.6",
+    "affected": true,
+    "firstPatchedVersion": "2.21.7"
+  },
+  {
+    "ghsa": "GHSA-cxp5-3px4-pw24",
+    "id": "CVE-2026-91777",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.5.0, <= 2.18.10",
+    "affected": false,
+    "firstPatchedVersion": "2.18.11"
+  },
+  {
+    "ghsa": "GHSA-cxp5-3px4-pw24",
+    "id": "CVE-2026-91777",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, <= 2.22.2",
+    "affected": false,
+    "firstPatchedVersion": "2.22.3"
+  },
+  {
+    "ghsa": "GHSA-wv8q-qhhj-9h54",
+    "id": "CVE-2026-91776",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.0.0, <= 2.18.10",
+    "affected": false,
+    "firstPatchedVersion": "2.18.11"
+  },
+  {
+    "ghsa": "GHSA-wv8q-qhhj-9h54",
+    "id": "CVE-2026-91776",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, <= 2.21.6",
+    "affected": true,
+    "firstPatchedVersion": "2.21.7"
+  },
+  {
+    "ghsa": "GHSA-wv8q-qhhj-9h54",
+    "id": "CVE-2026-91776",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, <= 2.22.2",
+    "affected": false,
+    "firstPatchedVersion": "2.22.3"
+  },
+  {
+    "ghsa": "GHSA-gx83-3vf8-gh7j",
+    "id": "CVE-2026-83557",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.11.0, < 2.18.10",
+    "affected": false,
+    "firstPatchedVersion": "2.18.10"
+  },
+  {
+    "ghsa": "GHSA-gx83-3vf8-gh7j",
+    "id": "CVE-2026-83557",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.6",
+    "affected": true,
+    "firstPatchedVersion": "2.21.6"
+  },
+  {
+    "ghsa": "GHSA-gx83-3vf8-gh7j",
+    "id": "CVE-2026-83557",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, < 2.22.2",
+    "affected": false,
+    "firstPatchedVersion": "2.22.2"
+  },
+  {
+    "ghsa": "GHSA-q4xh-88c3-wmh7",
+    "id": "CVE-2026-68497",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.14.0, < 2.18.10",
+    "affected": false,
+    "firstPatchedVersion": "2.18.10"
+  },
+  {
+    "ghsa": "GHSA-q4xh-88c3-wmh7",
+    "id": "CVE-2026-68497",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.6",
+    "affected": true,
+    "firstPatchedVersion": "2.21.6"
+  },
+  {
+    "ghsa": "GHSA-q4xh-88c3-wmh7",
+    "id": "CVE-2026-68497",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, < 2.22.2",
+    "affected": false,
+    "firstPatchedVersion": "2.22.2"
+  },
+  {
+    "ghsa": "GHSA-wjgm-6hv5-3cvf",
+    "id": "CVE-2026-19032",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.8.0, < 2.18.10",
+    "affected": false,
+    "firstPatchedVersion": "2.18.10"
+  },
+  {
+    "ghsa": "GHSA-wjgm-6hv5-3cvf",
+    "id": "CVE-2026-19032",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.6",
+    "affected": true,
+    "firstPatchedVersion": "2.21.6"
+  },
+  {
+    "ghsa": "GHSA-wjgm-6hv5-3cvf",
+    "id": "CVE-2026-19032",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, < 2.22.2",
+    "affected": false,
+    "firstPatchedVersion": "2.22.2"
+  },
+  {
+    "ghsa": "GHSA-vvgp-rfg2-7rr6",
+    "id": "CVE-2026-77310",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.0.0, < 2.18.9",
+    "affected": false,
+    "firstPatchedVersion": "2.18.9"
+  },
+  {
+    "ghsa": "GHSA-vvgp-rfg2-7rr6",
+    "id": "CVE-2026-77310",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.5",
+    "affected": true,
+    "firstPatchedVersion": "2.21.5"
+  },
+  {
+    "ghsa": "GHSA-vvgp-rfg2-7rr6",
+    "id": "CVE-2026-77310",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, < 2.22.1",
+    "affected": false,
+    "firstPatchedVersion": "2.22.1"
+  },
+  {
+    "ghsa": "GHSA-5gvw-p9qm-jgwh",
+    "id": "CVE-2026-59889",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, < 2.22.1",
+    "affected": false,
+    "firstPatchedVersion": "2.22.1"
+  },
+  {
+    "ghsa": "GHSA-5gvw-p9qm-jgwh",
+    "id": "CVE-2026-59889",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.5",
+    "affected": true,
+    "firstPatchedVersion": "2.21.5"
+  },
+  {
+    "ghsa": "GHSA-5gvw-p9qm-jgwh",
+    "id": "CVE-2026-59889",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.0.0-RC1, < 2.18.9",
+    "affected": false,
+    "firstPatchedVersion": "2.18.9"
+  },
+  {
+    "ghsa": "GHSA-r7wm-3cxj-wff9",
+    "id": "CVE-2026-68494",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": "< 2.18.8",
+    "affected": false,
+    "firstPatchedVersion": "2.18.8"
+  },
+  {
+    "ghsa": "GHSA-r7wm-3cxj-wff9",
+    "id": "CVE-2026-68494",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.19.0, < 2.21.4",
+    "affected": true,
+    "firstPatchedVersion": "2.21.4"
+  },
+  {
+    "ghsa": "GHSA-3pjw-73gf-8qr5",
+    "id": "CVE-2026-59888",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.15.0, < 2.18.8",
+    "affected": false,
+    "firstPatchedVersion": "2.18.8"
+  },
+  {
+    "ghsa": "GHSA-3pjw-73gf-8qr5",
+    "id": "CVE-2026-59888",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.4",
+    "affected": true,
+    "firstPatchedVersion": "2.21.4"
+  },
+  {
+    "ghsa": "GHSA-5jmj-h7xm-6q6v",
+    "id": "CVE-2026-54515",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 3.1.0, < 3.1.4",
+    "affected": false,
+    "firstPatchedVersion": "3.1.4"
+  },
+  {
+    "ghsa": "GHSA-5jmj-h7xm-6q6v",
+    "id": "CVE-2026-54515",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.8.0, < 2.18.9",
+    "affected": false,
+    "firstPatchedVersion": "2.18.9"
+  },
+  {
+    "ghsa": "GHSA-5jmj-h7xm-6q6v",
+    "id": "CVE-2026-54515",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.5",
+    "affected": true,
+    "firstPatchedVersion": "2.21.5"
+  },
+  {
+    "ghsa": "GHSA-5jmj-h7xm-6q6v",
+    "id": "CVE-2026-54515",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.22.0, < 2.22.1",
+    "affected": false,
+    "firstPatchedVersion": "2.22.1"
+  },
+  {
+    "ghsa": "GHSA-hgj6-7826-r7m5",
+    "id": "CVE-2026-54514",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.0.0, < 2.18.8",
+    "affected": false,
+    "firstPatchedVersion": "2.18.8"
+  },
+  {
+    "ghsa": "GHSA-hgj6-7826-r7m5",
+    "id": "CVE-2026-54514",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.4",
+    "affected": true,
+    "firstPatchedVersion": "2.21.4"
+  },
+  {
+    "ghsa": "GHSA-hgj6-7826-r7m5",
+    "id": "CVE-2026-54514",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 3.0.0, < 3.1.4",
+    "affected": false,
+    "firstPatchedVersion": "3.1.4"
+  },
+  {
+    "ghsa": "GHSA-rmj7-2vxq-3g9f",
+    "id": "CVE-2026-54513",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.10.0, < 2.18.8",
+    "affected": false,
+    "firstPatchedVersion": "2.18.8"
+  },
+  {
+    "ghsa": "GHSA-rmj7-2vxq-3g9f",
+    "id": "CVE-2026-54513",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, < 2.21.4",
+    "affected": true,
+    "firstPatchedVersion": "2.21.4"
+  },
+  {
+    "ghsa": "GHSA-rmj7-2vxq-3g9f",
+    "id": "CVE-2026-54513",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 3.0.0, < 3.1.4",
+    "affected": false,
+    "firstPatchedVersion": "3.1.4"
+  },
+  {
+    "ghsa": "GHSA-j3rv-43j4-c7qm",
+    "id": "CVE-2026-54512",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.10.0, <= 2.18.7",
+    "affected": false,
+    "firstPatchedVersion": "2.18.8"
+  },
+  {
+    "ghsa": "GHSA-j3rv-43j4-c7qm",
+    "id": "CVE-2026-54512",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 3.0.0, <= 3.1.3",
+    "affected": false,
+    "firstPatchedVersion": "3.1.4"
+  },
+  {
+    "ghsa": "GHSA-j3rv-43j4-c7qm",
+    "id": "CVE-2026-54512",
+    "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+    "range": ">= 2.19.0, <= 2.21.3",
+    "affected": true,
+    "firstPatchedVersion": "2.21.4"
+  },
+  {
+    "ghsa": "GHSA-293q-567p-wmwq",
+    "id": "CVE-2026-47838",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.5.0, <= 6.5.10",
+    "affected": true,
+    "firstPatchedVersion": "6.5.11"
+  },
+  {
+    "ghsa": "GHSA-293q-567p-wmwq",
+    "id": "CVE-2026-47838",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.4.0, <= 6.4.13",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-293q-567p-wmwq",
+    "id": "CVE-2026-47838",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.0.0, <= 6.3.10",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-293q-567p-wmwq",
+    "id": "CVE-2026-47838",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 5.8.0, <= 5.8.16",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-293q-567p-wmwq",
+    "id": "CVE-2026-47838",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": "<= 5.7.14",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-x2r2-rvhq-2mqv",
+    "id": "CVE-2026-41706",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 7.0.0, <= 7.0.5",
+    "affected": false,
+    "firstPatchedVersion": "7.0.6"
+  },
+  {
+    "ghsa": "GHSA-x2r2-rvhq-2mqv",
+    "id": "CVE-2026-41706",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.5.0, <= 6.5.10",
+    "affected": true,
+    "firstPatchedVersion": "6.5.11"
+  },
+  {
+    "ghsa": "GHSA-x2r2-rvhq-2mqv",
+    "id": "CVE-2026-41706",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.3.0, <= 6.3.16",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-x2r2-rvhq-2mqv",
+    "id": "CVE-2026-41706",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 5.8.0, <= 5.8.25",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-x2r2-rvhq-2mqv",
+    "id": "CVE-2026-41706",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": "<= 5.7.23",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mf92-479x-3373",
+    "id": "CVE-2026-22732",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": "<= 5.7.14",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mf92-479x-3373",
+    "id": "CVE-2026-22732",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 5.8.0, <= 5.8.16",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mf92-479x-3373",
+    "id": "CVE-2026-22732",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.0.0, <= 6.3.10",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mf92-479x-3373",
+    "id": "CVE-2026-22732",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.4.0, <= 6.4.13",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-mf92-479x-3373",
+    "id": "CVE-2026-22732",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 6.5.0, < 6.5.9",
+    "affected": true,
+    "firstPatchedVersion": "6.5.9"
+  },
+  {
+    "ghsa": "GHSA-mf92-479x-3373",
+    "id": "CVE-2026-22732",
+    "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+    "range": ">= 7.0.0, < 7.0.4",
+    "affected": false,
+    "firstPatchedVersion": "7.0.4"
+  },
+  {
+    "ghsa": "GHSA-72hv-8253-57qq",
+    "id": "CVE-2026-18401",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.19.0, < 2.21.1",
+    "affected": true,
+    "firstPatchedVersion": "2.21.1"
+  },
+  {
+    "ghsa": "GHSA-72hv-8253-57qq",
+    "id": "CVE-2026-18401",
+    "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+    "range": ">= 2.15.0, <= 2.18.5",
+    "affected": false,
+    "firstPatchedVersion": "2.18.6"
+  },
+  {
+    "ghsa": "GHSA-rqfh-9r24-8c9r",
+    "id": "CVE-2026-24400",
+    "coordinate": "org.assertj:assertj-core:3.27.3",
+    "range": ">= 1.4.0, <= 3.27.6",
+    "affected": true,
+    "firstPatchedVersion": "3.27.7"
+  },
+  {
+    "ghsa": "GHSA-ggg2-9786-hwc8",
+    "id": "CVE-2026-41001",
+    "coordinate": "org.springframework.boot:spring-boot-autoconfigure:3.5.0",
+    "range": ">= 4.0.0, <= 4.0.6",
+    "affected": false,
+    "firstPatchedVersion": "4.0.7"
+  },
+  {
+    "ghsa": "GHSA-ggg2-9786-hwc8",
+    "id": "CVE-2026-41001",
+    "coordinate": "org.springframework.boot:spring-boot-autoconfigure:3.5.0",
+    "range": ">= 3.5.0, <= 3.5.14",
+    "affected": true,
+    "firstPatchedVersion": "3.5.15"
+  },
+  {
+    "ghsa": "GHSA-ggg2-9786-hwc8",
+    "id": "CVE-2026-41001",
+    "coordinate": "org.springframework.boot:spring-boot-autoconfigure:3.5.0",
+    "range": ">= 3.4.0, <= 3.4.16",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-ggg2-9786-hwc8",
+    "id": "CVE-2026-41001",
+    "coordinate": "org.springframework.boot:spring-boot-autoconfigure:3.5.0",
+    "range": ">= 3.3.0, <= 3.3.19",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-ggg2-9786-hwc8",
+    "id": "CVE-2026-41001",
+    "coordinate": "org.springframework.boot:spring-boot-autoconfigure:3.5.0",
+    "range": ">= 2.7.0, <= 2.7.33",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-659m-px2c-25wj",
+    "id": "CVE-2026-41848",
+    "coordinate": "org.springframework:spring-core:6.2.7",
+    "range": ">= 7.0.0, <= 7.0.7",
+    "affected": false,
+    "firstPatchedVersion": "7.0.8"
+  },
+  {
+    "ghsa": "GHSA-659m-px2c-25wj",
+    "id": "CVE-2026-41848",
+    "coordinate": "org.springframework:spring-core:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.18",
+    "affected": true,
+    "firstPatchedVersion": "6.2.19"
+  },
+  {
+    "ghsa": "GHSA-659m-px2c-25wj",
+    "id": "CVE-2026-41848",
+    "coordinate": "org.springframework:spring-core:6.2.7",
+    "range": ">= 6.1.0, <= 6.1.21",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-659m-px2c-25wj",
+    "id": "CVE-2026-41848",
+    "coordinate": "org.springframework:spring-core:6.2.7",
+    "range": "<= 5.3.39",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-wwpq-f5c3-7hvx",
+    "id": "CVE-2026-40973",
+    "coordinate": "org.springframework.boot:spring-boot:3.5.0",
+    "range": ">= 4.0.0, < 4.0.6",
+    "affected": false,
+    "firstPatchedVersion": "4.0.6"
+  },
+  {
+    "ghsa": "GHSA-wwpq-f5c3-7hvx",
+    "id": "CVE-2026-40973",
+    "coordinate": "org.springframework.boot:spring-boot:3.5.0",
+    "range": ">= 3.5.0, < 3.5.14",
+    "affected": true,
+    "firstPatchedVersion": "3.5.14"
+  },
+  {
+    "ghsa": "GHSA-wwpq-f5c3-7hvx",
+    "id": "CVE-2026-40973",
+    "coordinate": "org.springframework.boot:spring-boot:3.5.0",
+    "range": ">= 3.4.0, <= 3.4.15",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-wwpq-f5c3-7hvx",
+    "id": "CVE-2026-40973",
+    "coordinate": "org.springframework.boot:spring-boot:3.5.0",
+    "range": ">= 3.3.0, <= 3.3.18",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-wwpq-f5c3-7hvx",
+    "id": "CVE-2026-40973",
+    "coordinate": "org.springframework.boot:spring-boot:3.5.0",
+    "range": "<= 2.7.32",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-56v8-86gj-66jp",
+    "id": "CVE-2026-40972",
+    "coordinate": "org.springframework.boot:spring-boot-devtools:3.5.0",
+    "range": ">= 4.0.0, < 4.0.6",
+    "affected": false,
+    "firstPatchedVersion": "4.0.6"
+  },
+  {
+    "ghsa": "GHSA-56v8-86gj-66jp",
+    "id": "CVE-2026-40972",
+    "coordinate": "org.springframework.boot:spring-boot-devtools:3.5.0",
+    "range": ">= 3.5.0, < 3.5.14",
+    "affected": true,
+    "firstPatchedVersion": "3.5.14"
+  },
+  {
+    "ghsa": "GHSA-56v8-86gj-66jp",
+    "id": "CVE-2026-40972",
+    "coordinate": "org.springframework.boot:spring-boot-devtools:3.5.0",
+    "range": ">= 3.4.0, <= 3.4.15",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-56v8-86gj-66jp",
+    "id": "CVE-2026-40972",
+    "coordinate": "org.springframework.boot:spring-boot-devtools:3.5.0",
+    "range": ">= 3.3.0, <= 3.3.18",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-56v8-86gj-66jp",
+    "id": "CVE-2026-40972",
+    "coordinate": "org.springframework.boot:spring-boot-devtools:3.5.0",
+    "range": "<= 2.7.32",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-jmp9-x22r-554x",
+    "id": "CVE-2025-41249",
+    "coordinate": "org.springframework:spring-core:6.2.7",
+    "range": ">= 5.3.0, <= 5.3.44",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-jmp9-x22r-554x",
+    "id": "CVE-2025-41249",
+    "coordinate": "org.springframework:spring-core:6.2.7",
+    "range": ">= 6.0.0, <= 6.1.22",
+    "affected": false,
+    "firstPatchedVersion": null
+  },
+  {
+    "ghsa": "GHSA-jmp9-x22r-554x",
+    "id": "CVE-2025-41249",
+    "coordinate": "org.springframework:spring-core:6.2.7",
+    "range": ">= 6.2.0, <= 6.2.10",
+    "affected": true,
+    "firstPatchedVersion": "6.2.11"
+  }
+]

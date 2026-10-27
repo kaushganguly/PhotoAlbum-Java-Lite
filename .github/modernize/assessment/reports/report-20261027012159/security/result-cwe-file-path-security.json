@@ -1,0 +1,86 @@
+{
+  "input_name": "CWE - File & Path Security",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 5 CWE rules in File & Path Security: 0 FOUND, 5 NOT_FOUND",
+    "confidence": "high",
+    "evidence": [
+      "Whole-application static review: all 10 src/main/java files, application properties, and upload/request/storage flows; searched src/main for filesystem and XML parser sinks.",
+      "PhotoServiceImpl.uploadPhoto (81-184) stores bytes in Oracle; filenames and request IDs never become filesystem paths. PhotoFileController.servePhoto (37-83) serves database bytes, not paths. No application XML parser found."
+    ],
+    "limitations": [
+      "Static source review only; no running Oracle/browser exploitation or dependency-internal audit. NOT_FOUND means no confirmed instance, not proof of absence.",
+      "Upload MIME is client-controlled and unrecognized bytes can be stored (PhotoServiceImpl.java:87,124-152). However the configured MIME allowlist excludes active document types, responses preserve the allowed image MIME, Spring Security default nosniff remains enabled, and no executable file destination exists. Dangerous-type execution/processing was not confirmed, so CWE-434 is not asserted."
+    ],
+    "values": [
+      {
+        "id": "CWE-22",
+        "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 8,
+        "description": "The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory."
+      },
+      {
+        "id": "CWE-23",
+        "name": "Relative Path Traversal",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as .. that can resolve to a location that is outside of that directory."
+      },
+      {
+        "id": "CWE-36",
+        "name": "Absolute Path Traversal",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize absolute path sequences such as /abs/path that can resolve to a location that is outside of that directory."
+      },
+      {
+        "id": "CWE-434",
+        "name": "Unrestricted Upload of File with Dangerous Type",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "mandatory",
+        "storyPoint": 8,
+        "description": "The product allows the upload or transfer of dangerous file types that are automatically processed within its environment."
+      },
+      {
+        "id": "CWE-611",
+        "name": "Improper Restriction of XML External Entity Reference",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        },
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output."
+      }
+    ]
+  },
+  "execution_time_seconds": 150,
+  "timestamp": "2026-10-27T01:27:14.539207+00:00"
+}

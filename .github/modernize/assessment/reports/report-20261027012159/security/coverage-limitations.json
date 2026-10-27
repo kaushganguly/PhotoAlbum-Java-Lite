@@ -1,0 +1,224 @@
+{
+  "timestamp": "2026-10-27T01:26:47.594668+00:00",
+  "minimumSeverity": "medium",
+  "resolvedDependencyCount": 104,
+  "api": "https://api.github.com/advisories",
+  "ecosystem": "maven",
+  "batches": [
+    {
+      "batch": 1,
+      "coordinates": [
+        "org.springframework.boot:spring-boot-starter-web:3.5.0",
+        "org.springframework.boot:spring-boot-starter:3.5.0",
+        "org.springframework.boot:spring-boot-starter-logging:3.5.0",
+        "ch.qos.logback:logback-classic:1.5.18",
+        "ch.qos.logback:logback-core:1.5.18",
+        "org.apache.logging.log4j:log4j-to-slf4j:2.24.3",
+        "org.apache.logging.log4j:log4j-api:2.24.3",
+        "org.slf4j:jul-to-slf4j:2.0.17",
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "org.yaml:snakeyaml:2.4",
+        "org.springframework.boot:spring-boot-starter-tomcat:3.5.0",
+        "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+        "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.41",
+        "org.springframework:spring-web:6.2.7",
+        "org.springframework:spring-beans:6.2.7",
+        "io.micrometer:micrometer-observation:1.15.0",
+        "io.micrometer:micrometer-commons:1.15.0",
+        "org.springframework:spring-webmvc:6.2.7",
+        "org.springframework:spring-context:6.2.7",
+        "org.springframework:spring-expression:6.2.7",
+        "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+        "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+        "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+        "org.attoparser:attoparser:2.0.7.RELEASE",
+        "org.unbescape:unbescape:1.1.6.RELEASE",
+        "org.slf4j:slf4j-api:2.0.17",
+        "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+        "org.springframework.boot:spring-boot-starter-jdbc:3.5.0",
+        "com.zaxxer:HikariCP:6.3.0",
+        "org.springframework:spring-jdbc:6.2.7"
+      ],
+      "pages": 1,
+      "returnedAdvisories": 53,
+      "status": "success"
+    },
+    {
+      "batch": 2,
+      "coordinates": [
+        "org.hibernate.orm:hibernate-core:6.6.15.Final",
+        "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "jakarta.transaction:jakarta.transaction-api:2.0.1",
+        "org.jboss.logging:jboss-logging:3.6.1.Final",
+        "org.hibernate.common:hibernate-commons-annotations:7.0.3.Final",
+        "io.smallrye:jandex:3.2.0",
+        "com.fasterxml:classmate:1.7.0",
+        "net.bytebuddy:byte-buddy:1.17.5",
+        "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+        "org.glassfish.jaxb:jaxb-core:4.0.5",
+        "org.eclipse.angus:angus-activation:2.0.2",
+        "org.glassfish.jaxb:txw2:4.0.5",
+        "com.sun.istack:istack-commons-runtime:4.1.2",
+        "jakarta.inject:jakarta.inject-api:2.0.1",
+        "org.antlr:antlr4-runtime:4.13.0",
+        "org.springframework.data:spring-data-jpa:3.5.0",
+        "org.springframework.data:spring-data-commons:3.5.0",
+        "org.springframework:spring-orm:6.2.7",
+        "org.springframework:spring-tx:6.2.7",
+        "org.springframework:spring-aspects:6.2.7",
+        "org.aspectj:aspectjweaver:1.9.24",
+        "com.oracle.database.jdbc:ojdbc8:23.7.0.25.01",
+        "org.springframework.boot:spring-boot-starter-validation:3.5.0",
+        "org.apache.tomcat.embed:tomcat-embed-el:10.1.41",
+        "org.hibernate.validator:hibernate-validator:8.0.2.Final",
+        "jakarta.validation:jakarta.validation-api:3.0.2",
+        "org.springframework.boot:spring-boot-starter-security:3.5.0",
+        "org.springframework:spring-aop:6.2.7",
+        "org.springframework.security:spring-security-config:6.5.0",
+        "org.springframework.security:spring-security-core:6.5.0"
+      ],
+      "pages": 1,
+      "returnedAdvisories": 7,
+      "status": "success"
+    },
+    {
+      "batch": 3,
+      "coordinates": [
+        "org.springframework.security:spring-security-crypto:6.5.0",
+        "org.springframework.security:spring-security-web:6.5.0",
+        "commons-io:commons-io:2.14.0",
+        "org.springframework.boot:spring-boot-starter-json:3.5.0",
+        "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+        "com.fasterxml.jackson.core:jackson-annotations:2.19.0",
+        "com.fasterxml.jackson.core:jackson-core:2.19.0",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.0",
+        "org.springframework.boot:spring-boot-starter-test:3.5.0",
+        "org.springframework.boot:spring-boot-test:3.5.0",
+        "org.springframework.boot:spring-boot-test-autoconfigure:3.5.0",
+        "com.jayway.jsonpath:json-path:2.9.0",
+        "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+        "jakarta.activation:jakarta.activation-api:2.1.3",
+        "net.minidev:json-smart:2.5.2",
+        "net.minidev:accessors-smart:2.5.2",
+        "org.ow2.asm:asm:9.7.1",
+        "org.assertj:assertj-core:3.27.3",
+        "org.awaitility:awaitility:4.3.0",
+        "org.hamcrest:hamcrest:3.0",
+        "org.junit.jupiter:junit-jupiter:5.12.2",
+        "org.junit.jupiter:junit-jupiter-api:5.12.2",
+        "org.opentest4j:opentest4j:1.3.0",
+        "org.junit.platform:junit-platform-commons:1.12.2",
+        "org.apiguardian:apiguardian-api:1.1.2",
+        "org.junit.jupiter:junit-jupiter-params:5.12.2",
+        "org.junit.jupiter:junit-jupiter-engine:5.12.2",
+        "org.junit.platform:junit-platform-engine:1.12.2"
+      ],
+      "pages": 1,
+      "returnedAdvisories": 20,
+      "status": "success"
+    },
+    {
+      "batch": 4,
+      "coordinates": [
+        "org.mockito:mockito-core:5.17.0",
+        "net.bytebuddy:byte-buddy-agent:1.17.5",
+        "org.objenesis:objenesis:3.3",
+        "org.mockito:mockito-junit-jupiter:5.17.0",
+        "org.skyscreamer:jsonassert:1.5.3",
+        "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+        "org.springframework:spring-core:6.2.7",
+        "org.springframework:spring-jcl:6.2.7",
+        "org.springframework:spring-test:6.2.7",
+        "org.xmlunit:xmlunit-core:2.10.1",
+        "com.h2database:h2:2.3.232",
+        "org.springframework.boot:spring-boot-devtools:3.5.0",
+        "org.springframework.boot:spring-boot:3.5.0",
+        "org.springframework.boot:spring-boot-autoconfigure:3.5.0"
+      ],
+      "pages": 1,
+      "returnedAdvisories": 5,
+      "status": "success"
+    }
+  ],
+  "limitations": [
+    "Dependency coordinate/version applicability is validated; runtime exploitability and configuration prerequisites are not evaluated.",
+    "Maven build plugins, plugin dependencies, JDK, operating-system packages, inactive profiles and omitted conflict versions are outside the resolved application dependency inventory.",
+    "Maven tree reports a dependency once; evidence follows its displayed direct-ancestor path, including runtime dependencies displayed under a test starter.",
+    "Patched-version recommendations are advisory branch-specific and are not a guarantee of application compatibility or freedom from other advisories."
+  ],
+  "authentication": "unauthenticated",
+  "candidateAdvisoryCount": 85,
+  "withdrawnAdvisoryCount": 0,
+  "rangeValidation": "Exact ecosystem and package match; org.apache.maven.artifact.versioning.ComparableVersion from Maven 3.10.0; comma-separated constraints are conjunctive; separate vulnerability entries are alternative affected branches.",
+  "rangeChecks": 292,
+  "unparsedRanges": [],
+  "validatedFindingCount": 74,
+  "severityCounts": {
+    "medium": 32,
+    "high": 30,
+    "critical": 12
+  },
+  "coverageCompleteWithinScope": true,
+  "excludedAdvisoryCount": 11,
+  "excludedAdvisories": [
+    {
+      "id": "CVE-2026-41852",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-10532",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-9828",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-43514",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-22741",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-22735",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-1225",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2025-55754",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2025-61795",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-22746",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    },
+    {
+      "id": "CVE-2026-41848",
+      "severity": "low",
+      "reason": "Below medium severity threshold"
+    }
+  ],
+  "lookupFailureCount": 0,
+  "apiTransport": "curl fallback after gh api failed because no GitHub token was configured; unauthenticated API requests succeeded for every batch and page"
+}
