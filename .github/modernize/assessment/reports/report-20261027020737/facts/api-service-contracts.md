@@ -117,7 +117,7 @@ sequenceDiagram
     DB-->>Repo: Photo or absent
     Repo-->>Service: Optional Photo
     Service-->>Files: Optional Photo
-    Files-->>Client: 200 bytes or 404; caught exception gives 500
+    Files-->>Client: 200 bytes or 404, caught exception gives 500
 ```
 
 Sources: [upload flow and response](../../../../../../src/main/java/com/photoalbum/controller/HomeController.java#L56-L107), [upload service](../../../../../../src/main/java/com/photoalbum/service/impl/PhotoServiceImpl.java#L81-L184), [photo retrieval](../../../../../../src/main/java/com/photoalbum/controller/PhotoFileController.java#L37-L86), [authentication](../../../../../../src/main/java/com/photoalbum/config/SecurityConfig.java#L45-L59). Multipart parsing failures return 400 before the per-file loop; post-save lookup exceptions can escape the normal 200 path, as noted in the endpoint inventory.

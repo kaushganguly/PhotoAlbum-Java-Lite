@@ -10,3 +10,7 @@ Supplementary analysis for the Photo Album application:
 - [Business workflows](business-workflows.md) — Upload, gallery browsing, image retrieval, deletion, and failure handling.
 
 These documents describe the inspected source; they do not represent a deployment or runtime test. Automated migration recommendations require review in the application's deployment context.
+
+## Security assessment
+
+The [security report](../security/security-assessment.md) summarizes dependency advisories, CWE findings, coverage, and limitations. Its adjacent JSON files preserve all 59 CWE rule outcomes and the dependency scan results. The supplementary dependency scan includes direct, transitive, and test dependencies, beyond the core engine's configured direct-dependency scope. A matching vulnerable package version does not establish application exploitability.

@@ -1,0 +1,252 @@
+{
+  "input_name": "CWE - Code Quality",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 16 CWE rules in Code Quality: 2 FOUND, 14 NOT_FOUND",
+    "confidence": "high",
+    "evidence": [
+      "Full-repository source assessment, not a changed-code review. Reviewed all application Java, JavaScript, templates, runtime/deployment configuration and Oracle initialization scripts. Tests reviewed as corroboration, not counted as production vulnerabilities. Excluded generated target output, assessment outputs, skill instructions and .github/agents.",
+      "Static assessment only; no deployed application, native dependency internals, runtime exploitation or stress testing. NOT_FOUND denotes no confirmed application-source match, not a guarantee of security.",
+      "CWE-130: Multipart parsing is delegated to the servlet container, and service size uses MultipartFile.getSize with configured limits. No custom formatted-message length parser or inconsistent length use found.",
+      "CWE-456: Photo constructor initializes UUID/time; required state is constructor assigned. Java initializes fields deterministically; optional dimensions deliberately begin null. No security-critical variable left with unintended initialization state.",
+      "CWE-457: Java definite-assignment rules protect locals and field defaults are defined. UploadResult.success default false is fail-closed, and photoData null initialization is explicit rather than uninitialized storage.",
+      "CWE-477: No confirmed deprecated/obsolete owned-source API usage found. Dependency age and advisories are reported separately as CVEs, not mislabeled as obsolete-function use.",
+      "CWE-570: Reviewed validation, optional-state and dimension branches; no security-relevant expression proven always false. Defensive ID null checks are not sufficient evidence of a security vulnerability.",
+      "CWE-571: No always-true security guard found in MIME/size/pixel validation, authentication configuration or browser control flow.",
+      "CWE-606: Upload loop iterates request files; app.file-upload.max-files-per-upload is not consumed, but servlet max-request-size=50MB and max-file-size=10MB bound incoming bytes, and uploads require authentication. No confirmed unchecked numeric loop-bound DoS beyond existing request limits established. Unbounded database-result heap materialization is separately confirmed as CWE-789.",
+      "CWE-665: Both default and Docker runtime profiles set spring.jpa.hibernate.ddl-auto=create. Hibernate startup initialization drops/recreates the mapped photos schema rather than preserving existing records, while Compose intentionally persists Oracle data in oracle_data. Restarting/redeploying the application against its existing persistent database therefore destroys previously uploaded photos. This is a confirmed destructive resource-initialization configuration; no remote ability to trigger an application restart is claimed.",
+      "CWE-681: Image dimensions are widened to long before multiplication; metadata stores size as Long. Browser KB rounding is display-only, not a security decision. No dangerous narrowing conversion found.",
+      "CWE-682: 40,000,000-pixel check uses long operands, avoiding int overflow; file-size limits use long comparison. Formatting arithmetic does not control authorization or resource allocation. No incorrect security-critical calculation confirmed.",
+      "CWE-772: ImageInputStream is try-with-resources managed and ImageReader.dispose runs in finally, including early-return paths. JPA connections/transactions are framework managed. No owned unreleased resource found.",
+      "CWE-775: Only explicit file-handle-capable image stream is lexically closed; no manually opened file/socket/connection handles elsewhere in application source.",
+      "CWE-783: Reviewed arithmetic, boolean/ternary validation and template predicates; no precedence error affecting security decisions found.",
+      "CWE-789: Anonymous GET / calls getAllPhotos -> findAllOrderByUploadedAtDesc. The native query has no row/page bound and SELECT includes photo_data; Photo.photoData is an eager-default @Lob byte[]. Hibernate therefore materializes all stored image BLOBs into one List for a metadata-only gallery. Total heap allocation grows with accumulated stored uploads, not the 10MB per-file or 50MB per-request limit. With enough existing photos (the container sets -Xmx512m), a public gallery request can exhaust heap/availability; repeated unauthenticated reads amplify pressure. No production stress test was performed.",
+      "CWE-835: Owned loops iterate finite lists/arrays; no while(true), unchanging sentinel, recursion or unreachable termination condition found. ImageReader iteration checks availability without an application infinite loop.",
+      "CWE-1057: Controllers use PhotoService and all runtime persistence is routed through PhotoRepository. Operator initialization SQL is deployment/bootstrap code, not a bypass of the application's data-manager architecture."
+    ],
+    "values": [
+      {
+        "id": "CWE-130",
+        "name": "Improper Handling of Length Parameter Inconsistency",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product parses a formatted message or structure, but it does not handle or incorrectly handles a length field that is inconsistent with the actual length of the associated data.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-456",
+        "name": "Missing Initialization of a Variable",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 2,
+        "description": "The product does not initialize critical variables, which causes the execution environment to use unexpected values.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-457",
+        "name": "Use of Uninitialized Variable",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 2,
+        "description": "The code uses a variable that has not been initialized, leading to unpredictable or unintended results.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-477",
+        "name": "Use of Obsolete Function",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The code uses deprecated or obsolete functions, which suggests that the code has not been actively reviewed or maintained.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-570",
+        "name": "Expression is Always False",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product contains an expression that will always evaluate to false.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-571",
+        "name": "Expression is Always True",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product contains an expression that will always evaluate to true.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-606",
+        "name": "Unchecked Input for Loop Condition",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not properly check inputs that are used for loop conditions, potentially leading to a denial of service or other consequences because of excessive looping.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-665",
+        "name": "Improper Initialization",
+        "status": "FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not initialize or incorrectly initializes a resource, which might leave the resource in an unexpected state when it is accessed or used.",
+        "evidence": {
+          "files": [
+            "src/main/resources/application.properties:19",
+            "src/main/resources/application-docker.properties:15",
+            "docker-compose.yml:15"
+          ],
+          "explanation": "Both default and Docker runtime profiles set spring.jpa.hibernate.ddl-auto=create. Hibernate startup initialization drops/recreates the mapped photos schema rather than preserving existing records, while Compose intentionally persists Oracle data in oracle_data. Restarting/redeploying the application against its existing persistent database therefore destroys previously uploaded photos. This is a confirmed destructive resource-initialization configuration; no remote ability to trigger an application restart is claimed."
+        }
+      },
+      {
+        "id": "CWE-681",
+        "name": "Incorrect Conversion between Numeric Types",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "When converting from one data type to another, such as long to integer, data can be omitted or translated in a way that produces unexpected values. If the resulting values are used in a sensitive context, then dangerous behaviors may occur.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-682",
+        "name": "Incorrect Calculation",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product performs a calculation that generates incorrect or unintended results that are later used in security-critical decisions or resource management.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-772",
+        "name": "Missing Release of Resource after Effective Lifetime",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-775",
+        "name": "Missing Release of File Descriptor or Handle after Effective Lifetime",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not release a file descriptor or handle after its effective lifetime has ended, i.e., after the file descriptor/handle is no longer needed.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-783",
+        "name": "Operator Precedence Logic Error",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product uses an expression in which operator precedence causes incorrect logic to be used.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-789",
+        "name": "Memory Allocation with Excessive Size Value",
+        "status": "FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated.",
+        "evidence": {
+          "files": [
+            "src/main/java/com/photoalbum/controller/HomeController.java:38",
+            "src/main/java/com/photoalbum/service/impl/PhotoServiceImpl.java:56",
+            "src/main/java/com/photoalbum/repository/PhotoRepository.java:23",
+            "src/main/java/com/photoalbum/model/Photo.java:39",
+            "src/main/java/com/photoalbum/config/SecurityConfig.java:57",
+            "Dockerfile:28"
+          ],
+          "explanation": "Anonymous GET / calls getAllPhotos -> findAllOrderByUploadedAtDesc. The native query has no row/page bound and SELECT includes photo_data; Photo.photoData is an eager-default @Lob byte[]. Hibernate therefore materializes all stored image BLOBs into one List for a metadata-only gallery. Total heap allocation grows with accumulated stored uploads, not the 10MB per-file or 50MB per-request limit. With enough existing photos (the container sets -Xmx512m), a public gallery request can exhaust heap/availability; repeated unauthenticated reads amplify pressure. No production stress test was performed."
+        }
+      },
+      {
+        "id": "CWE-835",
+        "name": "Loop with Unreachable Exit Condition ('Infinite Loop')",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-1057",
+        "name": "Data Access Operations Outside of Expected Data Manager Component",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product uses a dedicated, central data manager component as required by design, but it contains code that performs data-access operations that do not use this data manager.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      }
+    ]
+  },
+  "execution_time_seconds": 0,
+  "timestamp": "2026-10-27T02:16:02.791052+00:00"
+}
