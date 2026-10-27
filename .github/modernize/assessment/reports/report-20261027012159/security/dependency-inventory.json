@@ -1,0 +1,1534 @@
+{
+  "buildTool": "Maven",
+  "resolutionCommand": "mvn dependency:tree -DoutputFile=<assessment>/maven-dependency-tree.txt -DappendOutput=false -B -q",
+  "resolutionExitCode": 0,
+  "scope": "Full resolved project dependency tree, including compile, runtime, test and optional dependencies",
+  "dependencies": [
+    {
+      "package": "org.springframework.boot:spring-boot-starter-web",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-web:3.5.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-logging",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-logging:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "org.springframework.boot:spring-boot-starter-logging:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "ch.qos.logback:logback-classic",
+      "version": "1.5.18",
+      "coordinate": "ch.qos.logback:logback-classic:1.5.18",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "org.springframework.boot:spring-boot-starter-logging:3.5.0",
+          "ch.qos.logback:logback-classic:1.5.18"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "ch.qos.logback:logback-core",
+      "version": "1.5.18",
+      "coordinate": "ch.qos.logback:logback-core:1.5.18",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "org.springframework.boot:spring-boot-starter-logging:3.5.0",
+          "ch.qos.logback:logback-classic:1.5.18",
+          "ch.qos.logback:logback-core:1.5.18"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-to-slf4j",
+      "version": "2.24.3",
+      "coordinate": "org.apache.logging.log4j:log4j-to-slf4j:2.24.3",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "org.springframework.boot:spring-boot-starter-logging:3.5.0",
+          "org.apache.logging.log4j:log4j-to-slf4j:2.24.3"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.apache.logging.log4j:log4j-api",
+      "version": "2.24.3",
+      "coordinate": "org.apache.logging.log4j:log4j-api:2.24.3",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "org.springframework.boot:spring-boot-starter-logging:3.5.0",
+          "org.apache.logging.log4j:log4j-to-slf4j:2.24.3",
+          "org.apache.logging.log4j:log4j-api:2.24.3"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.slf4j:jul-to-slf4j",
+      "version": "2.0.17",
+      "coordinate": "org.slf4j:jul-to-slf4j:2.0.17",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "org.springframework.boot:spring-boot-starter-logging:3.5.0",
+          "org.slf4j:jul-to-slf4j:2.0.17"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "jakarta.annotation:jakarta.annotation-api",
+      "version": "2.1.1",
+      "coordinate": "jakarta.annotation:jakarta.annotation-api:2.1.1",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "jakarta.annotation:jakarta.annotation-api:2.1.1"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.yaml:snakeyaml",
+      "version": "2.4",
+      "coordinate": "org.yaml:snakeyaml:2.4",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter:3.5.0",
+          "org.yaml:snakeyaml:2.4"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-tomcat",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-tomcat:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter-tomcat:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-core",
+      "version": "10.1.41",
+      "coordinate": "org.apache.tomcat.embed:tomcat-embed-core:10.1.41",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter-tomcat:3.5.0",
+          "org.apache.tomcat.embed:tomcat-embed-core:10.1.41"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "version": "10.1.41",
+      "coordinate": "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.41",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework.boot:spring-boot-starter-tomcat:3.5.0",
+          "org.apache.tomcat.embed:tomcat-embed-websocket:10.1.41"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework:spring-web",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-web:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework:spring-web:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework:spring-beans",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-beans:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework:spring-web:6.2.7",
+          "org.springframework:spring-beans:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "io.micrometer:micrometer-observation",
+      "version": "1.15.0",
+      "coordinate": "io.micrometer:micrometer-observation:1.15.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework:spring-web:6.2.7",
+          "io.micrometer:micrometer-observation:1.15.0"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "io.micrometer:micrometer-commons",
+      "version": "1.15.0",
+      "coordinate": "io.micrometer:micrometer-commons:1.15.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework:spring-web:6.2.7",
+          "io.micrometer:micrometer-observation:1.15.0",
+          "io.micrometer:micrometer-commons:1.15.0"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework:spring-webmvc",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-webmvc:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework:spring-webmvc:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework:spring-context",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-context:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework:spring-webmvc:6.2.7",
+          "org.springframework:spring-context:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework:spring-expression",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-expression:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-web:3.5.0",
+          "org.springframework:spring-webmvc:6.2.7",
+          "org.springframework:spring-expression:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:34"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-thymeleaf",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:40"
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf-spring6",
+      "version": "3.1.3.RELEASE",
+      "coordinate": "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+          "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE"
+        ]
+      ],
+      "declaration": "pom.xml:40"
+    },
+    {
+      "package": "org.thymeleaf:thymeleaf",
+      "version": "3.1.3.RELEASE",
+      "coordinate": "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+          "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+          "org.thymeleaf:thymeleaf:3.1.3.RELEASE"
+        ]
+      ],
+      "declaration": "pom.xml:40"
+    },
+    {
+      "package": "org.attoparser:attoparser",
+      "version": "2.0.7.RELEASE",
+      "coordinate": "org.attoparser:attoparser:2.0.7.RELEASE",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+          "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+          "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+          "org.attoparser:attoparser:2.0.7.RELEASE"
+        ]
+      ],
+      "declaration": "pom.xml:40"
+    },
+    {
+      "package": "org.unbescape:unbescape",
+      "version": "1.1.6.RELEASE",
+      "coordinate": "org.unbescape:unbescape:1.1.6.RELEASE",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+          "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+          "org.thymeleaf:thymeleaf:3.1.3.RELEASE",
+          "org.unbescape:unbescape:1.1.6.RELEASE"
+        ]
+      ],
+      "declaration": "pom.xml:40"
+    },
+    {
+      "package": "org.slf4j:slf4j-api",
+      "version": "2.0.17",
+      "coordinate": "org.slf4j:slf4j-api:2.0.17",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-thymeleaf:3.5.0",
+          "org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE",
+          "org.slf4j:slf4j-api:2.0.17"
+        ]
+      ],
+      "declaration": "pom.xml:40"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-data-jpa",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-jdbc",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-jdbc:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework.boot:spring-boot-starter-jdbc:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "com.zaxxer:HikariCP",
+      "version": "6.3.0",
+      "coordinate": "com.zaxxer:HikariCP:6.3.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework.boot:spring-boot-starter-jdbc:3.5.0",
+          "com.zaxxer:HikariCP:6.3.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.springframework:spring-jdbc",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-jdbc:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework.boot:spring-boot-starter-jdbc:3.5.0",
+          "org.springframework:spring-jdbc:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.hibernate.orm:hibernate-core",
+      "version": "6.6.15.Final",
+      "coordinate": "org.hibernate.orm:hibernate-core:6.6.15.Final",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "jakarta.persistence:jakarta.persistence-api",
+      "version": "3.1.0",
+      "coordinate": "jakarta.persistence:jakarta.persistence-api:3.1.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "jakarta.persistence:jakarta.persistence-api:3.1.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "jakarta.transaction:jakarta.transaction-api",
+      "version": "2.0.1",
+      "coordinate": "jakarta.transaction:jakarta.transaction-api:2.0.1",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "jakarta.transaction:jakarta.transaction-api:2.0.1"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.jboss.logging:jboss-logging",
+      "version": "3.6.1.Final",
+      "coordinate": "org.jboss.logging:jboss-logging:3.6.1.Final",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.jboss.logging:jboss-logging:3.6.1.Final"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.hibernate.common:hibernate-commons-annotations",
+      "version": "7.0.3.Final",
+      "coordinate": "org.hibernate.common:hibernate-commons-annotations:7.0.3.Final",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.hibernate.common:hibernate-commons-annotations:7.0.3.Final"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "io.smallrye:jandex",
+      "version": "3.2.0",
+      "coordinate": "io.smallrye:jandex:3.2.0",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "io.smallrye:jandex:3.2.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "com.fasterxml:classmate",
+      "version": "1.7.0",
+      "coordinate": "com.fasterxml:classmate:1.7.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "com.fasterxml:classmate:1.7.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "net.bytebuddy:byte-buddy",
+      "version": "1.17.5",
+      "coordinate": "net.bytebuddy:byte-buddy:1.17.5",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "net.bytebuddy:byte-buddy:1.17.5"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.glassfish.jaxb:jaxb-runtime",
+      "version": "4.0.5",
+      "coordinate": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.glassfish.jaxb:jaxb-runtime:4.0.5"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.glassfish.jaxb:jaxb-core",
+      "version": "4.0.5",
+      "coordinate": "org.glassfish.jaxb:jaxb-core:4.0.5",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+          "org.glassfish.jaxb:jaxb-core:4.0.5"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.eclipse.angus:angus-activation",
+      "version": "2.0.2",
+      "coordinate": "org.eclipse.angus:angus-activation:2.0.2",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+          "org.glassfish.jaxb:jaxb-core:4.0.5",
+          "org.eclipse.angus:angus-activation:2.0.2"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.glassfish.jaxb:txw2",
+      "version": "4.0.5",
+      "coordinate": "org.glassfish.jaxb:txw2:4.0.5",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+          "org.glassfish.jaxb:jaxb-core:4.0.5",
+          "org.glassfish.jaxb:txw2:4.0.5"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "com.sun.istack:istack-commons-runtime",
+      "version": "4.1.2",
+      "coordinate": "com.sun.istack:istack-commons-runtime:4.1.2",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+          "org.glassfish.jaxb:jaxb-core:4.0.5",
+          "com.sun.istack:istack-commons-runtime:4.1.2"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "jakarta.inject:jakarta.inject-api",
+      "version": "2.0.1",
+      "coordinate": "jakarta.inject:jakarta.inject-api:2.0.1",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "jakarta.inject:jakarta.inject-api:2.0.1"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.antlr:antlr4-runtime",
+      "version": "4.13.0",
+      "coordinate": "org.antlr:antlr4-runtime:4.13.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.hibernate.orm:hibernate-core:6.6.15.Final",
+          "org.antlr:antlr4-runtime:4.13.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.springframework.data:spring-data-jpa",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.data:spring-data-jpa:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework.data:spring-data-jpa:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.springframework.data:spring-data-commons",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.data:spring-data-commons:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework.data:spring-data-jpa:3.5.0",
+          "org.springframework.data:spring-data-commons:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.springframework:spring-orm",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-orm:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework.data:spring-data-jpa:3.5.0",
+          "org.springframework:spring-orm:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.springframework:spring-tx",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-tx:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework.data:spring-data-jpa:3.5.0",
+          "org.springframework:spring-tx:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.springframework:spring-aspects",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-aspects:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework:spring-aspects:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "org.aspectj:aspectjweaver",
+      "version": "1.9.24",
+      "coordinate": "org.aspectj:aspectjweaver:1.9.24",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-data-jpa:3.5.0",
+          "org.springframework:spring-aspects:6.2.7",
+          "org.aspectj:aspectjweaver:1.9.24"
+        ]
+      ],
+      "declaration": "pom.xml:46"
+    },
+    {
+      "package": "com.oracle.database.jdbc:ojdbc8",
+      "version": "23.7.0.25.01",
+      "coordinate": "com.oracle.database.jdbc:ojdbc8:23.7.0.25.01",
+      "scope": "runtime",
+      "direct": true,
+      "paths": [
+        [
+          "com.oracle.database.jdbc:ojdbc8:23.7.0.25.01"
+        ]
+      ],
+      "declaration": "pom.xml:52"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-validation",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-validation:3.5.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-validation:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:59"
+    },
+    {
+      "package": "org.apache.tomcat.embed:tomcat-embed-el",
+      "version": "10.1.41",
+      "coordinate": "org.apache.tomcat.embed:tomcat-embed-el:10.1.41",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-validation:3.5.0",
+          "org.apache.tomcat.embed:tomcat-embed-el:10.1.41"
+        ]
+      ],
+      "declaration": "pom.xml:59"
+    },
+    {
+      "package": "org.hibernate.validator:hibernate-validator",
+      "version": "8.0.2.Final",
+      "coordinate": "org.hibernate.validator:hibernate-validator:8.0.2.Final",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-validation:3.5.0",
+          "org.hibernate.validator:hibernate-validator:8.0.2.Final"
+        ]
+      ],
+      "declaration": "pom.xml:59"
+    },
+    {
+      "package": "jakarta.validation:jakarta.validation-api",
+      "version": "3.0.2",
+      "coordinate": "jakarta.validation:jakarta.validation-api:3.0.2",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-validation:3.5.0",
+          "org.hibernate.validator:hibernate-validator:8.0.2.Final",
+          "jakarta.validation:jakarta.validation-api:3.0.2"
+        ]
+      ],
+      "declaration": "pom.xml:59"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-security",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-security:3.5.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-security:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:65"
+    },
+    {
+      "package": "org.springframework:spring-aop",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-aop:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-security:3.5.0",
+          "org.springframework:spring-aop:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:65"
+    },
+    {
+      "package": "org.springframework.security:spring-security-config",
+      "version": "6.5.0",
+      "coordinate": "org.springframework.security:spring-security-config:6.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-security:3.5.0",
+          "org.springframework.security:spring-security-config:6.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:65"
+    },
+    {
+      "package": "org.springframework.security:spring-security-core",
+      "version": "6.5.0",
+      "coordinate": "org.springframework.security:spring-security-core:6.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-security:3.5.0",
+          "org.springframework.security:spring-security-config:6.5.0",
+          "org.springframework.security:spring-security-core:6.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:65"
+    },
+    {
+      "package": "org.springframework.security:spring-security-crypto",
+      "version": "6.5.0",
+      "coordinate": "org.springframework.security:spring-security-crypto:6.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-security:3.5.0",
+          "org.springframework.security:spring-security-config:6.5.0",
+          "org.springframework.security:spring-security-core:6.5.0",
+          "org.springframework.security:spring-security-crypto:6.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:65"
+    },
+    {
+      "package": "org.springframework.security:spring-security-web",
+      "version": "6.5.0",
+      "coordinate": "org.springframework.security:spring-security-web:6.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-security:3.5.0",
+          "org.springframework.security:spring-security-web:6.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:65"
+    },
+    {
+      "package": "commons-io:commons-io",
+      "version": "2.14.0",
+      "coordinate": "commons-io:commons-io:2.14.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "commons-io:commons-io:2.14.0"
+        ]
+      ],
+      "declaration": "pom.xml:71"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-json",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-json:3.5.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-json:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:78"
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-databind",
+      "version": "2.19.0",
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-json:3.5.0",
+          "com.fasterxml.jackson.core:jackson-databind:2.19.0"
+        ]
+      ],
+      "declaration": "pom.xml:78"
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-annotations",
+      "version": "2.19.0",
+      "coordinate": "com.fasterxml.jackson.core:jackson-annotations:2.19.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-json:3.5.0",
+          "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+          "com.fasterxml.jackson.core:jackson-annotations:2.19.0"
+        ]
+      ],
+      "declaration": "pom.xml:78"
+    },
+    {
+      "package": "com.fasterxml.jackson.core:jackson-core",
+      "version": "2.19.0",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core:2.19.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-json:3.5.0",
+          "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+          "com.fasterxml.jackson.core:jackson-core:2.19.0"
+        ]
+      ],
+      "declaration": "pom.xml:78"
+    },
+    {
+      "package": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "version": "2.19.0",
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-json:3.5.0",
+          "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.19.0"
+        ]
+      ],
+      "declaration": "pom.xml:78"
+    },
+    {
+      "package": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "version": "2.19.0",
+      "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-json:3.5.0",
+          "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0"
+        ]
+      ],
+      "declaration": "pom.xml:78"
+    },
+    {
+      "package": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+      "version": "2.19.0",
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-json:3.5.0",
+          "com.fasterxml.jackson.module:jackson-module-parameter-names:2.19.0"
+        ]
+      ],
+      "declaration": "pom.xml:78"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-starter-test",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-starter-test:3.5.0",
+      "scope": "test",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-test",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-test:3.5.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.springframework.boot:spring-boot-test:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-test-autoconfigure",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-test-autoconfigure:3.5.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.springframework.boot:spring-boot-test-autoconfigure:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "com.jayway.jsonpath:json-path",
+      "version": "2.9.0",
+      "coordinate": "com.jayway.jsonpath:json-path:2.9.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "com.jayway.jsonpath:json-path:2.9.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "jakarta.xml.bind:jakarta.xml.bind-api",
+      "version": "4.0.2",
+      "coordinate": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "jakarta.activation:jakarta.activation-api",
+      "version": "2.1.3",
+      "coordinate": "jakarta.activation:jakarta.activation-api:2.1.3",
+      "scope": "runtime",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+          "jakarta.activation:jakarta.activation-api:2.1.3"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "net.minidev:json-smart",
+      "version": "2.5.2",
+      "coordinate": "net.minidev:json-smart:2.5.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "net.minidev:json-smart:2.5.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "net.minidev:accessors-smart",
+      "version": "2.5.2",
+      "coordinate": "net.minidev:accessors-smart:2.5.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "net.minidev:json-smart:2.5.2",
+          "net.minidev:accessors-smart:2.5.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.ow2.asm:asm",
+      "version": "9.7.1",
+      "coordinate": "org.ow2.asm:asm:9.7.1",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "net.minidev:json-smart:2.5.2",
+          "net.minidev:accessors-smart:2.5.2",
+          "org.ow2.asm:asm:9.7.1"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.assertj:assertj-core",
+      "version": "3.27.3",
+      "coordinate": "org.assertj:assertj-core:3.27.3",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.assertj:assertj-core:3.27.3"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.awaitility:awaitility",
+      "version": "4.3.0",
+      "coordinate": "org.awaitility:awaitility:4.3.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.awaitility:awaitility:4.3.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.hamcrest:hamcrest",
+      "version": "3.0",
+      "coordinate": "org.hamcrest:hamcrest:3.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.hamcrest:hamcrest:3.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.junit.jupiter:junit-jupiter",
+      "version": "5.12.2",
+      "coordinate": "org.junit.jupiter:junit-jupiter:5.12.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.junit.jupiter:junit-jupiter-api",
+      "version": "5.12.2",
+      "coordinate": "org.junit.jupiter:junit-jupiter-api:5.12.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2",
+          "org.junit.jupiter:junit-jupiter-api:5.12.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.opentest4j:opentest4j",
+      "version": "1.3.0",
+      "coordinate": "org.opentest4j:opentest4j:1.3.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2",
+          "org.junit.jupiter:junit-jupiter-api:5.12.2",
+          "org.opentest4j:opentest4j:1.3.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.junit.platform:junit-platform-commons",
+      "version": "1.12.2",
+      "coordinate": "org.junit.platform:junit-platform-commons:1.12.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2",
+          "org.junit.jupiter:junit-jupiter-api:5.12.2",
+          "org.junit.platform:junit-platform-commons:1.12.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.apiguardian:apiguardian-api",
+      "version": "1.1.2",
+      "coordinate": "org.apiguardian:apiguardian-api:1.1.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2",
+          "org.junit.jupiter:junit-jupiter-api:5.12.2",
+          "org.apiguardian:apiguardian-api:1.1.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.junit.jupiter:junit-jupiter-params",
+      "version": "5.12.2",
+      "coordinate": "org.junit.jupiter:junit-jupiter-params:5.12.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2",
+          "org.junit.jupiter:junit-jupiter-params:5.12.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.junit.jupiter:junit-jupiter-engine",
+      "version": "5.12.2",
+      "coordinate": "org.junit.jupiter:junit-jupiter-engine:5.12.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2",
+          "org.junit.jupiter:junit-jupiter-engine:5.12.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.junit.platform:junit-platform-engine",
+      "version": "1.12.2",
+      "coordinate": "org.junit.platform:junit-platform-engine:1.12.2",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.junit.jupiter:junit-jupiter:5.12.2",
+          "org.junit.jupiter:junit-jupiter-engine:5.12.2",
+          "org.junit.platform:junit-platform-engine:1.12.2"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.mockito:mockito-core",
+      "version": "5.17.0",
+      "coordinate": "org.mockito:mockito-core:5.17.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.mockito:mockito-core:5.17.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "net.bytebuddy:byte-buddy-agent",
+      "version": "1.17.5",
+      "coordinate": "net.bytebuddy:byte-buddy-agent:1.17.5",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.mockito:mockito-core:5.17.0",
+          "net.bytebuddy:byte-buddy-agent:1.17.5"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.objenesis:objenesis",
+      "version": "3.3",
+      "coordinate": "org.objenesis:objenesis:3.3",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.mockito:mockito-core:5.17.0",
+          "org.objenesis:objenesis:3.3"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.mockito:mockito-junit-jupiter",
+      "version": "5.17.0",
+      "coordinate": "org.mockito:mockito-junit-jupiter:5.17.0",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.mockito:mockito-junit-jupiter:5.17.0"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.skyscreamer:jsonassert",
+      "version": "1.5.3",
+      "coordinate": "org.skyscreamer:jsonassert:1.5.3",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.skyscreamer:jsonassert:1.5.3"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "com.vaadin.external.google:android-json",
+      "version": "0.0.20131108.vaadin1",
+      "coordinate": "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.skyscreamer:jsonassert:1.5.3",
+          "com.vaadin.external.google:android-json:0.0.20131108.vaadin1"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.springframework:spring-core",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-core:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.springframework:spring-core:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.springframework:spring-jcl",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-jcl:6.2.7",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.springframework:spring-core:6.2.7",
+          "org.springframework:spring-jcl:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.springframework:spring-test",
+      "version": "6.2.7",
+      "coordinate": "org.springframework:spring-test:6.2.7",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.springframework:spring-test:6.2.7"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "org.xmlunit:xmlunit-core",
+      "version": "2.10.1",
+      "coordinate": "org.xmlunit:xmlunit-core:2.10.1",
+      "scope": "test",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-starter-test:3.5.0",
+          "org.xmlunit:xmlunit-core:2.10.1"
+        ]
+      ],
+      "declaration": "pom.xml:84"
+    },
+    {
+      "package": "com.h2database:h2",
+      "version": "2.3.232",
+      "coordinate": "com.h2database:h2:2.3.232",
+      "scope": "test",
+      "direct": true,
+      "paths": [
+        [
+          "com.h2database:h2:2.3.232"
+        ]
+      ],
+      "declaration": "pom.xml:91"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-devtools",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-devtools:3.5.0",
+      "scope": "compile",
+      "direct": true,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-devtools:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:98"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-devtools:3.5.0",
+          "org.springframework.boot:spring-boot:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:98"
+    },
+    {
+      "package": "org.springframework.boot:spring-boot-autoconfigure",
+      "version": "3.5.0",
+      "coordinate": "org.springframework.boot:spring-boot-autoconfigure:3.5.0",
+      "scope": "compile",
+      "direct": false,
+      "paths": [
+        [
+          "org.springframework.boot:spring-boot-devtools:3.5.0",
+          "org.springframework.boot:spring-boot-autoconfigure:3.5.0"
+        ]
+      ],
+      "declaration": "pom.xml:98"
+    }
+  ]
+}
