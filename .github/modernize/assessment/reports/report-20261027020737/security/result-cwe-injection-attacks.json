@@ -1,0 +1,191 @@
+{
+  "input_name": "CWE - Injection Attacks",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 12 CWE rules in Injection Attacks: 1 FOUND, 11 NOT_FOUND",
+    "confidence": "high",
+    "evidence": [
+      "Full-repository source assessment, not a changed-code review. Reviewed all application Java, JavaScript, templates, runtime/deployment configuration and Oracle initialization scripts. Tests reviewed as corroboration, not counted as production vulnerabilities. Excluded generated target output, assessment outputs, skill instructions and .github/agents.",
+      "Source assessment with isolated browser sink reproduction; no deployed-application exploitation, stress testing or native dependency internals review. NOT_FOUND is not a security guarantee.",
+      "CWE-77: No request-derived command interpreter or process execution in Java or browser code. SQLPlus initialization uses deployment-owned environment configuration, not an application-user-controlled command execution path.",
+      "CWE-78: No Runtime.exec or ProcessBuilder sink exists. Quoted SQLPlus process arguments are not executed as shell code; deployment environment interpolation is not shown to cross a lower-trust boundary.",
+      "CWE-79: DOM XSS: handleFiles incorporates file.name into validation errors (line 73), calls showErrors (82), and showErrors inserts each error unescaped into innerHTML (216-218). A user selecting/dropping an attacker-named unsupported file containing an HTML element with an event handler causes script execution on the gallery origin, before any server request or authentication. Exploitation requires inducing a victim to select/drop the named file; not an unauthenticated remote stored-XSS claim. The successful-upload card also interpolates originalFileName into HTML at 185-189 and insertAdjacentHTML at 157, but server-rendered Thymeleaf th:text/th:alt paths are escaped.",
+      "CWE-88: No user-controlled subprocess argument construction in application endpoints; shell initialization inputs are operator configuration, and SQLPlus connection string is quoted as a single argument.",
+      "CWE-89: Repository SQL consists of constant strings and bound :uploadedAt parameters; findById/save/delete use JPA parameter binding. Oracle bootstrap SQL interpolates deployment-controlled APP_USER and APP_USER_PASSWORD without SQL escaping, but no untrusted application-input route to these privileged initialization variables was established; not reported as confirmed attacker-reachable SQL injection.",
+      "CWE-90: Authentication uses InMemoryUserDetailsManager, not LDAP. No LDAP queries or directory client exists.",
+      "CWE-91: No application-generated XML messages or attacker-controlled XML parsing path. Template HTML generation is separately assessed under CWE-79.",
+      "CWE-99: Photo IDs select deliberately public gallery records. No request-derived external URL, database connection, JNDI name, arbitrary path or other out-of-scope resource identifier sink found.",
+      "CWE-502: Inputs are MultipartFile bytes or String IDs; no ObjectInputStream/readObject, unsafe YAML object loading, polymorphic Jackson default typing or arbitrary class deserialization. ImageIO header inspection is not evidence of unsafe object deserialization.",
+      "CWE-564: All Hibernate native query text is constant. Navigation timestamps use named @Param bindings; no HQL/native SQL string concatenation with request values.",
+      "CWE-643: No XPath engine or XPath expression construction in application source.",
+      "CWE-652: No XQuery engine, XML database or XQuery expression construction in application source.",
+      "An isolated Chromium reproduction of the exact showErrors innerHTML expression using a File with Linux-valid attacker-controlled filename characters executed a harmless window marker from an injected img onerror handler. No deployed application, user data or external exfiltration involved; complete application workflow was not exercised."
+    ],
+    "values": [
+      {
+        "id": "CWE-77",
+        "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "mandatory",
+        "storyPoint": 13,
+        "description": "The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-78",
+        "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "mandatory",
+        "storyPoint": 13,
+        "description": "The product constructs all or part of an OS command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended OS command when it is sent to a downstream component.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-79",
+        "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+        "status": "FOUND",
+        "category": "Injection Attacks",
+        "severity": "optional",
+        "storyPoint": 8,
+        "description": "The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.",
+        "evidence": {
+          "files": [
+            "src/main/resources/static/js/upload.js:73",
+            "src/main/resources/static/js/upload.js:82",
+            "src/main/resources/static/js/upload.js:215",
+            "src/main/resources/static/js/upload.js:217"
+          ],
+          "explanation": "DOM XSS: handleFiles incorporates file.name into validation errors (line 73), calls showErrors (82), and showErrors inserts each error unescaped into innerHTML (216-218). A user selecting/dropping an attacker-named unsupported file containing an HTML element with an event handler causes script execution on the gallery origin, before any server request or authentication. Exploitation requires inducing a victim to select/drop the named file; not an unauthenticated remote stored-XSS claim. The successful-upload card also interpolates originalFileName into HTML at 185-189 and insertAdjacentHTML at 157, but server-rendered Thymeleaf th:text/th:alt paths are escaped. An isolated Chromium reproduction of the exact showErrors innerHTML expression using a File with Linux-valid attacker-controlled filename characters executed a harmless window marker from an injected img onerror handler. No deployed application, user data or external exfiltration involved; complete application workflow was not exercised."
+        }
+      },
+      {
+        "id": "CWE-88",
+        "name": "Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product constructs a string for a command to be executed by a separate component in another control sphere, but it does not properly delimit the intended arguments, options, or switches within that command string.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-89",
+        "name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "mandatory",
+        "storyPoint": 13,
+        "description": "The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. Without sufficient removal or quoting of SQL syntax in user-controllable inputs, the generated SQL query can cause those inputs to be interpreted as SQL instead of ordinary user data.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-90",
+        "name": "Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product constructs all or part of an LDAP query using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended LDAP query when it is sent to a downstream component.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-91",
+        "name": "XML Injection (aka Blind XPath Injection)",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product does not properly neutralize special elements that are used in XML, allowing attackers to modify the syntax, content, or commands of the XML before it is processed by an end system.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-99",
+        "name": "Improper Control of Resource Identifiers ('Resource Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product receives input from an upstream component, but it does not restrict or incorrectly restricts the input before it is used as an identifier for a resource that may be outside the intended sphere of control.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-502",
+        "name": "Deserialization of Untrusted Data",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "mandatory",
+        "storyPoint": 13,
+        "description": "The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-564",
+        "name": "SQL Injection: Hibernate",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "mandatory",
+        "storyPoint": 8,
+        "description": "Using Hibernate to execute a dynamic SQL statement built with user-controlled input can allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-643",
+        "name": "Improper Neutralization of Data within XPath Expressions ('XPath Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product uses external input to dynamically construct an XPath expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-652",
+        "name": "Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')",
+        "status": "NOT_FOUND",
+        "category": "Injection Attacks",
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product uses external input to dynamically construct an XQuery expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      }
+    ]
+  },
+  "execution_time_seconds": 0,
+  "timestamp": "2026-10-27T02:14:53.976938+00:00"
+}

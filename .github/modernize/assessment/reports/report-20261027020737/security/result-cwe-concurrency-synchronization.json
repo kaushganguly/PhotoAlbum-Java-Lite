@@ -1,0 +1,101 @@
+{
+  "input_name": "CWE - Concurrency & Synchronization",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 6 CWE rules in Concurrency & Synchronization: 0 FOUND, 6 NOT_FOUND",
+    "confidence": "high",
+    "evidence": [
+      "Full-repository source assessment, not a changed-code review. Reviewed all application Java, JavaScript, templates, runtime/deployment configuration and Oracle initialization scripts. Tests reviewed as corroboration, not counted as production vulnerabilities. Excluded generated target output, assessment outputs, skill instructions and .github/agents.",
+      "Static assessment only; no deployed application, native dependency internals, runtime exploitation or stress testing. NOT_FOUND denotes no confirmed application-source match, not a guarantee of security.",
+      "CWE-543: Spring-managed singleton controllers/services keep final injected dependencies and constructor-only configuration, not mutable per-request singleton state. Request lists/maps/results and ImageReader are method-local. Framework creates/publishes beans; no unsafe custom singleton construction found.",
+      "CWE-567: allowedMimeTypes is initialized once and never mutated; max size is final. Static fields are loggers/constants. Mutable maps/lists/entities are request/transaction local, with no shared cache or cross-thread writes found.",
+      "CWE-662: Persistence is mediated by Spring transactions and database concurrency; no application-managed exclusive mutable resource or unsynchronized cross-thread critical section identified. Concurrent deletes may produce not-found/errors but no demonstrated authorization/integrity bypass; no locks or optimistic @Version is not by itself a vulnerability.",
+      "CWE-667: No manual lock/unlock, synchronized blocks, semaphore, monitor wait/notify or lock-order logic. Database locking belongs to transactional persistence; no incorrect acquisition/release path in owned source.",
+      "CWE-820: Each upload constructs a distinct UUID entity and request-local state. There is no shared application-side mutable collection or read-modify-write counter that requires missing synchronization. Initialization scripts use check-then-create for deployment bootstrap; simultaneous invocation is not a demonstrated application attacker-controlled security violation.",
+      "CWE-821: Reviewed transaction boundaries, entity creation/deletion, injected singleton state and browser async upload flow; no synchronization primitive misuse, incorrectly selected monitor or incorrectly synchronized shared-state access found. No concurrency stress testing performed."
+    ],
+    "values": [
+      {
+        "id": "CWE-543",
+        "name": "Use of Singleton Pattern Without Synchronization in a Multithreaded Context",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product uses the singleton pattern when creating a resource within a multithreaded environment.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-567",
+        "name": "Unsynchronized Access to Shared Data in a Multithreaded Context",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product does not properly synchronize shared data, such as static variables across threads, which can lead to undefined behavior and unpredictable data changes.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-662",
+        "name": "Improper Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes multiple threads or processes to allow temporary access to a shared resource that can only be exclusive to one process at a time, but it does not properly synchronize these actions, which might cause simultaneous accesses of this resource by multiple threads or processes.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-667",
+        "name": "Improper Locking",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product does not properly acquire or release a lock on a resource, leading to unexpected resource state changes and behaviors.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-820",
+        "name": "Missing Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes a shared resource in a concurrent manner but does not attempt to synchronize access to the resource.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      },
+      {
+        "id": "CWE-821",
+        "name": "Incorrect Synchronization",
+        "status": "NOT_FOUND",
+        "category": "Concurrency & Synchronization",
+        "severity": "potential",
+        "storyPoint": 8,
+        "description": "The product utilizes a shared resource in a concurrent manner, but it does not correctly synchronize access to the resource.",
+        "evidence": {
+          "files": [],
+          "explanation": ""
+        }
+      }
+    ]
+  },
+  "execution_time_seconds": 0,
+  "timestamp": "2026-10-27T02:17:13.715175+00:00"
+}
