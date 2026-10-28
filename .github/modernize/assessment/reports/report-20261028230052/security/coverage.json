@@ -1,0 +1,1094 @@
+{
+  "assessment_type": "Full existing application baseline; not diff-restricted",
+  "timestamp": "2026-10-28T23:10:37.353002+00:00",
+  "status": "success",
+  "cwe": {
+    "rules_assessed": 59,
+    "rules_found": 5,
+    "categories": {
+      "code-quality": {
+        "NOT_FOUND": 14,
+        "FOUND": 2
+      },
+      "concurrency-synchronization": {
+        "NOT_FOUND": 6
+      },
+      "credentials-secrets": {
+        "NOT_FOUND": 4,
+        "FOUND": 1
+      },
+      "file-path-security": {
+        "NOT_FOUND": 4,
+        "FOUND": 1
+      },
+      "injection-attacks": {
+        "NOT_FOUND": 11,
+        "FOUND": 1
+      },
+      "memory-safety": {
+        "NOT_FOUND": 15
+      }
+    },
+    "sequential_execution": [
+      "cve-known-vulnerabilities",
+      "cwe-file-path-security",
+      "cwe-injection-attacks",
+      "cwe-memory-safety",
+      "cwe-code-quality",
+      "cwe-credentials-secrets",
+      "cwe-concurrency-synchronization"
+    ],
+    "negative_evidence_policy": "NOT_FOUND entries retain concise scoped rationale, with empty files arrays, as explicitly requested for every-rule evidence."
+  },
+  "cve": {
+    "build_tool": "Maven",
+    "dependency_collection_command": "mvn dependency:tree -DoutputFile=.github/modernize/assessment/engines/security/mvn-deps.txt -B -q",
+    "dependency_collection_exit_code": 0,
+    "advisory_source": "GitHub Security Advisories REST API /advisories; ecosystem=maven; affects exact resolved package@version; batches of 30; per_page=100; pagination handled",
+    "checked_coordinate_count": 104,
+    "checked_coordinates": [
+      {
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-logging",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "ch.qos.logback:logback-classic",
+        "version": "1.5.18",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.5.18",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.apache.logging.log4j:log4j-to-slf4j",
+        "version": "2.24.3",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.apache.logging.log4j:log4j-api",
+        "version": "2.24.3",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.slf4j:jul-to-slf4j",
+        "version": "2.0.17",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "jakarta.annotation:jakarta.annotation-api",
+        "version": "2.1.1",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.yaml:snakeyaml",
+        "version": "2.4",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-tomcat",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.apache.tomcat.embed:tomcat-embed-core",
+        "version": "10.1.41",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+        "version": "10.1.41",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework:spring-web",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework:spring-beans",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "io.micrometer:micrometer-observation",
+        "version": "1.15.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "io.micrometer:micrometer-commons",
+        "version": "1.15.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework:spring-webmvc",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework:spring-context",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework:spring-expression",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-thymeleaf",
+        "file": "pom.xml:40"
+      },
+      {
+        "name": "org.thymeleaf:thymeleaf-spring6",
+        "version": "3.1.3.RELEASE",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-thymeleaf",
+        "file": "pom.xml:40"
+      },
+      {
+        "name": "org.thymeleaf:thymeleaf",
+        "version": "3.1.3.RELEASE",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-thymeleaf",
+        "file": "pom.xml:40"
+      },
+      {
+        "name": "org.attoparser:attoparser",
+        "version": "2.0.7.RELEASE",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-thymeleaf",
+        "file": "pom.xml:40"
+      },
+      {
+        "name": "org.unbescape:unbescape",
+        "version": "1.1.6.RELEASE",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-thymeleaf",
+        "file": "pom.xml:40"
+      },
+      {
+        "name": "org.slf4j:slf4j-api",
+        "version": "2.0.17",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-thymeleaf",
+        "file": "pom.xml:40"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-data-jpa",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-jdbc",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "com.zaxxer:HikariCP",
+        "version": "6.3.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.springframework:spring-jdbc",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.hibernate.orm:hibernate-core",
+        "version": "6.6.15.Final",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "jakarta.persistence:jakarta.persistence-api",
+        "version": "3.1.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "jakarta.transaction:jakarta.transaction-api",
+        "version": "2.0.1",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.jboss.logging:jboss-logging",
+        "version": "3.6.1.Final",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.hibernate.common:hibernate-commons-annotations",
+        "version": "7.0.3.Final",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "io.smallrye:jandex",
+        "version": "3.2.0",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "com.fasterxml:classmate",
+        "version": "1.7.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "net.bytebuddy:byte-buddy",
+        "version": "1.17.5",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.glassfish.jaxb:jaxb-runtime",
+        "version": "4.0.5",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.glassfish.jaxb:jaxb-core",
+        "version": "4.0.5",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.eclipse.angus:angus-activation",
+        "version": "2.0.2",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.glassfish.jaxb:txw2",
+        "version": "4.0.5",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "com.sun.istack:istack-commons-runtime",
+        "version": "4.1.2",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "jakarta.inject:jakarta.inject-api",
+        "version": "2.0.1",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.antlr:antlr4-runtime",
+        "version": "4.13.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.springframework.data:spring-data-jpa",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.springframework.data:spring-data-commons",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.springframework:spring-orm",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.springframework:spring-tx",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.springframework:spring-aspects",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "org.aspectj:aspectjweaver",
+        "version": "1.9.24",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "com.oracle.database.jdbc:ojdbc8",
+        "version": "23.7.0.25.01",
+        "scope": "runtime",
+        "direct": true,
+        "via": "ojdbc8",
+        "file": "pom.xml:52"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-validation",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-validation",
+        "file": "pom.xml:59"
+      },
+      {
+        "name": "org.apache.tomcat.embed:tomcat-embed-el",
+        "version": "10.1.41",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-validation",
+        "file": "pom.xml:59"
+      },
+      {
+        "name": "org.hibernate.validator:hibernate-validator",
+        "version": "8.0.2.Final",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-validation",
+        "file": "pom.xml:59"
+      },
+      {
+        "name": "jakarta.validation:jakarta.validation-api",
+        "version": "3.0.2",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-validation",
+        "file": "pom.xml:59"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-security",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-security",
+        "file": "pom.xml:65"
+      },
+      {
+        "name": "org.springframework:spring-aop",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-security",
+        "file": "pom.xml:65"
+      },
+      {
+        "name": "org.springframework.security:spring-security-config",
+        "version": "6.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-security",
+        "file": "pom.xml:65"
+      },
+      {
+        "name": "org.springframework.security:spring-security-core",
+        "version": "6.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-security",
+        "file": "pom.xml:65"
+      },
+      {
+        "name": "org.springframework.security:spring-security-crypto",
+        "version": "6.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-security",
+        "file": "pom.xml:65"
+      },
+      {
+        "name": "org.springframework.security:spring-security-web",
+        "version": "6.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-security",
+        "file": "pom.xml:65"
+      },
+      {
+        "name": "commons-io:commons-io",
+        "version": "2.14.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "commons-io",
+        "file": "pom.xml:71"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-json",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "com.fasterxml.jackson.core:jackson-databind",
+        "version": "2.19.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "com.fasterxml.jackson.core:jackson-annotations",
+        "version": "2.19.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "com.fasterxml.jackson.core:jackson-core",
+        "version": "2.19.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+        "version": "2.19.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+        "version": "2.19.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+        "version": "2.19.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "3.5.0",
+        "scope": "test",
+        "direct": true,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-test",
+        "version": "3.5.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-test-autoconfigure",
+        "version": "3.5.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "com.jayway.jsonpath:json-path",
+        "version": "2.9.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+        "version": "4.0.2",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "jakarta.activation:jakarta.activation-api",
+        "version": "2.1.3",
+        "scope": "runtime",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "net.minidev:json-smart",
+        "version": "2.5.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "net.minidev:accessors-smart",
+        "version": "2.5.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.ow2.asm:asm",
+        "version": "9.7.1",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.assertj:assertj-core",
+        "version": "3.27.3",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.awaitility:awaitility",
+        "version": "4.3.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.hamcrest:hamcrest",
+        "version": "3.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.junit.jupiter:junit-jupiter",
+        "version": "5.12.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.junit.jupiter:junit-jupiter-api",
+        "version": "5.12.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.opentest4j:opentest4j",
+        "version": "1.3.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.junit.platform:junit-platform-commons",
+        "version": "1.12.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.apiguardian:apiguardian-api",
+        "version": "1.1.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.junit.jupiter:junit-jupiter-params",
+        "version": "5.12.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.junit.jupiter:junit-jupiter-engine",
+        "version": "5.12.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.junit.platform:junit-platform-engine",
+        "version": "1.12.2",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.mockito:mockito-core",
+        "version": "5.17.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "net.bytebuddy:byte-buddy-agent",
+        "version": "1.17.5",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.objenesis:objenesis",
+        "version": "3.3",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.mockito:mockito-junit-jupiter",
+        "version": "5.17.0",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.skyscreamer:jsonassert",
+        "version": "1.5.3",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "com.vaadin.external.google:android-json",
+        "version": "0.0.20131108.vaadin1",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.springframework:spring-core",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.springframework:spring-jcl",
+        "version": "6.2.7",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.springframework:spring-test",
+        "version": "6.2.7",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "org.xmlunit:xmlunit-core",
+        "version": "2.10.1",
+        "scope": "test",
+        "direct": false,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "com.h2database:h2",
+        "version": "2.3.232",
+        "scope": "test",
+        "direct": true,
+        "via": "h2",
+        "file": "pom.xml:91"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-devtools",
+        "file": "pom.xml:98"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-devtools",
+        "file": "pom.xml:98"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-autoconfigure",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": false,
+        "via": "spring-boot-devtools",
+        "file": "pom.xml:98"
+      }
+    ],
+    "query_batches": [
+      {
+        "batch": 1,
+        "coordinates": 30,
+        "returned_advisories": 53,
+        "pages": 1
+      },
+      {
+        "batch": 2,
+        "coordinates": 30,
+        "returned_advisories": 7,
+        "pages": 1
+      },
+      {
+        "batch": 3,
+        "coordinates": 30,
+        "returned_advisories": 20,
+        "pages": 1
+      },
+      {
+        "batch": 4,
+        "coordinates": 14,
+        "returned_advisories": 5,
+        "pages": 1
+      }
+    ],
+    "query_errors": [],
+    "findings": 85,
+    "severities": {
+      "critical": 12,
+      "medium": 32,
+      "low": 11,
+      "high": 30
+    },
+    "deduplication": "One finding per CVE or GHSA identifier; affected coordinates grouped; withdrawn advisories excluded. Returned advisory package names intersected with resolved dependencies, then each affected range compared with the resolved Maven version using ComparableVersion. No unparseable ranges encountered.",
+    "supplemental_frontend_check": {
+      "ecosystem": "npm",
+      "coordinate": "bootstrap@5.3.0",
+      "source": "CDN scripts/styles in src/main/resources/templates/*.html",
+      "advisory_count": 0
+    },
+    "raw_provenance": [
+      "mvn-deps.txt",
+      "checked-dependencies.json",
+      "github-advisories.json",
+      "advisory-query-coverage.json",
+      "frontend-advisories.json"
+    ],
+    "configured_scan_scope": "direct",
+    "effective_scan_scope": "expanded: all resolved direct and transitive dependencies, including test scope and optional development dependencies",
+    "scope_expansion_reason": "The cve-known-vulnerabilities skill explicitly requires Maven CLI collection and assessment of direct plus transitive dependencies. This exceeds the configured direct-only scope; transitive findings are not presented as direct declarations.",
+    "direct_coordinate_count": 11,
+    "transitive_coordinate_count": 93,
+    "direct_coordinates": [
+      {
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-web",
+        "file": "pom.xml:34"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-thymeleaf",
+        "file": "pom.xml:40"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-data-jpa",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-data-jpa",
+        "file": "pom.xml:46"
+      },
+      {
+        "name": "com.oracle.database.jdbc:ojdbc8",
+        "version": "23.7.0.25.01",
+        "scope": "runtime",
+        "direct": true,
+        "via": "ojdbc8",
+        "file": "pom.xml:52"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-validation",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-validation",
+        "file": "pom.xml:59"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-security",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-security",
+        "file": "pom.xml:65"
+      },
+      {
+        "name": "commons-io:commons-io",
+        "version": "2.14.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "commons-io",
+        "file": "pom.xml:71"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-json",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-starter-json",
+        "file": "pom.xml:78"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "3.5.0",
+        "scope": "test",
+        "direct": true,
+        "via": "spring-boot-starter-test",
+        "file": "pom.xml:84"
+      },
+      {
+        "name": "com.h2database:h2",
+        "version": "2.3.232",
+        "scope": "test",
+        "direct": true,
+        "via": "h2",
+        "file": "pom.xml:91"
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "version": "3.5.0",
+        "scope": "compile",
+        "direct": true,
+        "via": "spring-boot-devtools",
+        "file": "pom.xml:98"
+      }
+    ],
+    "direct_dependency_finding_ids": [
+      "CVE-2026-40972"
+    ],
+    "direct_dependency_finding_count": 1,
+    "transitive_only_finding_count": 84,
+    "range_validation": "All reported advisory affected ranges revalidated with Maven org.apache.maven.artifact.versioning.ComparableVersion from the installed Maven distribution, including milestone/RELEASE qualifiers; exact package/version pairs only. All 85 finding IDs confirmed; no raw-match-only findings.",
+    "range_comparison_count": 169
+  },
+  "scope": {
+    "reviewed_application_files": [
+      "src/main/resources/application-docker.properties",
+      "src/main/resources/application.properties",
+      "src/main/resources/templates/index.html",
+      "src/main/resources/templates/detail.html",
+      "src/main/resources/templates/layout.html",
+      "src/main/resources/static/js/upload.js",
+      "src/main/java/com/photoalbum/PhotoAlbumApplication.java",
+      "src/main/java/com/photoalbum/model/Photo.java",
+      "src/main/java/com/photoalbum/model/UploadResult.java",
+      "src/main/java/com/photoalbum/config/SecurityConfig.java",
+      "src/main/java/com/photoalbum/service/PhotoService.java",
+      "src/main/java/com/photoalbum/repository/PhotoRepository.java",
+      "src/main/java/com/photoalbum/controller/PhotoFileController.java",
+      "src/main/java/com/photoalbum/controller/DetailController.java",
+      "src/main/java/com/photoalbum/controller/HomeController.java",
+      "src/main/java/com/photoalbum/service/impl/PhotoServiceImpl.java"
+    ],
+    "reviewed_deployment_files": [
+      "Dockerfile",
+      "docker-compose.yml",
+      ".env.example",
+      "oracle-init/healthcheck.sql",
+      "oracle-init/02-verify-user.sql",
+      "oracle-init/01-create-user.sh",
+      "oracle-init/create-user.sh"
+    ],
+    "checklists": [
+      ".github/modernize/assessment/copilot/engines/security/cweChecklist/code-quality.json",
+      ".github/modernize/assessment/copilot/engines/security/cweChecklist/concurrency-synchronization.json",
+      ".github/modernize/assessment/copilot/engines/security/cweChecklist/credentials-secrets.json",
+      ".github/modernize/assessment/copilot/engines/security/cweChecklist/file-path-security.json",
+      ".github/modernize/assessment/copilot/engines/security/cweChecklist/injection-attacks.json",
+      ".github/modernize/assessment/copilot/engines/security/cweChecklist/memory-safety.json"
+    ]
+  },
+  "limitations": [
+    "Static source/configuration review plus dependency advisory verification, not dynamic exploitation, penetration testing or formal proof of absence. NOT_FOUND only applies to reviewed first-party paths.",
+    "Dependency presence does not establish advisory-specific exploitability. Test-scope and optional development dependencies are retained and labeled in finding evidence. Maven ancestor attribution follows the selected resolved dependency tree, including conflict/deduplication effects.",
+    "Build plugins, Maven itself, JDK distribution and container base images/Oracle server binaries were not vulnerability-scanned; no SBOM/container scanner was available in this assessment scope.",
+    "Native/JDK implementation internals and dependency source were not audited for memory safety. Managed language alone is not proof of dependency safety; CVEs are listed separately.",
+    "Deployed filesystem permissions, live database privileges, external identity providers, actual secret values, reverse-proxy/TLS controls and external audit/SIEM logging were not examined. Secret-related output is redacted.",
+    "No source remediation, dependency changes, builds, tests, commits, merge, or report rendering performed. .github/agents was not read.",
+    "CWE-434 confirms upload content-validation bypass but not code execution. CWE-606 is a potential file-count exhaustion pattern constrained by authentication and the multipart aggregate size limit. CWE-79 is confined to the upload/error DOM path and is not claimed to be anonymous cross-user stored XSS."
+  ],
+  "additional_observations_outside_requested_checklist": [
+    {
+      "id": "CWE-352",
+      "name": "Browser HTTP Basic authentication with disabled CSRF protection",
+      "status": "FOUND",
+      "evidence": {
+        "files": [
+          "src/main/java/com/photoalbum/config/SecurityConfig.java:48-58",
+          "src/main/java/com/photoalbum/controller/DetailController.java:64-65"
+        ],
+        "explanation": "CSRF is disabled while state-changing POST routes accept HTTP Basic authentication. A browser can automatically resend cached Basic credentials; stateless session configuration does not itself prevent CSRF. Cross-origin form submission to a known photo deletion URL can therefore act with an already-authenticated browser. Conditional on browser credential caching; dynamic proof was not performed."
+      }
+    }
+  ]
+}

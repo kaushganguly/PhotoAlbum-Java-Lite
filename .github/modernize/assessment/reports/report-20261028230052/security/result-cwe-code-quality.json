@@ -1,0 +1,228 @@
+{
+  "input_name": "CWE - Code Quality",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 16 rules: 2 FOUND, 14 NOT_FOUND",
+    "confidence": "high",
+    "values": [
+      {
+        "id": "CWE-130",
+        "name": "Improper Handling of Length Parameter Inconsistency",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "No custom protocol length-field parser. MultipartFile size and bytes are supplied by Spring's multipart parser, not independent request parameters; file bytes are limited before allocation (PhotoServiceImpl:95-118)."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product parses a formatted message or structure, but it does not handle or incorrectly handles a length field that is inconsistent with the actual length of the associated data."
+      },
+      {
+        "id": "CWE-456",
+        "name": "Missing Initialization of a Variable",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Service constructor initializes all final collaborators/configuration; Photo initializes ID/time; upload locals are explicitly initialized. No security-sensitive variable unintentionally left uninitialized."
+        },
+        "severity": "potential",
+        "storyPoint": 2,
+        "description": "The product does not initialize critical variables, which causes the execution environment to use unexpected values."
+      },
+      {
+        "id": "CWE-457",
+        "name": "Use of Uninitialized Variable",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Java definite assignment applies; optional photoData/dimensions are initialized explicitly at PhotoServiceImpl:112-114. No reads of uninitialized variables in application JavaScript."
+        },
+        "severity": "potential",
+        "storyPoint": 2,
+        "description": "The code uses a variable that has not been initialized, leading to unpredictable or unintended results."
+      },
+      {
+        "id": "CWE-477",
+        "name": "Use of Obsolete Function",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "No confirmed invocation of obsolete or removed application APIs. Dependency age/CVEs are reported separately and do not alone establish deprecated function use."
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The code uses deprecated or obsolete functions, which suggests that the code has not been actively reviewed or maintained."
+      },
+      {
+        "id": "CWE-570",
+        "name": "Expression is Always False",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Inspected MIME, size, null, optional, and collection checks; no always-false security-relevant expression identified."
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product contains an expression that will always evaluate to false."
+      },
+      {
+        "id": "CWE-571",
+        "name": "Expression is Always True",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Inspected controller/service conditions and JavaScript predicates; no always-true security-relevant expression identified."
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product contains an expression that will always evaluate to true."
+      },
+      {
+        "id": "CWE-606",
+        "name": "Unchecked Input for Loop Condition",
+        "status": "FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [
+            "src/main/java/com/photoalbum/controller/HomeController.java:58-91",
+            "src/main/resources/application.properties:24-30"
+          ],
+          "explanation": "uploadPhotos iterates over every client-supplied multipart file at HomeController:69 and performs per-file image inspection/database work. The configured app.file-upload.max-files-per-upload=10 is never bound or checked. Thus attacker-supplied file count controls repeated expensive work with no application count limit. Authentication and the 50MB aggregate multipart size constrain exposure; this is a potential resource-exhaustion pattern, not an infinite loop."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not properly check inputs that are used for loop conditions, potentially leading to a denial of service or other consequences because of excessive looping."
+      },
+      {
+        "id": "CWE-665",
+        "name": "Improper Initialization",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Required database/admin configuration is injected at startup, service fields are constructor-initialized, entity IDs/time initialized in Photo constructor, and ImageReader initialized before access."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not initialize or incorrectly initializes a resource, which might leave the resource in an unexpected state when it is accessed or used."
+      },
+      {
+        "id": "CWE-681",
+        "name": "Incorrect Conversion between Numeric Types",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Pixel multiplication explicitly widens both operands to long (PhotoServiceImpl:132); file-size checks use long. No dangerous narrowing conversion identified."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "When converting from one data type to another, such as long to integer, data can be omitted or translated in a way that produces unexpected values. If the resulting values are used in a sensitive context, then dangerous behaviors may occur."
+      },
+      {
+        "id": "CWE-682",
+        "name": "Incorrect Calculation",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Pixel-limit arithmetic uses long and byte limits are compared as long; presentation-only file-size rounding does not control security decisions. No incorrect security-critical calculation confirmed."
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product performs a calculation that generates incorrect or unintended results that are later used in security-critical decisions or resource management."
+      },
+      {
+        "id": "CWE-772",
+        "name": "Missing Release of Resource after Effective Lifetime",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "ImageInputStream uses try-with-resources and ImageReader.dispose runs in finally (PhotoServiceImpl:124-143). JPA connections/transactions are framework-managed; no unmanaged resource leak found."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed."
+      },
+      {
+        "id": "CWE-775",
+        "name": "Missing Release of File Descriptor or Handle after Effective Lifetime",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "No manually opened file/socket descriptor in application code. ImageInputStream is closed automatically on returns and exceptions (PhotoServiceImpl:124-143)."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product does not release a file descriptor or handle after its effective lifetime has ended, i.e., after the file descriptor/handle is no longer needed."
+      },
+      {
+        "id": "CWE-783",
+        "name": "Operator Precedence Logic Error",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Reviewed mixed boolean/arithmetic expressions; pixel multiplication and null/empty checks have intended precedence. No precedence bug identified."
+        },
+        "severity": "optional",
+        "storyPoint": 1,
+        "description": "The product uses an expression in which operator precedence causes incorrect logic to be used."
+      },
+      {
+        "id": "CWE-789",
+        "name": "Memory Allocation with Excessive Size Value",
+        "status": "FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [
+            "src/main/java/com/photoalbum/controller/HomeController.java:38-42",
+            "src/main/java/com/photoalbum/repository/PhotoRepository.java:23-29",
+            "src/main/java/com/photoalbum/model/Photo.java:39-41",
+            "src/main/java/com/photoalbum/service/impl/PhotoServiceImpl.java:54-56"
+          ],
+          "explanation": "Anonymous GET / calls getAllPhotos, whose unpaged native query selects every row including photo_data. Photo.photoData is a byte[] @Lob with no lazy fetch configuration; all stored image bytes are materialized into the List on each gallery request although the template only needs metadata. Total allocated memory scales with the cumulative uploaded photo corpus without a result/aggregate-byte bound; individual 10MB file and 50MB request limits do not bound accumulated database contents. Repeated public gallery requests can exhaust heap once enough photos exist."
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated."
+      },
+      {
+        "id": "CWE-835",
+        "name": "Loop with Unreachable Exit Condition ('Infinite Loop')",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Application loops iterate finite file/photo collections; no unconditional loop or unreachable exit condition found."
+        },
+        "severity": "potential",
+        "storyPoint": 3,
+        "description": "The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop."
+      },
+      {
+        "id": "CWE-1057",
+        "name": "Data Access Operations Outside of Expected Data Manager Component",
+        "status": "NOT_FOUND",
+        "category": "Code Quality",
+        "evidence": {
+          "files": [],
+          "explanation": "Controllers use PhotoService and all database access occurs through injected PhotoRepository in PhotoServiceImpl; no direct JDBC/entity-manager access outside the persistence boundary."
+        },
+        "severity": "potential",
+        "storyPoint": 5,
+        "description": "The product uses a dedicated, central data manager component as required by design, but it contains code that performs data-access operations that do not use this data manager."
+      }
+    ]
+  },
+  "timestamp": "2026-10-28T23:09:08.530306+00:00"
+}
