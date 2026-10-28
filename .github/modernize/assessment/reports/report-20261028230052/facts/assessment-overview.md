@@ -19,4 +19,6 @@ These documents describe the current implementation, not a proposed migration. D
 
 The configured core assessment targets Java 25 and Azure App Service, Azure Kubernetes Service, and Azure Container Apps on Linux and Windows. Upgrade recommendations are relative to that configured target, not a finding that Java 21 is unsupported. The scanner's language inventory can include assessment support scripts; the application itself is Java.
 
-See the parent directory's `report.json`, `report.md`, and `report.html` for the integrated assessment once report generation is complete.
+The security scan assessed 59 CWE rules and 104 resolved Maven coordinates (11 direct and 93 transitive, including test and optional development dependencies). This expands beyond the configured direct-only CVE scope. The integrated report includes 74 medium-or-higher CVE advisory matches and five CWE findings; 11 low-severity advisory matches remain only in the raw results. Advisory matches do not establish exploitability, and negative static findings do not prove safety.
+
+See the parent directory's `report.json`, `report.md`, and `report.html` for the integrated assessment. Its `security/` directory preserves the merged security report, per-category results, dependency/advisory evidence, and coverage limitations.

@@ -1,0 +1,30 @@
+{
+  "dependency_count": 104,
+  "batches": [
+    {
+      "batch": 1,
+      "coordinates": 30,
+      "returned_advisories": 53,
+      "pages": 1
+    },
+    {
+      "batch": 2,
+      "coordinates": 30,
+      "returned_advisories": 7,
+      "pages": 1
+    },
+    {
+      "batch": 3,
+      "coordinates": 30,
+      "returned_advisories": 20,
+      "pages": 1
+    },
+    {
+      "batch": 4,
+      "coordinates": 14,
+      "returned_advisories": 5,
+      "pages": 1
+    }
+  ],
+  "errors": []
+}

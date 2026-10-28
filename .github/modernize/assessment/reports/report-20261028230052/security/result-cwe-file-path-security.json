@@ -1,0 +1,80 @@
+{
+  "input_name": "CWE - File & Path Security",
+  "analysis_method": "LLM",
+  "status": "success",
+  "result": {
+    "finding": "Assessed 5 rules: 1 FOUND, 4 NOT_FOUND",
+    "confidence": "high",
+    "values": [
+      {
+        "id": "CWE-22",
+        "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": "PhotoServiceImpl stores bytes in a database and PhotoFileController.servePhoto resolves opaque IDs through JPA, not filesystem paths. No externally constructed filesystem pathname found."
+        },
+        "severity": "optional",
+        "storyPoint": 8,
+        "description": "The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory."
+      },
+      {
+        "id": "CWE-23",
+        "name": "Relative Path Traversal",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": "Original filenames are metadata only; no relative path is resolved from request input. PhotoServiceImpl:155-166; PhotoFileController:46-69."
+        },
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as .. that can resolve to a location that is outside of that directory."
+      },
+      {
+        "id": "CWE-36",
+        "name": "Absolute Path Traversal",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": "No request-controlled absolute path is opened; photo retrieval uses repository IDs and ByteArrayResource. PhotoFileController:46-69."
+        },
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize absolute path sequences such as /abs/path that can resolve to a location that is outside of that directory."
+      },
+      {
+        "id": "CWE-434",
+        "name": "Unrestricted Upload of File with Dangerous Type",
+        "status": "FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [
+            "src/main/java/com/photoalbum/service/impl/PhotoServiceImpl.java:87-166",
+            "src/main/java/com/photoalbum/controller/PhotoFileController.java:75-83"
+          ],
+          "explanation": "Authenticated uploadPhoto trusts client-supplied Content-Type at PhotoServiceImpl:87. ImageIO failing to identify a reader does not reject the file (124-143), and non-IO parser failures explicitly continue (149-152); arbitrary non-image bytes with an allowed image MIME are saved at 155-166 and subsequently served by PhotoFileController:75-83. This confirms content-validation bypass; no server-side execution or browser script execution was demonstrated."
+        },
+        "severity": "mandatory",
+        "storyPoint": 8,
+        "description": "The product allows the upload or transfer of dangerous file types that are automatically processed within its environment."
+      },
+      {
+        "id": "CWE-611",
+        "name": "Improper Restriction of XML External Entity Reference",
+        "status": "NOT_FOUND",
+        "category": "File & Path Security",
+        "evidence": {
+          "files": [],
+          "explanation": "No application XML parser, XML upload endpoint, entity resolution or external XML transformation found in src/main Java/configuration. JAXB dependency presence alone does not establish an XXE sink."
+        },
+        "severity": "optional",
+        "storyPoint": 5,
+        "description": "The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output."
+      }
+    ]
+  },
+  "timestamp": "2026-10-28T23:07:48.792956+00:00"
+}
