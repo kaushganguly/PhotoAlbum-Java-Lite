@@ -2301,7 +2301,7 @@
         "files": [
           "src/main/java/com/photoalbum/controller/HomeController.java"
         ],
-        "explanation": "HomeController.uploadPhotos iterates over the request-supplied MultipartFile list without enforcing the configured app.file-upload.max-files-per-upload limit; arbitrarily many parts can drive repeated upload work."
+        "explanation": "HomeController.uploadPhotos iterates over the request-supplied MultipartFile list without enforcing the configured app.file-upload.max-files-per-upload limit; multiple parts can still drive repeated upload work up to the configured request-size limit."
       },
       "storyPoint": 3
     },
